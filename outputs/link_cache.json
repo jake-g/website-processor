@@ -1,0 +1,438 @@
+{
+  "http://devpost.com/software/distractedness": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://ecocar3.org/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://ecocar3.org/washington/about-us/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://jakegarrison.me/doc/Smartphone_identification.pdf": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://jakegarrison.me/doc/Smartphone_identification_poster.pdf": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://research.ics.aalto.fi/ica/cocktail/cocktail_en.cgi": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "http://urbanparking.xyz": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "http://uwecocar.com/": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "http://uwecocar.com/project.html": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "http://www.dedsimple.com/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "http://www.verellenamplifiers.com/verellennewsite/": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://altcoins-code.github.io/altcoins/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://arxiv.org/abs/2406.12830": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://arxiv.org/abs/2508.20148": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://arxiv.org/abs/2509.06503": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://arxiv.org/html/2506.09108v1": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://arxiv.org/pdf/2410.13638": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://arxiv.org/pdf/2506.05321": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://blog.google/products/fitbit/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://blog.google/products/google-nest/sleeping-job-how-we-built-new-nest-hub/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://blog.google/technology/health/ai-model-cough-disease-detection/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://blog.google/technology/health/google-health-check-up-2024/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://blog.research.google/2021/06/frill-on-device-speech-representations.html?m=1/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://colab.research.google.com/drive/127iviQdFYMA2D5fV16MWvLxgLAo-iY3X": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://electricgti.blogspot.com/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://github.com/Google-Health/google-health/tree/master/health_acoustic_representations": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Arduino-Synth": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Autonomous-Driving-Simulator": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Autonomous-Driving-Vision-Algorithms": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Car-Composer": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Driver-Awareness": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/Image-Search": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/SuperCollider_Compositions": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/audio-scrape/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/audio-separate": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/cartoon_filter": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/gaze_traker": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/image-processing-tools": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/image-scrape": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/lane-detection": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/neural_image_styler": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/pitch_shift": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/rtunes": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/tuner": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/ultrasound-motion-webapp": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/jake-g/wikipedia-summarize": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/pogodevorg/pgoapi": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://github.com/zynthian": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://health.google/health-research/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://jake-g.github.io/evolution-sim/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://jake-g.github.io/ultrasound-motion-webapp/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://patents.google.com/?inventor=%22Jacob+Garrison%22,%22Jake+Garrison%22&assignee=Google+Llc&after=priority:20170101": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://patents.google.com/?q=(Contactless)&inventor=%22Jake+Garrison%22&assignee=Google+Llc&oq=inventor:%22Jake+Garrison%22+assignee:(Google+Llc)+Contactless": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://patents.google.com/patent/": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://patents.google.com/patent/US11627890B2": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://patents.google.com/patent/US11862188B2": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://patents.google.com/patent/WO2022035526A1": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://pcpartpicker.com/builds/edit/?userbuild=mRZRsY": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/GeFvn7jca9andU45A": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/Rm7oQRXZ8AFieUh8AP": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/T9L65hVGtUaqLp746": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/aTP5XVnkuWo9zkrE8": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/cCvraLzixzuVeePH8": {
+    "status": "active",
+    "timestamp": 1779576776.3302138
+  },
+  "https://photos.app.goo.gl/jQxWmkEsfPKQhw7w6": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://photos.app.goo.gl/vovkoSQFk7ptpEYN7": {
+    "status": "active",
+    "timestamp": 1779574350.514822
+  },
+  "https://picasaweb.google.com/110209982684020292593/ControllerConstruction?authkey=Gv1sRgCNeMz4-04cbyIA#slideshow/6030597058882272562": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://puppyai.github.io/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/contactless-sleep-sensing-in-nest-hub/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/enhanced-sleep-sensing-in-nest-hub/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/enhanced-sleep-sensing-in-nest-hub/?m=1": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/helping-researchers-build-audio-models-for-health/": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/scaling-wearable-foundation-models/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://research.google/people/jake-garrison/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://scholar.google.com/citations?user=kXNcQegAAAAJ&hl=en": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXNcQegAAAAJ&citation_for_view=kXNcQegAAAAJ:Wp0gIr-vW9MC": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://support.google.com/pixelphone/answer/9137850#zippy=%2Ccheck-cough-and-snore-data": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://techcrunch.com/2022/10/06/the-pixel-7-will-have-a-snoring-and-coughing-detection-feature/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://ubicomplab.cs.washington.edu/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://ubicomplab.cs.washington.edu/pdfs/soundwave.pdf": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://uwecocar.github.io/UW-Infotainment": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://uwecocar.github.io/UW-Infotainment/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://web.archive.org/web/20160601000000/https://www.tesla.com/autopilot": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://web.archive.org/web/20170518130122/https://itunes.apple.com/us/app/puppy.ai/id1207505795?mt=8": {
+    "status": "active",
+    "timestamp": 1779574053.189358
+  },
+  "https://www.aigen.io/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.haikudeck.com/zuru": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.haikudeck.com/zuru/": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.linkedin.com/in/garrisonjake": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.tesla.com/models": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://www.tesla.com/modelx": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://www.teslamotors.com/modelx": {
+    "status": "dead",
+    "timestamp": 1779583434.217225
+  },
+  "https://www.verellenamplifiers.com/": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://www.youtube.com/playlist?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.youtube.com/watch?v=1uR15k30a0U": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://www.youtube.com/watch?v=tGNrOVXd3Es&t=4s": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://www.youtube.com/watch?v=tlThdr3O5Qo": {
+    "status": "active",
+    "timestamp": 1779583434.217225
+  },
+  "https://youtu.be/-vmnam3ergc?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://youtu.be/KjCX79zdZ-k?si=CljBQ3Hsb8E2Uo-g&t=513": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://youtu.be/gFdy60YwJBo": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://youtu.be/vGdrySzDii4?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://youtu.be/vnFNyZdMrwk": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  },
+  "https://youtu.be/vnFNyZdMrwk?list=PLWptjpDqazOymOtZTLaiW0OCP8Qe2uAKr": {
+    "status": "active",
+    "timestamp": 1779569970.747772
+  }
+}

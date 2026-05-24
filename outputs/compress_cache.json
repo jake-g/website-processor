@@ -1,0 +1,751 @@
+{
+  "images": {
+    "Cartoon_Filter_GUI.jpg": {
+      "size": 32399,
+      "mtime": 1779567840.734536,
+      "hash": "b1096da3639e1240be8b5cb4ce78ac9d"
+    },
+    "ecocar3.jpg": {
+      "size": 34898,
+      "mtime": 1779567840.7467303,
+      "hash": "e26c5f33dbebf4aef066c81338b9042a"
+    },
+    "zuru.jpg": {
+      "size": 55464,
+      "mtime": 1779567840.746463,
+      "hash": "22150beb52338fb49fdf290b12205a8b"
+    },
+    "craigslist-bot.jpg": {
+      "size": 98550,
+      "mtime": 1779567840.7451556,
+      "hash": "2437ef255b537284495729ba6613257b"
+    },
+    "US11627890.jpg": {
+      "size": 94861,
+      "mtime": 1779567840.7406225,
+      "hash": "f28de878e545ff6a33fcb6db066ad0dc"
+    },
+    "cough_snore_pixel.jpg": {
+      "size": 48423,
+      "mtime": 1779567840.7448509,
+      "hash": "932faacf8264e35cde5c43e4d531fc3a"
+    },
+    "gaze_track.jpg": {
+      "size": 30565,
+      "mtime": 1779567840.7488372,
+      "hash": "f20b2b0764d92d911765725f984d3c63"
+    },
+    "phoneai.jpg": {
+      "size": 41328,
+      "mtime": 1779567840.7412128,
+      "hash": "f4725f61906063cea511896398fe334a"
+    },
+    "gameboy.jpg": {
+      "size": 34720,
+      "mtime": 1779567840.748645,
+      "hash": "c2487c29def48d23c55d126874587249"
+    },
+    "driver_aware.jpg": {
+      "size": 26978,
+      "mtime": 1779567840.7462296,
+      "hash": "0ff1835c638aa61ef4e37695af88d94c"
+    },
+    "evolution.jpg": {
+      "size": 8259,
+      "mtime": 1779567840.7478929,
+      "hash": "7b27c4cbb0b9e10869fb2a0a1c94646f"
+    },
+    "controller.jpg": {
+      "size": 48491,
+      "mtime": 1779567840.7445462,
+      "hash": "048c481db5cb4068671f7763da6ef35a"
+    },
+    "ADAS2.jpg": {
+      "size": 30124,
+      "mtime": 1779567840.7329054,
+      "hash": "f31afbef1620c100ca146d3f8f0d3857"
+    },
+    "logo_tesla.jpg": {
+      "size": 1016,
+      "mtime": 1779567840.7353086,
+      "hash": "9cb202114a42005084ee2096d91413df"
+    },
+    "logo_ubi.jpg": {
+      "size": 1379,
+      "mtime": 1779567840.7357295,
+      "hash": "1650663cfabca6e113a74b7bbbaa2185"
+    },
+    "lucky_chirp_paper.jpg": {
+      "size": 116530,
+      "mtime": 1779567840.7365117,
+      "hash": "59f928267fa49a2955c96c7bbdf4bf28"
+    },
+    "Carpacio_Paper.jpg": {
+      "size": 103981,
+      "mtime": 1779567840.7337298,
+      "hash": "5e78c943be9f9969e28e03c8ef8a11c7"
+    },
+    "openai.jpg": {
+      "size": 6843,
+      "mtime": 1779567840.7395167,
+      "hash": "b3df64ed69782c436d0ed12bab5a1e25"
+    },
+    "wireless_routing_paper.jpg": {
+      "size": 63522,
+      "mtime": 1779567840.7458997,
+      "hash": "54831a64d424be417bf584cb173e73c7"
+    },
+    "Tesla_modelX.jpg": {
+      "size": 31688,
+      "mtime": 1779567840.7403347,
+      "hash": "edc45fc80071324eaf9055dd2fece172"
+    },
+    "SpiroConfidence.jpg": {
+      "size": 78804,
+      "mtime": 1779567840.7380822,
+      "hash": "eeb5ef3ae030a8713480926949eb5525"
+    },
+    "verellen.jpg": {
+      "size": 44515,
+      "mtime": 1779567840.7448125,
+      "hash": "24b21978d2a08b7c92709f6d1f81be79"
+    },
+    "logo_gti.jpg": {
+      "size": 1226,
+      "mtime": 1779567840.7346168,
+      "hash": "65bed89ccce2a364ecf3c14e1f3820df"
+    },
+    "logo_bitcoin.jpg": {
+      "size": 1292,
+      "mtime": 1779567840.733869,
+      "hash": "44a4f165c3d779bdf390bd9f3c1c03a3"
+    },
+    "Smartphone_identification_poster.jpg": {
+      "size": 41225,
+      "mtime": 1779567840.7370682,
+      "hash": "f248fabe5bca45305f1c60f37511f41b"
+    },
+    "optimizing_audio_aug_paper.jpg": {
+      "size": 91973,
+      "mtime": 1779567840.739874,
+      "hash": "8bf28859789c478130c35f1bb4ee98df"
+    },
+    "ecocar_malibu.jpg": {
+      "size": 39031,
+      "mtime": 1779567840.7475154,
+      "hash": "9ec127d7544bf1f85d5a94fcf8d35fdc"
+    },
+    "lane_tracking.jpg": {
+      "size": 21451,
+      "mtime": 1779567840.7337532,
+      "hash": "aee1f2172e93c8b623d7ed29d6376949"
+    },
+    "neural_style.jpg": {
+      "size": 109752,
+      "mtime": 1779567840.739261,
+      "hash": "1307ac66c5c82235afdb37aff0acf292"
+    },
+    "logo_ecocar3.jpg": {
+      "size": 809,
+      "mtime": 1779567840.734411,
+      "hash": "e00cd159f741c27bf9ad69c2d0576859"
+    },
+    "Lane_Detection_EE341.jpg": {
+      "size": 31264,
+      "mtime": 1779567840.7363358,
+      "hash": "3c1961417f0df2781023f7eab3a7b758"
+    },
+    "logo_ecocar2.jpg": {
+      "size": 764,
+      "mtime": 1779567840.734097,
+      "hash": "1635268d82ef8b11fde0e1ffce5b2370"
+    },
+    "Pitch_Shift_Pres.jpg": {
+      "size": 15983,
+      "mtime": 1779567840.7366176,
+      "hash": "a18f2ef3a9eb6e0ca8129e0fa86c5e3f"
+    },
+    "Sound_Classification_EE562.jpg": {
+      "size": 23471,
+      "mtime": 1779567840.7372813,
+      "hash": "11198791082d399a9ecba5cff0fc5fcf"
+    },
+    "wikisummarize.jpg": {
+      "size": 46497,
+      "mtime": 1779567840.7455065,
+      "hash": "e8415b0ef6be1254a464a4f3be1ecd0d"
+    },
+    "Tesla_DuMo.jpg": {
+      "size": 25205,
+      "mtime": 1779567840.7400706,
+      "hash": "67835b7ba99018aa0d9fa86b90ed4e96"
+    },
+    "audio-separate.jpg": {
+      "size": 26672,
+      "mtime": 1779567840.7435842,
+      "hash": "497163aaabaa999d4a8ad903f8a11011"
+    },
+    "frill_paper.jpg": {
+      "size": 118473,
+      "mtime": 1779567840.7484953,
+      "hash": "288cc2f701cb9216d5d811b740a0789d"
+    },
+    "rtunes.jpg": {
+      "size": 25780,
+      "mtime": 1779567840.7432358,
+      "hash": "cb778b9781c18d9ea62684a9fef3d18e"
+    },
+    "3DP_Poster.jpg": {
+      "size": 123367,
+      "mtime": 1779567840.7322938,
+      "hash": "96552927b3cd8aa721b047b69b2b94eb"
+    },
+    "image-scraper.jpg": {
+      "size": 78492,
+      "mtime": 1779567840.7332478,
+      "hash": "3131d416e181e4b995621077648ff432"
+    },
+    "zynthian_beer.jpg": {
+      "size": 165586,
+      "mtime": 1779567840.7480974,
+      "hash": "b67a7cff7a9b7f1d1e0124d4f78219a3"
+    },
+    "gti.jpg": {
+      "size": 38844,
+      "mtime": 1779567840.732123,
+      "hash": "d584715acb01a8ed6857c03bee7a5473"
+    },
+    "logo_haiku.jpg": {
+      "size": 889,
+      "mtime": 1779567840.7347734,
+      "hash": "2db3a15b8dc29d07d5f0b41518283686"
+    },
+    "morbidity_covid_paper.jpg": {
+      "size": 137086,
+      "mtime": 1779567840.7369697,
+      "hash": "cdb4f22effadeed283a95c3f3f08f92a"
+    },
+    "logo_verellen.jpg": {
+      "size": 1495,
+      "mtime": 1779567840.7361534,
+      "hash": "ebcb829d751e0af6cb5475b11c53391b"
+    },
+    "logo_rtunes.jpg": {
+      "size": 1292,
+      "mtime": 1779567840.7351716,
+      "hash": "46f1b7efbe285bcf7738d75e24c3bae4"
+    },
+    "aigen.jpg": {
+      "size": 3519,
+      "mtime": 1779567840.7423403,
+      "hash": "83104ffade99c9d7bc37141352d1d555"
+    },
+    "pedal.jpg": {
+      "size": 46771,
+      "mtime": 1779567840.740908,
+      "hash": "3a7d18bd34bae9eba8c0291188fda7a4"
+    },
+    "zynthian.jpg": {
+      "size": 53353,
+      "mtime": 1779567840.747014,
+      "hash": "486f01214fe24eea6d0a7a7df9d9da4b"
+    },
+    "parking.jpg": {
+      "size": 43331,
+      "mtime": 1779567840.74016,
+      "hash": "815e6e2ff2b8f5230aeff27a9fa28560"
+    },
+    "SpiroSound.jpg": {
+      "size": 93783,
+      "mtime": 1779567840.738675,
+      "hash": "bf15d6bac611f39188441b4dab2dcf91"
+    },
+    "nest_hub_respiration.jpg": {
+      "size": 67476,
+      "mtime": 1779567840.7383795,
+      "hash": "20e2662d891de2ff6d647feea9b12681"
+    },
+    "music-scrape.jpg": {
+      "size": 66662,
+      "mtime": 1779567840.7374759,
+      "hash": "aabdb70cd476bf6e504599182ca9967a"
+    },
+    "Ctuner.jpg": {
+      "size": 46876,
+      "mtime": 1779567840.7350285,
+      "hash": "63c643ba191ee44715ce910ea65f1b00"
+    },
+    "logo_puppy.jpg": {
+      "size": 1412,
+      "mtime": 1779567840.7350345,
+      "hash": "2eec7eef82a021a4eb5c29251c0cf221"
+    },
+    "thesis_spiro_final.jpg": {
+      "size": 24068,
+      "mtime": 1779567840.743725,
+      "hash": "5db9fb809e5ce97a7f913c9e0ba542aa"
+    },
+    "logo_driver.jpg": {
+      "size": 1593,
+      "mtime": 1779567840.7339962,
+      "hash": "b9323e393c8eeff9950b6479df8a6ef0"
+    },
+    "US11862188.jpg": {
+      "size": 93975,
+      "mtime": 1779567840.7411175,
+      "hash": "9024419ce46b88d7b7048b5e3d24e9e3"
+    },
+    "pc.jpg": {
+      "size": 145289,
+      "mtime": 1779567840.7405856,
+      "hash": "de0628d2d44ece2130f7c8f955c43a9f"
+    },
+    "Cartoon_Filter_EE440.jpg": {
+      "size": 57637,
+      "mtime": 1779567840.7342286,
+      "hash": "58682fee1ea64a2b7f84e650de9c06f0"
+    },
+    "WO2022035526A1.jpg": {
+      "size": 135616,
+      "mtime": 1779567840.7422159,
+      "hash": "0cf08a2138d6139a6a6327b41c7fd933"
+    },
+    "hear.jpg": {
+      "size": 97347,
+      "mtime": 1779567840.732561,
+      "hash": "614d8433bda995b716a7b8423247271e"
+    },
+    "apc40.jpg": {
+      "size": 48668,
+      "mtime": 1779567840.7433302,
+      "hash": "17ee828c33f0d8dffde6901941832006"
+    },
+    "towards_accurate_diagnosis_paper.jpg": {
+      "size": 54260,
+      "mtime": 1779567840.7442014,
+      "hash": "530cc3ef11fd0731e0b64baf22eeb445"
+    },
+    "Spiro_Thesis_Presentation.jpg": {
+      "size": 56254,
+      "mtime": 1779567840.7396579,
+      "hash": "6a55cc40f46ee2bf6f0b4484f77d4657"
+    },
+    "ultrasound_doppler.jpg": {
+      "size": 97316,
+      "mtime": 1779567840.744659,
+      "hash": "94376ccc853dd0990fc66cac5ffea8d1"
+    },
+    "torcs.jpg": {
+      "size": 28324,
+      "mtime": 1779567840.7438776,
+      "hash": "3b00e3189ab6bd991192b474d7034c19"
+    },
+    "SuperCollider.jpg": {
+      "size": 19053,
+      "mtime": 1779567840.7399204,
+      "hash": "8dc8931cad359128ada647706eab1db2"
+    },
+    "Urban_Parking_Report_EE498.jpg": {
+      "size": 9506,
+      "mtime": 1779567840.7416224,
+      "hash": "bf50b55fbeff070d80024360511662eb"
+    },
+    "pokemon-go.jpg": {
+      "size": 125380,
+      "mtime": 1779567840.7427242,
+      "hash": "202d357e6f6eb570c437eda378d67d34"
+    },
+    "Smartphone_identification.jpg": {
+      "size": 18327,
+      "mtime": 1779567840.7369194,
+      "hash": "6d528f858e64d56e0ec6d19c1f236933"
+    },
+    "whoscough_paper.jpg": {
+      "size": 113057,
+      "mtime": 1779567840.7452729,
+      "hash": "4f896992b26fb2da94214cff90555b88"
+    },
+    "pitch_shift.jpg": {
+      "size": 108006,
+      "mtime": 1779567840.7416384,
+      "hash": "8ac77a2b9b4d719d848e54d721c4e2eb"
+    },
+    "hear_paper.jpg": {
+      "size": 119158,
+      "mtime": 1779567840.7329462,
+      "hash": "a2848f21c380bbefeaff4081d55947ca"
+    },
+    "logo_parking.jpg": {
+      "size": 1220,
+      "mtime": 1779567840.7348797,
+      "hash": "c2cf39c6ea4e31f4ec58c944ba6abd39"
+    },
+    "pitch_shift_fig.jpg": {
+      "size": 19714,
+      "mtime": 1779567840.741986,
+      "hash": "c96e5111d1bb272605dd82b62173ff87"
+    },
+    "3d_printer.jpg": {
+      "size": 154889,
+      "mtime": 1779567840.7327785,
+      "hash": "dce2a5dae0a22b76168ac13f1452c2e7"
+    },
+    "logo_uw.jpg": {
+      "size": 1217,
+      "mtime": 1779567840.7358425,
+      "hash": "f45bd359757ee611945f02b743049cd8"
+    },
+    "google_health.jpg": {
+      "size": 14342,
+      "mtime": 1779567840.7319243,
+      "hash": "e9c87ff0b1885328c47b577b9bd14481"
+    },
+    "car-composer.jpg": {
+      "size": 24561,
+      "mtime": 1779567840.744203,
+      "hash": "dc821132cd080279452acb212c53c86d"
+    },
+    "Consumer_Appeal_Poster.jpg": {
+      "size": 49858,
+      "mtime": 1779567840.734854,
+      "hash": "aed7ad56763eb00a57af3ed7e518345a"
+    },
+    "altcoins.jpg": {
+      "size": 100642,
+      "mtime": 1779567840.7427645,
+      "hash": "bd088c9c6bb1bee62377424b71793f94"
+    },
+    "senosis.jpg": {
+      "size": 3464,
+      "mtime": 1779567840.7433858,
+      "hash": "655ee0e051c500b25e487c3120a4b3d6"
+    },
+    "Img_Search.jpg": {
+      "size": 43402,
+      "mtime": 1779567840.7360399,
+      "hash": "4521afda3bb6cf3cc0776f57ddba614f"
+    },
+    "battery_pack.jpg": {
+      "size": 13036,
+      "mtime": 1779567840.7438707,
+      "hash": "a94fc9437547ba49d13b8e08efce8f25"
+    },
+    "logo_uwee.jpg": {
+      "size": 1099,
+      "mtime": 1779567840.7359452,
+      "hash": "ea03d0fd4610ad13fc6fef5238c74fc6"
+    },
+    "bush.jpg": {
+      "size": 35509,
+      "mtime": 1779567840.7440224,
+      "hash": "9a0d89dc55d486f22ae7b3f2bbae3099"
+    },
+    "SpiroSound_poster.jpg": {
+      "size": 100079,
+      "mtime": 1779567840.7394006,
+      "hash": "5f15183fc2911a9015096d4ad5867ce4"
+    },
+    "jake.jpg": {
+      "size": 8783,
+      "mtime": 1779567840.7334683,
+      "hash": "b7eae84133f914b4883c3c0221c1637b"
+    },
+    "logo_trans.jpg": {
+      "size": 1057,
+      "mtime": 1779567840.7356064,
+      "hash": "30d18469b7b0bf4e9feb0c8a68a438f1"
+    },
+    "Arduino_synth.jpg": {
+      "size": 36034,
+      "mtime": 1779567840.7332969,
+      "hash": "91bf178ca5c10c604e177d43f63bad36"
+    },
+    "Carpacio_Poster.jpg": {
+      "size": 75421,
+      "mtime": 1779567840.7338881,
+      "hash": "b78f50182a15d990b04e77bb30fe1316"
+    },
+    "ADAS_Hardware_Tool_Check_UW_EcoCAR.jpg": {
+      "size": 15156,
+      "mtime": 1779567840.7331543,
+      "hash": "5a26e9126b241949a65c3c412fce69af"
+    },
+    "Electrical_Presentation_UW_EcoCAR3.jpg": {
+      "size": 53992,
+      "mtime": 1779567840.7357666,
+      "hash": "28745dcbd2b4fd59859cde74c74dc6c3"
+    },
+    "Urban_Parking_Poster.jpg": {
+      "size": 41765,
+      "mtime": 1779567840.7413466,
+      "hash": "700844cfa9886d0899f55d88fe89599f"
+    },
+    "puppyai.jpg": {
+      "size": 77133,
+      "mtime": 1779567840.743025,
+      "hash": "ba4193535fc577e4a11726f5995703d2"
+    },
+    "frill.jpg": {
+      "size": 26910,
+      "mtime": 1779567840.7480254,
+      "hash": "9f91514acaba56ac3409edbf117966ee"
+    },
+    "crypto-trader.jpg": {
+      "size": 102059,
+      "mtime": 1779567840.7457569,
+      "hash": "c0942d5e3f489fd337b02c97f943ddcf"
+    },
+    "Electrical_Presentation_UW_EcoCAR2.jpg": {
+      "size": 101861,
+      "mtime": 1779567840.7355263,
+      "hash": "e91f1af9e9b9703a87fa27adef263d97"
+    },
+    "Pitch_Shift_Report_EE443.jpg": {
+      "size": 26275,
+      "mtime": 1779567840.7367609,
+      "hash": "b4bd67873cdb4adeb0fcfbac460da297"
+    }
+  },
+  "pdfs": {
+    "Fakebook_EE418.pdf": {
+      "size": 283871,
+      "mtime": 1718756356.0,
+      "status": "skipped_under_size"
+    },
+    "Whosecough In-the-Wild Cougher Verification Using Multitask Learning.pdf": {
+      "size": 552040,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf": {
+      "size": 1668331,
+      "mtime": 1779579378.248262,
+      "status": "compressed"
+    },
+    "SpiroConfidence.pdf": {
+      "size": 854906,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Audio_Amplifier_EE233.pdf": {
+      "size": 1138771,
+      "mtime": 1718756354.0,
+      "status": "skipped_under_size"
+    },
+    "Consumer_Product_Engineering_2020_Lecture.pdf": {
+      "size": 1241993,
+      "mtime": 1779579380.9838996,
+      "status": "compressed"
+    },
+    "SpiroPoster_poster.pdf": {
+      "size": 695398,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Embedded_Microcontroller_slides_475_Fall_2024.pdf": {
+      "size": 82335,
+      "mtime": 1779578903.8331068,
+      "status": "skipped_under_size"
+    },
+    "Pitch_Shift_Pres.pdf": {
+      "size": 1076653,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Regulated_Supply_EE331.pdf": {
+      "size": 642401,
+      "mtime": 1718756356.0,
+      "status": "skipped_under_size"
+    },
+    "Lane_Detection_EE341.pdf": {
+      "size": 242402,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "What_are_the_odds_Language_Models_are_Capable_of_Probabilistic_Reasoning.pdf": {
+      "size": 236716,
+      "mtime": 1779579381.2335236,
+      "status": "compressed"
+    },
+    "Smartphone_identification_poster.pdf": {
+      "size": 499022,
+      "mtime": 1779579383.6889021,
+      "status": "compressed"
+    },
+    "ADAS_Vision_Tool_Check_UW_EcoCAR.pdf": {
+      "size": 1327941,
+      "mtime": 1718756354.0,
+      "status": "skipped_under_size"
+    },
+    "Understanding_World_Through_Data_2020_Lecture.pdf": {
+      "size": 912561,
+      "mtime": 1779579384.8378205,
+      "status": "compressed"
+    },
+    "Spiro_Fresh_Air_App_2019.pdf": {
+      "size": 467429,
+      "mtime": 1779579937.743398,
+      "status": "compressed"
+    },
+    "Wireless_Routing_EE418.pdf": {
+      "size": 298718,
+      "mtime": 1719009832.0,
+      "status": "skipped_under_size"
+    },
+    "LuckyChirp Opportunistic Respiration Sensing Using Cascaded Sonar on Commodity Devices.pdf": {
+      "size": 320570,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Embedded_AI_ML_475_Fall_2025.pdf": {
+      "size": 1647212,
+      "mtime": 1779579390.264002,
+      "status": "compressed"
+    },
+    "3DP_Poster.pdf": {
+      "size": 961011,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "HeAR - Health Acoustic Representations.pdf": {
+      "size": 506933,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Embedded_Platforms_475_Fall_2024.pdf": {
+      "size": 582899,
+      "mtime": 1779579391.1447892,
+      "status": "compressed"
+    },
+    "thesis_spiro_final.pdf": {
+      "size": 1844009,
+      "mtime": 1779579392.271984,
+      "status": "compressed"
+    },
+    "SpiroSound.pdf": {
+      "size": 403653,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals.pdf": {
+      "size": 977831,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "LSM_2_Learning_from_Incomplete_Wearable_Sensor_Data.pdf": {
+      "size": 523595,
+      "mtime": 1779579393.0953543,
+      "status": "compressed"
+    },
+    "Urban_Parking_Report_EE498.pdf": {
+      "size": 735022,
+      "mtime": 1718756356.0,
+      "status": "skipped_under_size"
+    },
+    "Smartphone_identification.pdf": {
+      "size": 1140417,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Spiro_Thesis_Presentation.pdf": {
+      "size": 775412,
+      "mtime": 1779579396.6663537,
+      "status": "compressed"
+    },
+    "Matched_Correlator_EE416.pdf": {
+      "size": 705961,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Dedsimple_2017.pdf": {
+      "size": 1445604,
+      "mtime": 1779578903.802224,
+      "status": "skipped_under_size"
+    },
+    "Cartoon_Filter_EE440.pdf": {
+      "size": 709634,
+      "mtime": 1718756354.0,
+      "status": "skipped_under_size"
+    },
+    "Towards Accurate Differential Diagnosis with Large Language Models.pdf": {
+      "size": 1076038,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Consumer_Appeal_Poster.pdf": {
+      "size": 1042026,
+      "mtime": 1779579399.7619321,
+      "status": "compressed"
+    },
+    "Carpaccio_Paper.pdf": {
+      "size": 441200,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Garrison_Jake_CV.pdf": {
+      "size": 100860,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Sound Classification_EE562.pdf": {
+      "size": 1401147,
+      "mtime": 1718695318.0,
+      "status": "skipped_under_size"
+    },
+    "Scaling_Wearable_Foundation_Models.pdf": {
+      "size": 852931,
+      "mtime": 1779579400.8271918,
+      "status": "compressed"
+    },
+    "Morbidity and mortality from COVID-19 postvaccination breakthrough infections.pdf": {
+      "size": 1062424,
+      "mtime": 1719009812.0,
+      "status": "skipped_under_size"
+    },
+    "Electrical_Presentation_UW_EcoCAR2.pdf": {
+      "size": 824681,
+      "mtime": 1779579405.181084,
+      "status": "compressed"
+    },
+    "Pitch_Shift_Report_EE443.pdf": {
+      "size": 955898,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Electrical_Presentation_UW_EcoCAR3.pdf": {
+      "size": 1355139,
+      "mtime": 1779579408.13447,
+      "status": "compressed"
+    },
+    "Battery_Pack_ESS_EcoCAR3.pdf": {
+      "size": 1321273,
+      "mtime": 1779579409.8973,
+      "status": "compressed"
+    },
+    "Urban_Parking_Poster.pdf": {
+      "size": 736179,
+      "mtime": 1779579410.523618,
+      "status": "compressed"
+    },
+    "FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf": {
+      "size": 269032,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Carpacio_Poster.pdf": {
+      "size": 704527,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "Garrison_Jake_Resume.pdf": {
+      "size": 135816,
+      "mtime": 1718756464.0,
+      "status": "skipped_under_size"
+    },
+    "ADAS_Hardware_Tool_Check_UW_EcoCAR.pdf": {
+      "size": 896030,
+      "mtime": 1718756354.0,
+      "status": "skipped_under_size"
+    }
+  }
+}
