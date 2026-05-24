@@ -50,6 +50,7 @@ class ImageCropApp:
     self.drag_start_x = 0
     self.drag_start_y = 0
     self.dragging = False
+    self.active_handle = None
 
     # Current loaded image details
     self.pil_img = None  # Original PIL Image
@@ -136,6 +137,16 @@ class ImageCropApp:
     )
     self.slider_scale.pack(fill=tk.X, pady=5)
     self.slider_scale.set(0.5)
+
+    # Checkbox to lock aspect ratio
+    self.var_lock_ratio = tk.BooleanVar(value=True)
+    self.chk_lock_ratio = ttk.Checkbutton(
+        self.right_frame,
+        text="Lock Target Aspect Ratio",
+        variable=self.var_lock_ratio,
+        command=self.on_lock_ratio_toggle
+    )
+    self.chk_lock_ratio.pack(anchor=tk.W, pady=10)
 
     # Navigation & action buttons
     self.btn_crop = ttk.Button(
@@ -293,6 +304,22 @@ class ImageCropApp:
         tags="overlay"
     )
 
+    # Draw corner handles (small squares)
+    handle_size = 5
+    for hx, hy in [(self.crop_x1, self.crop_y1), (self.crop_x2, self.crop_y1),
+                   (self.crop_x1, self.crop_y2), (self.crop_x2, self.crop_y2)]:
+      self.canvas.create_rectangle(
+          hx - handle_size, hy - handle_size,
+          hx + handle_size, hy + handle_size,
+          fill="white", outline="blue", tags="overlay"
+      )
+
+  def on_lock_ratio_toggle(self):
+    """Enforces target aspect ratio immediately if toggled on."""
+    if self.var_lock_ratio.get():
+      self.update_crop_box_size()
+      self.draw_crop_overlay()
+
   def on_slider_change(self, _):
     """Handles crop box scaling updates."""
     if not self.pil_img or not hasattr(self, 'img_offset_x'):
@@ -302,40 +329,99 @@ class ImageCropApp:
     self.draw_crop_overlay()
 
   def on_button_press(self, event):
-    """Starts dragging of the crop box if mouse hits within selection bounds."""
-    if (self.crop_x1 <= event.x <= self.crop_x2 and
-        self.crop_y1 <= event.y <= self.crop_y2):
+    """Detects if click is near edge/corner handles or inside the crop box."""
+    x, y = event.x, event.y
+    tol = 12  # pixel tolerance for dragging handles
+
+    # Check corners
+    if abs(x - self.crop_x1) <= tol and abs(y - self.crop_y1) <= tol:
+      self.active_handle = 'tl'
+    elif abs(x - self.crop_x2) <= tol and abs(y - self.crop_y1) <= tol:
+      self.active_handle = 'tr'
+    elif abs(x - self.crop_x1) <= tol and abs(y - self.crop_y2) <= tol:
+      self.active_handle = 'bl'
+    elif abs(x - self.crop_x2) <= tol and abs(y - self.crop_y2) <= tol:
+      self.active_handle = 'br'
+    # Check edges
+    elif abs(x - self.crop_x1) <= tol and self.crop_y1 <= y <= self.crop_y2:
+      self.active_handle = 'l'
+    elif abs(x - self.crop_x2) <= tol and self.crop_y1 <= y <= self.crop_y2:
+      self.active_handle = 'r'
+    elif abs(y - self.crop_y1) <= tol and self.crop_x1 <= x <= self.crop_x2:
+      self.active_handle = 't'
+    elif abs(y - self.crop_y2) <= tol and self.crop_x1 <= x <= self.crop_x2:
+      self.active_handle = 'b'
+    # Check inside (move)
+    elif self.crop_x1 < x < self.crop_x2 and self.crop_y1 < y < self.crop_y2:
+      self.active_handle = 'move'
+    else:
+      self.active_handle = None
+
+    if self.active_handle:
       self.dragging = True
-      self.drag_start_x = event.x
-      self.drag_start_y = event.y
+      self.drag_start_x = x
+      self.drag_start_y = y
 
   def on_mouse_drag(self, event):
-    """Updates the position of the crop box inside image boundaries."""
+    """Resizes or moves the crop box based on dragged edge/handle."""
     if not self.dragging:
       return
 
     dx = event.x - self.drag_start_x
     dy = event.y - self.drag_start_y
 
+    self.drag_start_x = event.x
+    self.drag_start_y = event.y
+
+    # Dimensions constraints
     img_w_scale = int(self.pil_img.size[0] * self.display_scale)
     img_h_scale = int(self.pil_img.size[1] * self.display_scale)
+    img_x2 = self.img_offset_x + img_w_scale
+    img_y2 = self.img_offset_y + img_h_scale
 
-    new_x1 = self.crop_x1 + dx
-    new_y1 = self.crop_y1 + dy
-    new_x2 = self.crop_x2 + dx
-    new_y2 = self.crop_y2 + dy
+    x1, y1, x2, y2 = self.crop_x1, self.crop_y1, self.crop_x2, self.crop_y2
 
-    # Constrain to display offset bounds
-    if new_x1 >= self.img_offset_x and new_x2 <= self.img_offset_x + img_w_scale:
-      self.crop_x1 = new_x1
-      self.crop_x2 = new_x2
-      self.drag_start_x = event.x
+    if self.active_handle == 'move':
+      # Move box
+      if x1 + dx >= self.img_offset_x and x2 + dx <= img_x2:
+        x1 += dx
+        x2 += dx
+      if y1 + dy >= self.img_offset_y and y2 + dy <= img_y2:
+        y1 += dy
+        y2 += dy
+    else:
+      # Resize box
+      if 'l' in self.active_handle or self.active_handle == 'tl' or self.active_handle == 'bl':
+        if x1 + dx < x2 - 20 and x1 + dx >= self.img_offset_x:
+          x1 += dx
+      if 'r' in self.active_handle or self.active_handle == 'tr' or self.active_handle == 'br':
+        if x2 + dx > x1 + 20 and x2 + dx <= img_x2:
+          x2 += dx
+      if 't' in self.active_handle or self.active_handle == 'tl' or self.active_handle == 'tr':
+        if y1 + dy < y2 - 20 and y1 + dy >= self.img_offset_y:
+          y1 += dy
+      if 'b' in self.active_handle or self.active_handle == 'bl' or self.active_handle == 'br':
+        if y2 + dy > y1 + 20 and y2 + dy <= img_y2:
+          y2 += dy
 
-    if new_y1 >= self.img_offset_y and new_y2 <= self.img_offset_y + img_h_scale:
-      self.crop_y1 = new_y1
-      self.crop_y2 = new_y2
-      self.drag_start_y = event.y
+      # Aspect ratio lock correction
+      if self.var_lock_ratio.get():
+        item = self.items[self.current_idx]
+        target_ratio = item['target_ratio']
+        w = x2 - x1
+        h = int(w / target_ratio)
+        if self.active_handle in ('t', 'tl', 'tr'):
+          y1 = y2 - h
+          if y1 < self.img_offset_y:
+            y1 = self.img_offset_y
+            x2 = x1 + int((y2 - y1) * target_ratio)
+        else:
+          y2 = y1 + h
+          if y2 > img_y2:
+            y2 = img_y2
+            x2 = x1 + int((y2 - y1) * target_ratio)
 
+    self.crop_x1, self.crop_y1, self.crop_x2, self.crop_y2 = x1, y1, x2, y2
     self.draw_crop_overlay()
 
   def on_button_release(self, _):
