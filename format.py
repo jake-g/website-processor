@@ -9,13 +9,15 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 logger = logging.getLogger(__name__)
 
 
-def format_python_files() -> None:
+def format_python_files(base_dir: str) -> None:
   """Formats Python files in processing/ using a temporary yapf installation."""
   logger.info('Formatting Python files in processing/ using yapf...')
+  py_pattern = os.path.join(base_dir, 'processing/*.py')
+  scratch_pattern = os.path.join(base_dir, 'processing/scratch/*.py')
   cmd = (
       'python3 -m venv venv && '
       'venv/bin/pip install -q yapf && '
-      'venv/bin/yapf -i --style="{based_on_style: google, indent_width: 2, column_limit: 80}" processing/*.py && '
+      f'venv/bin/yapf -i --style="{{based_on_style: google, indent_width: 2, column_limit: 80}}" {py_pattern} {scratch_pattern} && '
       'rm -rf venv')
   try:
     subprocess.run(cmd, shell=True, check=True)
@@ -61,10 +63,10 @@ def format_web_file(file_path: str) -> None:
 
 
 def main() -> None:
-  base_dir = '/Users/jakegarrison/Downloads/projects/website'
+  base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
   # Format Python scripts
-  format_python_files()
+  format_python_files(base_dir)
 
   # Format HTML & CSS files in-place
   format_web_file(os.path.join(base_dir, 'index.html'))

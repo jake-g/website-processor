@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Base directories configuration
-BASE_DIR = '/Users/jakegarrison/Downloads/projects/website'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SOURCE_DIR = os.path.join(BASE_DIR, 'image/new_image')
 TARGET_DIR = os.path.join(BASE_DIR, 'image')
 
@@ -40,286 +40,241 @@ JPEG_QUALITY = 80
 
 # Image metadata mapping source filename -> list of target configs
 IMAGE_METADATA = {
-    'asthma.png': [
-        {
-            'target_name': 'asthma.jpg',
-            'target_ratio': 0.77,  # Squarish-vertical paper format (1:1.29)
-            'description': 'Asthma Remote Sensor Assessment Paper Preview'
-        }
-    ],
-    'era_blog.png': [
-        {
-            'target_name': 'era_blog.jpg',
-            'target_ratio': 1.11,  # Squarish-horizontal card (10:9)
-            'description': 'ERA Nature Medicine Blog Card'
-        }
-    ],
-    'era_nature_blog.png': [
-        {
-            'target_name': 'era_nature_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'ERA Nature Medicine Blog Card'
-        }
-    ],
-    'health_agent.png': [
-        {
-            'target_name': 'health_agent.jpg',
-            'target_ratio': 0.77,
-            'description': 'Personal Health Agent Paper Preview'
-        }
-    ],
-    'hear_disease_blog.png': [
-        {
-            'target_name': 'hear_disease_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'HeAR Cough Disease Detection Blog Card'
-        }
-    ],
-    'hear_model_card.png': [
-        {
-            'target_name': 'hear_model_card.jpg',
-            'target_ratio': 1.11,
-            'description': 'HeAR Model Card Developer Docs Card'
-        }
-    ],
-    'insulin_wearables_blog.png': [
-        {
-            'target_name': 'insulin_wearables_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'Insulin Resistance Wearables Blog Card'
-        }
-    ],
-    'lsm1.png': [
-        {
-            'target_name': 'lsm1.jpg',
-            'target_ratio': 0.77,
-            'description': 'Scaling Wearable Foundation Models Paper Preview'
-        }
-    ],
-    'lsm1_blog.png': [
-        {
-            'target_name': 'lsm1_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'Scaling Wearable Foundation Models Blog Card'
-        }
-    ],
-    'lsm2.png': [
-        {
-            'target_name': 'lsm2.jpg',
-            'target_ratio': 0.77,
-            'description': 'LSM-2 Paper Preview'
-        }
-    ],
-    'lsm2_blog.png': [
-        {
-            'target_name': 'lsm2_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'LSM-2 Research Blog Card'
-        }
-    ],
-    'sensorlm.png': [
-        {
-            'target_name': 'sensorlm.jpg',
-            'target_ratio': 0.77,
-            'description': 'SensorLM Paper Preview'
-        }
-    ],
-    'sensorlm_blog.png': [
-        {
-            'target_name': 'sensorlm_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'SensorLM Research Blog Card'
-        }
-    ],
-    'probabilistic_reasoning.png': [
-        {
-            'target_name': 'probabilistic_reasoning.jpg',
-            'target_ratio': 0.77,
-            'description': 'Probabilistic Reasoning Paper Preview'
-        }
-    ],
-    'frill_speech_blog.png': [
-        {
-            'target_name': 'frill_speech_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'FRILL On-Device Speech Blog Card'
-        }
-    ],
-    'nest_hub_sleep_blog.png': [
-        {
-            'target_name': 'nest_hub_sleep_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'Nest Hub Sleep Sensing Blog Card'
-        }
-    ],
-    'nest_hub_contactless_blog.png': [
-        {
-            'target_name': 'nest_hub_contactless_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'Nest Hub Contactless Sleep Blog Card'
-        }
-    ],
-    'nest_hub_enhanced_blog.png': [
-        {
-            'target_name': 'nest_hub_enhanced_blog.jpg',
-            'target_ratio': 1.11,
-            'description': 'Nest Hub Enhanced Respiration Blog Card'
-        }
-    ],
-    'ableton-parse.png': [
-        {
-            'target_name': 'ableton-parser.jpg',
-            'target_ratio': 1.33,  # Projects format (4:3)
-            'description': 'Ableton Live Project Parser Project Card'
-        }
-    ],
-    'esp32-llm-output.png': [
-        {
-            'target_name': 'esp32-llm-output.jpg',
-            'target_ratio': 1.33,
-            'description': 'ESP32 LLM Runner Output Screenshot'
-        }
-    ],
-    'esp32-llm.png': [
-        {
-            'target_name': 'esp32-llm.jpg',
-            'target_ratio': 1.33,
-            'description': 'ESP32 LLM Runner Hardware Card'
-        }
-    ],
-    'home-scraper-site.jpg': [
-        {
-            'target_name': 'home-scraper-site.jpg',
-            'target_ratio': 1.33,
-            'description': 'Home Listings Scraper Web Site Card'
-        }
-    ],
-    'home-scraper.png': [
-        {
-            'target_name': 'home-scraper.jpg',
-            'target_ratio': 1.33,
-            'description': 'Home Listings Scraper Database Card'
-        }
-    ],
-    'lastfm-sync.png': [
-        {
-            'target_name': 'lastfm-sync.jpg',
-            'target_ratio': 1.33,
-            'description': 'Last.fm Scrobble Sync Card'
-        }
-    ],
-    'market-pipeline.png': [
-        {
-            'target_name': 'market-pipeline.jpg',
-            'target_ratio': 1.33,
-            'description': 'Market Data News Pipeline Card'
-        }
-    ],
-    'microcontroller-tutorial.png': [
-        {
-            'target_name': 'microcontroller-tutorial.jpg',
-            'target_ratio': 1.33,
-            'description': 'Microcontroller Development Tutorial Card'
-        }
-    ],
-    'mujoco-puppeteer.png': [
-        {
-            'target_name': 'mujoco-puppeteer.jpg',
-            'target_ratio': 1.33,
-            'description': 'MuJoCo Controls Simulator Card'
-        }
-    ],
-    'plex-sync.png': [
-        {
-            'target_name': 'plex-sync.jpg',
-            'target_ratio': 1.33,
-            'description': 'Plex Playlists Sync Card'
-        }
-    ],
-    'reddit-scraper.png': [
-        {
-            'target_name': 'reddit-scraper.jpg',
-            'target_ratio': 1.33,
-            'description': 'Reddit Scraper Card'
-        }
-    ],
-    'tesla_autopilot.png': [
-        {
-            'target_name': 'tesla_autopilot.jpg',
-            'target_ratio': 1.33,
-            'description': 'Tesla Autopilot Driver Assist Card'
-        }
-    ],
-    'ytmusic.png': [
-        {
-            'target_name': 'ytmusic.jpg',
-            'target_ratio': 1.33,
-            'description': 'YouTube Music Library Aligner Card'
-        }
-    ],
-    'brewing.png': [
-        {
-            'target_name': 'brewing.jpg',
-            'target_ratio': 1.33,
-            'description': 'Fermentation Brewing Project Card'
-        }
-    ],
-    'brewing-2.png': [
-        {
-            'target_name': 'brewing-2.jpg',
-            'target_ratio': 1.33,
-            'description': 'Fermentation Brewing Setup Image'
-        }
-    ],
-    'embedded_ai.png': [
-        {
-            'target_name': 'embedded_ai_presentation.jpg',
-            'target_ratio': 1.77,
-            'description': 'Embedded AI & Platforms Course Presentation Card'
-        }
-    ],
-    'freshair_spiro.png': [
-        {
-            'target_name': 'freshair_spiro.jpg',
-            'target_ratio': 1.77,
-            'description': 'FreshAir Spiro Presentation Card'
-        }
-    ],
-    'product_engineering.png': [
-        {
-            'target_name': 'product_engineering_presentation.jpg',
-            'target_ratio': 1.77,
-            'description': 'Consumer Product Engineering Presentation Card'
-        }
-    ],
-    'terrarium.png': [
-        {
-            'target_name': 'terrarium_proj.jpg',
-            'target_ratio': 1.33,
-            'description': 'Automated IoT Terrarium Project Card'
-        }
-    ],
-    'world_data.png': [
-        {
-            'target_name': 'world_data_presentation.jpg',
-            'target_ratio': 1.77,
-            'description': 'Understanding World Through Data Presentation Card'
-        }
-    ],
-    'vocal-chords.png': [
-        {
-            'target_name': 'vocal-chords.jpg',
-            'target_ratio': 1.33,
-            'description': 'Vocal Chord Synthesis Project Card'
-        }
-    ],
-    'ginger_beer.png': [
-        {
-            'target_name': 'ginger_beer.jpg',
-            'target_ratio': 1.33,
-            'description': 'Fermentation Ginger Beer Project Card'
-        }
-    ]
+    'asthma.png': [{
+        'target_name': 'asthma.jpg',
+        'target_ratio': 0.77,  # Squarish-vertical paper format (1:1.29)
+        'description': 'Asthma Remote Sensor Assessment Paper Preview'
+    }],
+    'era_blog.png': [{
+        'target_name': 'era_blog.jpg',
+        'target_ratio': 1.11,  # Squarish-horizontal card (10:9)
+        'description': 'ERA Nature Medicine Blog Card'
+    }],
+    'era_nature_blog.png': [{
+        'target_name': 'era_nature_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'ERA Nature Medicine Blog Card'
+    }],
+    'health_agent.png': [{
+        'target_name': 'health_agent.jpg',
+        'target_ratio': 0.77,
+        'description': 'Personal Health Agent Paper Preview'
+    }],
+    'hear_disease_blog.png': [{
+        'target_name': 'hear_disease_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'HeAR Cough Disease Detection Blog Card'
+    }],
+    'hear_model_card.png': [{
+        'target_name': 'hear_model_card.jpg',
+        'target_ratio': 1.11,
+        'description': 'HeAR Model Card Developer Docs Card'
+    }],
+    'insulin_wearables_blog.png': [{
+        'target_name': 'insulin_wearables_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'Insulin Resistance Wearables Blog Card'
+    }],
+    'lsm1.png': [{
+        'target_name': 'lsm1.jpg',
+        'target_ratio': 0.77,
+        'description': 'Scaling Wearable Foundation Models Paper Preview'
+    }],
+    'lsm1_blog.png': [{
+        'target_name': 'lsm1_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'Scaling Wearable Foundation Models Blog Card'
+    }],
+    'lsm2.png': [{
+        'target_name': 'lsm2.jpg',
+        'target_ratio': 0.77,
+        'description': 'LSM-2 Paper Preview'
+    }],
+    'lsm2_blog.png': [{
+        'target_name': 'lsm2_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'LSM-2 Research Blog Card'
+    }],
+    'sensorlm.png': [{
+        'target_name': 'sensorlm.jpg',
+        'target_ratio': 0.77,
+        'description': 'SensorLM Paper Preview'
+    }],
+    'sensorlm_blog.png': [{
+        'target_name': 'sensorlm_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'SensorLM Research Blog Card'
+    }],
+    'probabilistic_reasoning.png': [{
+        'target_name': 'probabilistic_reasoning.jpg',
+        'target_ratio': 0.77,
+        'description': 'Probabilistic Reasoning Paper Preview'
+    }],
+    'frill_speech_blog.png': [{
+        'target_name': 'frill_speech_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'FRILL On-Device Speech Blog Card'
+    }],
+    'nest_hub_sleep_blog.png': [{
+        'target_name': 'nest_hub_sleep_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'Nest Hub Sleep Sensing Blog Card'
+    }],
+    'nest_hub_contactless_blog.png': [{
+        'target_name': 'nest_hub_contactless_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'Nest Hub Contactless Sleep Blog Card'
+    }],
+    'nest_hub_enhanced_blog.png': [{
+        'target_name': 'nest_hub_enhanced_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'Nest Hub Enhanced Respiration Blog Card'
+    }],
+    'ableton-parse.png': [{
+        'target_name': 'ableton-parser.jpg',
+        'target_ratio': 1.33,  # Projects format (4:3)
+        'description': 'Ableton Live Project Parser Project Card'
+    }],
+    'esp32-llm-output.png': [{
+        'target_name': 'esp32-llm-output.jpg',
+        'target_ratio': 1.33,
+        'description': 'ESP32 LLM Runner Output Screenshot'
+    }],
+    'esp32-llm.png': [{
+        'target_name': 'esp32-llm.jpg',
+        'target_ratio': 1.33,
+        'description': 'ESP32 LLM Runner Hardware Card'
+    }],
+    'home-scraper-site.jpg': [{
+        'target_name': 'home-scraper-site.jpg',
+        'target_ratio': 1.33,
+        'description': 'Home Listings Scraper Web Site Card'
+    }],
+    'home-scraper.png': [{
+        'target_name': 'home-scraper.jpg',
+        'target_ratio': 1.33,
+        'description': 'Home Listings Scraper Database Card'
+    }],
+    'lastfm-sync.png': [{
+        'target_name': 'lastfm-sync.jpg',
+        'target_ratio': 1.33,
+        'description': 'Last.fm Scrobble Sync Card'
+    }],
+    'market-pipeline.png': [{
+        'target_name': 'market-pipeline.jpg',
+        'target_ratio': 1.33,
+        'description': 'Market Data News Pipeline Card'
+    }],
+    'microcontroller-tutorial.png': [{
+        'target_name': 'microcontroller-tutorial.jpg',
+        'target_ratio': 1.33,
+        'description': 'Microcontroller Development Tutorial Card'
+    }],
+    'mujoco-puppeteer.png': [{
+        'target_name': 'mujoco-puppeteer.jpg',
+        'target_ratio': 1.33,
+        'description': 'MuJoCo Controls Simulator Card'
+    }],
+    'plex-sync.png': [{
+        'target_name': 'plex-sync.jpg',
+        'target_ratio': 1.33,
+        'description': 'Plex Playlists Sync Card'
+    }],
+    'reddit-scraper.png': [{
+        'target_name': 'reddit-scraper.jpg',
+        'target_ratio': 1.33,
+        'description': 'Reddit Scraper Card'
+    }],
+    'tesla_autopilot.png': [{
+        'target_name': 'tesla_autopilot.jpg',
+        'target_ratio': 1.33,
+        'description': 'Tesla Autopilot Driver Assist Card'
+    }],
+    'ytmusic.png': [{
+        'target_name': 'ytmusic.jpg',
+        'target_ratio': 1.33,
+        'description': 'YouTube Music Library Aligner Card'
+    }],
+    'brewing.png': [{
+        'target_name': 'brewing.jpg',
+        'target_ratio': 1.33,
+        'description': 'Fermentation Brewing Project Card'
+    }],
+    'brewing-2.png': [{
+        'target_name': 'brewing-2.jpg',
+        'target_ratio': 1.33,
+        'description': 'Fermentation Brewing Setup Image'
+    }],
+    'embedded_ai.png': [{
+        'target_name': 'embedded_ai_presentation.jpg',
+        'target_ratio': 1.77,
+        'description': 'Embedded AI & Platforms Course Presentation Card'
+    }],
+    'freshair_spiro.png': [{
+        'target_name': 'freshair_spiro.jpg',
+        'target_ratio': 1.77,
+        'description': 'FreshAir Spiro Presentation Card'
+    }],
+    'product_engineering.png': [{
+        'target_name': 'product_engineering_presentation.jpg',
+        'target_ratio': 1.77,
+        'description': 'Consumer Product Engineering Presentation Card'
+    }],
+    'terrarium.png': [{
+        'target_name': 'terrarium.jpg',
+        'target_ratio': 1.33,
+        'description': 'Automated IoT Terrarium Project Card'
+    }],
+    'world_data.png': [{
+        'target_name': 'world_data_presentation.jpg',
+        'target_ratio': 1.77,
+        'description': 'Understanding World Through Data Presentation Card'
+    }],
+    'vocal-chords.png': [{
+        'target_name': 'vocal-chords.jpg',
+        'target_ratio': 1.33,
+        'description': 'Vocal Chord Synthesis Project Card'
+    }],
+    'ginger_beer.png': [{
+        'target_name': 'ginger_beer.jpg',
+        'target_ratio': 1.33,
+        'description': 'Fermentation Ginger Beer Project Card'
+    }],
+    'craigslist-bot.png': [{
+        'target_name': 'craigslist-bot.jpg',
+        'target_ratio': 1.33,
+        'description': 'Craigslist Scraping Bot Project Card'
+    }],
+    'jazzfuzz.png': [{
+        'target_name': 'jazzfuzz.jpg',
+        'target_ratio': 1.33,
+        'description': 'jazzfuzz Music & Gear Blog Project Card'
+    }],
+    'term-cam.jpg': [{
+        'target_name': 'term-cam.jpg',
+        'target_ratio': 1.33,
+        'description': 'term-cam ASCII Webcam Renderer Project Card'
+    }],
+    'brew-sensors.png': [{
+        'target_name': 'brew-sensors.jpg',
+        'target_ratio': 1.33,
+        'description': 'brew-sensors Fermentation Telemetry Logger Project Card'
+    }],
+    'synth-asdr.png': [{
+        'target_name': 'synth-adsr.jpg',
+        'target_ratio': 1.33,
+        'description': 'synth MIDI Synthesizer ADSR Envelope Project Card'
+    }],
+    'synth-osc.png': [{
+        'target_name': 'synth-osc.jpg',
+        'target_ratio': 1.33,
+        'description': 'synth MIDI Synthesizer Oscillator Visualizer'
+    }],
+    'synth-waveform.png': [{
+        'target_name': 'synth-waveform.jpg',
+        'target_ratio': 1.33,
+        'description': 'synth MIDI Synthesizer Waveform Visualizer'
+    }]
 }
 
 
@@ -376,13 +331,11 @@ def process_images() -> None:
                 '  Target aspect ratio: %s\n'
                 '  Please check if visual clipping or skewing occurs on-site.',
                 filename, target['description'], actual_ratio, width, height,
-                target_ratio
-            )
+                target_ratio)
           else:
             logger.info(
                 'Aspect ratio check passed for %s -> %s: %s (Target: %s)',
-                filename, target['target_name'], actual_ratio, target_ratio
-            )
+                filename, target['target_name'], actual_ratio, target_ratio)
 
           # 2. Resize maintaining aspect ratio (Max Width 800px)
           if width > MAX_WIDTH:
@@ -401,13 +354,15 @@ def process_images() -> None:
           # 3. Convert to RGB if PNG/RGBA and save as compressed JPEG
           if img_resized.mode in ('RGBA', 'LA'):
             img_resized = img_resized.convert('RGB')
-          img_resized.save(target_path, 'JPEG', optimize=True,
+          img_resized.save(target_path,
+                           'JPEG',
+                           optimize=True,
                            quality=JPEG_QUALITY)
 
           logger.info(
               'Successfully imported & compressed: %s -> %s (%.2f KB)\n',
-              filename, target['target_name'], os.path.getsize(target_path) / 1024
-          )
+              filename, target['target_name'],
+              os.path.getsize(target_path) / 1024)
 
       except Exception as e:
         logger.error('Error processing %s for %s: %s', filename,
@@ -505,7 +460,8 @@ class ImageCropApp:
             with Image.open(target_file_path) as cropped_img:
               cw, ch = cropped_img.size
               cropped_ratio = cw / ch
-              cropped_deviation = abs(cropped_ratio - target_ratio) / target_ratio
+              cropped_deviation = abs(cropped_ratio -
+                                      target_ratio) / target_ratio
               if cropped_deviation <= 0.15:
                 continue
           except Exception as e:
@@ -566,13 +522,11 @@ class ImageCropApp:
     self.left_frame = ttk.Frame(self.paned, padding=10)
     self.paned.add(self.left_frame, weight=3)
 
-    self.canvas = tk.Canvas(
-        self.left_frame,
-        width=self.canvas_w,
-        height=self.canvas_h,
-        bg="#1e1e1e",
-        highlightthickness=0
-    )
+    self.canvas = tk.Canvas(self.left_frame,
+                            width=self.canvas_w,
+                            height=self.canvas_h,
+                            bg="#1e1e1e",
+                            highlightthickness=0)
     self.canvas.pack(fill=tk.BOTH, expand=True)
 
     self.canvas.bind("<ButtonPress-1>", self.on_button_press)
@@ -585,15 +539,19 @@ class ImageCropApp:
     self.lbl_index = ttk.Label(self.right_frame, font=("Arial", 12, "bold"))
     self.lbl_index.pack(anchor=tk.W, pady=5)
 
-    self.lbl_desc = ttk.Label(self.right_frame, wraplength=250,
+    self.lbl_desc = ttk.Label(self.right_frame,
+                              wraplength=250,
                               font=("Arial", 10, "italic"))
     self.lbl_desc.pack(anchor=tk.W, pady=5)
 
     self.lbl_ratio = ttk.Label(self.right_frame, font=("Arial", 10))
     self.lbl_ratio.pack(anchor=tk.W, pady=5)
 
-    ttk.Label(self.right_frame, text="Crop Box Size:").pack(anchor=tk.W, pady=10)
-    self.slider_scale = ttk.Scale(self.right_frame, from_=0.1, to=1.0,
+    ttk.Label(self.right_frame, text="Crop Box Size:").pack(anchor=tk.W,
+                                                            pady=10)
+    self.slider_scale = ttk.Scale(self.right_frame,
+                                  from_=0.1,
+                                  to=1.0,
                                   orient=tk.HORIZONTAL,
                                   command=self.on_slider_change)
     self.slider_scale.pack(fill=tk.X, pady=5)
@@ -606,15 +564,18 @@ class ImageCropApp:
                                           command=self.on_lock_ratio_toggle)
     self.chk_lock_ratio.pack(anchor=tk.W, pady=10)
 
-    self.btn_crop = ttk.Button(self.right_frame, text="Crop & Save JPEG",
+    self.btn_crop = ttk.Button(self.right_frame,
+                               text="Crop & Save JPEG",
                                command=self.crop_and_save)
     self.btn_crop.pack(fill=tk.X, pady=15)
 
-    self.btn_prev = ttk.Button(self.right_frame, text="<< Previous Item",
+    self.btn_prev = ttk.Button(self.right_frame,
+                               text="<< Previous Item",
                                command=self.prev_item)
     self.btn_prev.pack(fill=tk.X, pady=5)
 
-    self.btn_next = ttk.Button(self.right_frame, text="Next Item >>",
+    self.btn_next = ttk.Button(self.right_frame,
+                               text="Next Item >>",
                                command=self.next_item)
     self.btn_next.pack(fill=tk.X, pady=5)
 
@@ -626,13 +587,14 @@ class ImageCropApp:
 
     item = self.items[self.current_idx]
     self.lbl_index.config(
-        text=f"Item {self.current_idx + 1} of {len(self.items)}"
-    )
+        text=f"Item {self.current_idx + 1} of {len(self.items)}")
     self.lbl_desc.config(
-        text=f"Source: {item['filename']}\nTarget: {item['target_name']}\n{item['description']}"
+        text=
+        f"Source: {item['filename']}\nTarget: {item['target_name']}\n{item['description']}"
     )
     self.lbl_ratio.config(
-        text=f"Target Aspect Ratio: {item['target_ratio']}\nAspect Deviation: {item['deviation']:.1%}"
+        text=
+        f"Target Aspect Ratio: {item['target_ratio']}\nAspect Deviation: {item['deviation']:.1%}"
     )
 
     try:
@@ -641,9 +603,8 @@ class ImageCropApp:
 
       cache = load_crop_cache()
       if item['target_name'] in cache:
-        self.var_lock_ratio.set(
-            cache[item['target_name']].get('lock_ratio', True)
-        )
+        self.var_lock_ratio.set(cache[item['target_name']].get(
+            'lock_ratio', True))
       else:
         self.var_lock_ratio.set(True)
 
@@ -672,8 +633,10 @@ class ImageCropApp:
     self.canvas.delete("all")
     self.img_offset_x = (self.canvas_w - disp_w) // 2
     self.img_offset_y = (self.canvas_h - disp_h) // 2
-    self.canvas.create_image(self.img_offset_x, self.img_offset_y,
-                             anchor=tk.NW, image=self.tk_img)
+    self.canvas.create_image(self.img_offset_x,
+                             self.img_offset_y,
+                             anchor=tk.NW,
+                             image=self.tk_img)
 
     self.update_crop_box_size()
     self.draw_crop_overlay()
@@ -719,44 +682,61 @@ class ImageCropApp:
     """Draws dashed selection box and darkened margins on canvas."""
     self.canvas.delete("overlay")
 
+    self.canvas.create_rectangle(self.img_offset_x,
+                                 self.img_offset_y,
+                                 self.img_offset_x +
+                                 int(self.pil_img.size[0] * self.display_scale),
+                                 self.crop_y1,
+                                 fill="black",
+                                 stipple="gray50",
+                                 width=0,
+                                 tags="overlay")
     self.canvas.create_rectangle(
-        self.img_offset_x, self.img_offset_y,
-        self.img_offset_x + int(self.pil_img.size[0] * self.display_scale),
-        self.crop_y1,
-        fill="black", stipple="gray50", width=0, tags="overlay"
-    )
-    self.canvas.create_rectangle(
-        self.img_offset_x, self.crop_y2,
+        self.img_offset_x,
+        self.crop_y2,
         self.img_offset_x + int(self.pil_img.size[0] * self.display_scale),
         self.img_offset_y + int(self.pil_img.size[1] * self.display_scale),
-        fill="black", stipple="gray50", width=0, tags="overlay"
-    )
-    self.canvas.create_rectangle(
-        self.img_offset_x, self.crop_y1,
-        self.crop_x1, self.crop_y2,
-        fill="black", stipple="gray50", width=0, tags="overlay"
-    )
-    self.canvas.create_rectangle(
-        self.crop_x2, self.crop_y1,
-        self.img_offset_x + int(self.pil_img.size[0] * self.display_scale),
-        self.crop_y2,
-        fill="black", stipple="gray50", width=0, tags="overlay"
-    )
+        fill="black",
+        stipple="gray50",
+        width=0,
+        tags="overlay")
+    self.canvas.create_rectangle(self.img_offset_x,
+                                 self.crop_y1,
+                                 self.crop_x1,
+                                 self.crop_y2,
+                                 fill="black",
+                                 stipple="gray50",
+                                 width=0,
+                                 tags="overlay")
+    self.canvas.create_rectangle(self.crop_x2,
+                                 self.crop_y1,
+                                 self.img_offset_x +
+                                 int(self.pil_img.size[0] * self.display_scale),
+                                 self.crop_y2,
+                                 fill="black",
+                                 stipple="gray50",
+                                 width=0,
+                                 tags="overlay")
 
-    self.canvas.create_rectangle(
-        self.crop_x1, self.crop_y1,
-        self.crop_x2, self.crop_y2,
-        outline="white", width=2, dash=(4, 4), tags="overlay"
-    )
+    self.canvas.create_rectangle(self.crop_x1,
+                                 self.crop_y1,
+                                 self.crop_x2,
+                                 self.crop_y2,
+                                 outline="white",
+                                 width=2,
+                                 dash=(4, 4),
+                                 tags="overlay")
 
     handle_size = 5
     for hx, hy in [(self.crop_x1, self.crop_y1), (self.crop_x2, self.crop_y1),
                    (self.crop_x1, self.crop_y2), (self.crop_x2, self.crop_y2)]:
-      self.canvas.create_rectangle(
-          hx - handle_size, hy - handle_size,
-          hx + handle_size, hy + handle_size,
-          fill="white", outline="blue", tags="overlay"
-      )
+      self.canvas.create_rectangle(hx - handle_size,
+                                   hy - handle_size,
+                                   hx + handle_size,
+                                   hy + handle_size,
+                                   fill="white",
+                                   outline="blue",
+                                   tags="overlay")
 
   def on_lock_ratio_toggle(self):
     """Enforces target aspect ratio immediately if toggled on."""
@@ -935,7 +915,9 @@ class ImageCropApp:
 def main():
   import tkinter as tk
   parser = argparse.ArgumentParser(description="Image import and crop utility.")
-  parser.add_argument("action", choices=["import", "crop"], nargs="?",
+  parser.add_argument("action",
+                      choices=["import", "crop"],
+                      nargs="?",
                       default="import",
                       help="Action to perform: import/compress or crop GUI.")
   args = parser.parse_args()

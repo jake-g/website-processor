@@ -2,8 +2,7 @@
 
 import os
 
-# Project Directories & Paths
-BASE_DIR = '/Users/jakegarrison/Downloads/projects/website'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 IMAGE_DIR = os.path.join(BASE_DIR, 'image')
 DOC_DIR = os.path.join(BASE_DIR, 'doc')
 HTML_PATH = os.path.join(BASE_DIR, 'index.html')

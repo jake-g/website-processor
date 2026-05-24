@@ -7,12 +7,16 @@ This directory contains the Python automation scripts, test suites, and Makefile
 ## Directory Structure
 *   `Makefile`: Development console target runner (minification, importing, checks).
 *   `import_images.py`: Image management library containing metadata mappings, batch importer `process_images()`, and Tkinter desktop crop app `ImageCropApp`.
+*   `builder.py`: PageBuilder compilation library and programmatic index.html rebuild compiler script.
+*   `builder_test.py`: Unit test suite for PageBuilder rendering and layout modifiers.
 *   `compressors.py`: Asset minification and compression library containing `WebMinifier`, `ImageCompressor`, and `PdfCompressor`.
 *   `compressors_test.py`: Consolidated unit test suite for asset processing engines.
 *   `fetchers.py`: Structured profile synchronization library containing `ScholarFetcher`, `GithubFetcher`, `PatentsFetcher`, and `LinkedinFetcher`.
 *   `fetchers_test.py`: Consolidated unit test suite for web profiles sync fetchers.
 *   `check_links.py`: broken hyperlinks scanner.
 *   `check_links_test.py`: hyperlink verification scanner tests.
+*   `format.py`: Code formatter script (yapf style formatter).
+*   `format_test.py`: Code formatter validation tests.
 *   `outputs/`: Stores raw files, profile sync output documents, and the coordinates cache `crop_cache.json`.
 *   `requirements.txt`: Defines Python packages required by the processing scripts (Pillow, beautifulsoup4).
 
@@ -67,3 +71,36 @@ You can run development tasks either by navigating to this directory or using `m
     ```bash
     make -C processing clean
     ```
+
+---
+
+## Pre-commit Hooks & CI Pipeline Architecture
+
+The development workspace employs a bifurcated CI and pre-commit hook architecture to cleanly separate static web deployments from the Python developer toolchain:
+
+### 1. Web Deployments CI & Pre-commit (Main Repo Root)
+*   **Purpose**: Validates compiled web assets (HTML/CSS) and verifies hyperlinks and media sizes before deploying.
+*   **Pre-commit Hooks (`.pre-commit-config.yaml`)**: Intercepts git commits to static files. Automatically minifies stylesheet changes (`make -C processing minify`) and checks/optimizes newly added images and PDFs (`make -C processing compress`) in-place.
+*   **GitHub Actions CI (`.github/workflows/ci.yml`)**: Automatically executes on pushes and pull requests to `gh-pages`. Sets up Python, installs dependencies, verifies stylesheet compiles successfully, and runs all python unit tests.
+
+### 2. Python Toolchain CI & Pre-commit (Submodule Repo Root)
+*   **Purpose**: Maintains Python codebase style formatting and validates utility libraries logic.
+*   **Pre-commit Hooks (`processing/.pre-commit-config.yaml`)**: Intercepts git commits inside the `processing/` folder. Automatically enforces Google Python Style formatting (`yapf`) and executes the unit tests suite (`make test`) before commits are finalized.
+
+---
+
+## Guidelines for AI Coding Agents
+
+To maintain index file formatting consistency and prevent manual HTML tag errors, **all visual layout, section ordering, page structure, and card modifications** to the live website must be made programmatically rather than editing `index.html` manually.
+
+### Core Workflow:
+1. **Never edit `index.html` directly:** Direct edits of the 2000+ line static HTML file easily introduce nesting errors, misaligned grids, or broken cards.
+2. **Implement rules in PageBuilder:** Create your layout rules, project card modifications, or grid reorderings inside [builder.py](builder.py) as a method on the `PageBuilder` class.
+3. **Register in rebuild script:** Chain your new builder method inside the pipeline of [builder.py](builder.py) at the bottom.
+4. **Compile Output:** Run the build console command to compile the changes:
+   ```bash
+   make -C processing rebuild
+   ```
+5. **Run Verification tests:** Run `make -C processing test` to confirm that the compiled outputs successfully parse and satisfy all aspect ratio checks.
+6. **Double-Commit Strategy:** Since the source templates live inside the submodule and the compiled pages live in the root website, always commit your Python builder updates inside the `processing` repository and your compiled outputs inside the main `website` repository concurrently.
+

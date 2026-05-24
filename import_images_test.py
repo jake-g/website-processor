@@ -22,7 +22,8 @@ class ImportImagesTest(unittest.TestCase):
         self.assertIn('target_ratio', target)
         self.assertIn('description', target)
 
-        self.assertTrue(target['target_name'].endswith(('.jpg', '.jpeg', '.png')))
+        self.assertTrue(target['target_name'].endswith(
+            ('.jpg', '.jpeg', '.png')))
         self.assertGreater(target['target_ratio'], 0.0)
         self.assertIsInstance(target['description'], str)
 

@@ -47,7 +47,7 @@ clean:
 	@echo "✅ Clean completed."
 
 rebuild:
-	PYTHONPATH=.. python3 scratch/rebuild_index.py
+	PYTHONPATH=.. python3 builder.py
 
 crop:
 	PYTHONPATH=.. python3 import_images.py crop

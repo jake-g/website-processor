@@ -1,0 +1,58 @@
+{
+  "SpiroConfidence.jpg": {
+    "x1_pct": 0.04991394148020654,
+    "y1_pct": 0.022222222222222223,
+    "x2_pct": 0.8158347676419966,
+    "y2_pct": 0.9656565656565657,
+    "lock_ratio": false
+  },
+  "Tesla_DuMo.jpg": {
+    "x1_pct": 0.034,
+    "y1_pct": 0.0,
+    "x2_pct": 0.858,
+    "y2_pct": 1.0,
+    "lock_ratio": false
+  },
+  "Carpacio_Paper.jpg": {
+    "x1_pct": 0.038348082595870206,
+    "y1_pct": 0.04833333333333333,
+    "x2_pct": 0.9587020648967551,
+    "y2_pct": 0.9916666666666667,
+    "lock_ratio": false
+  },
+  "insulin_wearables_blog.jpg": {
+    "x1_pct": 0.13125,
+    "y1_pct": 0.034552845528455285,
+    "x2_pct": 0.9,
+    "y2_pct": 0.7886178861788617,
+    "lock_ratio": false
+  },
+  "thesis_spiro_final.jpg": {
+    "x1_pct": 0.22403560830860533,
+    "y1_pct": 0.0033333333333333335,
+    "x2_pct": 0.9065281899109793,
+    "y2_pct": 1.0,
+    "lock_ratio": true
+  },
+  "ADAS_Hardware_Tool_Check_UW_EcoCAR.jpg": {
+    "x1_pct": 0.09703504043126684,
+    "y1_pct": 0.0,
+    "x2_pct": 0.889487870619946,
+    "y2_pct": 1.0,
+    "lock_ratio": false
+  },
+  "towards_accurate_diagnosis_paper.jpg": {
+    "x1_pct": 0.04384485666104553,
+    "y1_pct": 0.044036697247706424,
+    "x2_pct": 0.9527824620573356,
+    "y2_pct": 0.998165137614679,
+    "lock_ratio": false
+  },
+  "wireless_routing_paper.jpg": {
+    "x1_pct": 0.10526315789473684,
+    "y1_pct": 0.07166666666666667,
+    "x2_pct": 0.8637770897832817,
+    "y2_pct": 1.0,
+    "lock_ratio": false
+  }
+}
