@@ -130,6 +130,16 @@ IMAGE_METADATA = {
         'target_ratio': 1.11,
         'description': 'Nest Hub Enhanced Respiration Blog Card'
     }],
+    'sleep-better.png': [{
+        'target_name': 'sleep-better.jpg',
+        'target_ratio': 1.11,
+        'description': 'Google AI Sleep Blog Card'
+    }],
+    'piexl-cough.png': [{
+        'target_name': 'pixel-cough.jpg',
+        'target_ratio': 1.11,
+        'description': 'Pixel 7 Snoring and Coughing Detection Card'
+    }],
     'ableton-parse.png': [{
         'target_name': 'ableton-parser.jpg',
         'target_ratio': 1.33,  # Projects format (4:3)
@@ -210,10 +220,35 @@ IMAGE_METADATA = {
         'target_ratio': 1.77,
         'description': 'Embedded AI & Platforms Course Presentation Card'
     }],
-    'freshair_spiro.png': [{
+    'fresh_air_spiro.png': [{
         'target_name': 'freshair_spiro.jpg',
+        'target_ratio': 1.33,
+        'description': 'FreshAir Spiro App Project Card'
+    }],
+    'fresh_air_pres.png': [{
+        'target_name': 'fresh_air_pres.jpg',
         'target_ratio': 1.77,
-        'description': 'FreshAir Spiro Presentation Card'
+        'description': 'FreshAir Spiro Presentation Slides Preview'
+    }],
+    'health_coach.png': [{
+        'target_name': 'health_coach.jpg',
+        'target_ratio': 1.11,
+        'description': 'Google Health Coach Blog Card'
+    }],
+    'image-scraper.png': [{
+        'target_name': 'image-scraper.jpg',
+        'target_ratio': 1.33,
+        'description': 'Image Scraper Project Card'
+    }],
+    'ADAS_Hardware_Tool_Check_UW_EcoCAR.png': [{
+        'target_name': 'ADAS_Hardware_Tool_Check_UW_EcoCAR.jpg',
+        'target_ratio': 0.77,
+        'description': 'ADAS Hardware Tool Check Paper Preview'
+    }],
+    'pitch_shift.png': [{
+        'target_name': 'pitch_shift.jpg',
+        'target_ratio': 1.33,
+        'description': 'Realtime Pitch Shifter Project Card'
     }],
     'product_engineering.png': [{
         'target_name': 'product_engineering_presentation.jpg',
@@ -274,6 +309,16 @@ IMAGE_METADATA = {
         'target_name': 'synth-waveform.jpg',
         'target_ratio': 1.33,
         'description': 'synth MIDI Synthesizer Waveform Visualizer'
+    }],
+    'health-event-detector.png': [{
+        'target_name': 'health-event-detector.jpg',
+        'target_ratio': 1.33,
+        'description': 'Health Sound Event Detector Project Card'
+    }],
+    'hear-model-card.png': [{
+        'target_name': 'hear_model_card.jpg',
+        'target_ratio': 1.11,
+        'description': 'HeAR Model Card Developer Docs Card'
     }]
 }
 
@@ -369,6 +414,155 @@ def process_images() -> None:
                      target['target_name'], e)
 
 
+def get_active_images_info(check_deviation_only=False):
+  """Parses index.html to find active image requirements and returns metrics."""
+  from bs4 import BeautifulSoup
+  index_path = os.path.join(BASE_DIR, 'index.html')
+  if not os.path.exists(index_path):
+    logger.error('index.html not found at %s', index_path)
+    return []
+
+  items = []
+  try:
+    with open(index_path, 'r', encoding='utf-8') as f:
+      html = f.read()
+
+    soup = BeautifulSoup(html, 'html.parser')
+    img_tags = soup.find_all('img')
+    seen_targets = set()
+
+    for img in img_tags:
+      src = img.get('src', '')
+      if not src.startswith('image/'):
+        continue
+
+      img_filename = os.path.basename(src)
+      if img_filename == 'jake.jpg' or 'logo' in img_filename:
+        continue
+
+      if img_filename in seen_targets:
+        continue
+      seen_targets.add(img_filename)
+
+      target_ratio = 1.33
+      description = "Project Card Image"
+
+      prev_h4 = img.find_previous('h4')
+      if prev_h4:
+        h4_text = prev_h4.text.lower()
+        if 'paper' in h4_text or 'publication' in h4_text:
+          target_ratio = 0.77
+          description = "Academic Paper Cover"
+        elif 'blog' in h4_text:
+          target_ratio = 1.11
+          description = "Google Blog Banner"
+        elif 'presentation' in h4_text or 'slide' in h4_text:
+          target_ratio = 1.77
+          description = "Presentation Slides"
+        elif 'patent' in h4_text:
+          target_ratio = 0.77
+          description = "Patent Document Cover"
+        else:
+          target_ratio = 1.33
+          description = f"Project Card ({prev_h4.text})"
+
+      target_file_path = os.path.join(TARGET_DIR, img_filename)
+      if check_deviation_only and os.path.exists(target_file_path):
+        try:
+          with Image.open(target_file_path) as cropped_img:
+            cw, ch = cropped_img.size
+            cropped_ratio = cw / ch
+            cropped_deviation = abs(cropped_ratio - target_ratio) / target_ratio
+            if cropped_deviation <= 0.15:
+              continue
+        except Exception as e:
+          logger.warning('Could not read cropped %s size: %s', target_file_path,
+                         e)
+
+      # Locate original source file or target file
+      src_path = None
+      base_no_ext = os.path.splitext(img_filename)[0]
+      for d in SEARCH_DIRS:
+        for ext in ('.png', '.jpg', '.jpeg', '.webp'):
+          test_path = os.path.join(d, f"{base_no_ext}{ext}")
+          if os.path.exists(test_path):
+            src_path = test_path
+            break
+        if src_path:
+          break
+
+      if not src_path:
+        test_path = os.path.join(TARGET_DIR, img_filename)
+        if os.path.exists(test_path):
+          src_path = test_path
+
+      if src_path:
+        deviation = 0.0
+        width, height = 0, 0
+        actual_ratio = 0.0
+        try:
+          with Image.open(src_path) as p_img:
+            width, height = p_img.size
+            actual_ratio = width / height
+            deviation = abs(actual_ratio - target_ratio) / target_ratio
+        except Exception as e:
+          logger.warning('Could not read %s size: %s', src_path, e)
+
+        items.append({
+            'src_path': src_path,
+            'filename': os.path.basename(src_path),
+            'target_name': img_filename,
+            'target_ratio': target_ratio,
+            'description': description,
+            'deviation': deviation,
+            'width': width,
+            'height': height,
+            'actual_ratio': round(actual_ratio, 2)
+        })
+
+  except Exception as e:
+    logger.error('Failed parsing index.html: %s', e)
+
+  items.sort(key=lambda x: x['deviation'], reverse=True)
+  return items
+
+
+def diagnose_images():
+  """Scans active site images and prints a diagnostics report."""
+  items = get_active_images_info(check_deviation_only=False)
+  print(
+      "\n=====================================================================")
+  print("📷 ACTIVE PORTFOLIO IMAGE DIAGNOSTICS REPORT")
+  print("=====================================================================")
+  print(f"Loaded {len(items)} active images from index.html.\n")
+  print(f"{'Filename':<30} | {'Size':<12} | {'Aspect':<6} | {'Target':<6} | "
+        f"{'Deviation':<9} | {'Status'}")
+  print("-" * 80)
+
+  anomalies_count = 0
+  for item in items:
+    deviation_str = f"{item['deviation']:.1%}"
+    status = "OK"
+    if item['deviation'] > 0.15:
+      status = "[ANOMALY]"
+      anomalies_count += 1
+
+    size_str = f"{item['width']}x{item['height']}"
+    print(f"{item['target_name']:<30} | {size_str:<12} | "
+          f"{item['actual_ratio']:<6} | {item['target_ratio']:<6} | "
+          f"{deviation_str:<9} | {status}")
+
+  print("=" * 80)
+  if anomalies_count > 0:
+    print(f"⚠️  Found {anomalies_count} aspect ratio anomalies "
+          f"(>15% deviation).")
+    print("👉 Run 'make crop' to launch the interactive triage/crop GUI tool.")
+  else:
+    print("✅ All active images have optimized aspect ratios!")
+  print(
+      "=====================================================================\n")
+
+
 class ImageCropApp:
   """Tkinter GUI application for aspect-ratio locked cropping."""
 
@@ -405,109 +599,7 @@ class ImageCropApp:
 
   def find_crop_targets(self):
     """Parses index.html to discover all active site images and sort by deviation."""
-    from bs4 import BeautifulSoup
-    index_path = os.path.join(BASE_DIR, 'index.html')
-    if not os.path.exists(index_path):
-      logger.error('index.html not found at %s', index_path)
-      return
-
-    try:
-      with open(index_path, 'r', encoding='utf-8') as f:
-        html = f.read()
-
-      soup = BeautifulSoup(html, 'html.parser')
-      img_tags = soup.find_all('img')
-      seen_targets = set()
-
-      for img in img_tags:
-        src = img.get('src', '')
-        if not src.startswith('image/'):
-          continue
-
-        img_filename = os.path.basename(src)
-        if img_filename == 'jake.jpg' or 'logo' in img_filename:
-          continue
-
-        if img_filename in seen_targets:
-          continue
-        seen_targets.add(img_filename)
-
-        target_ratio = 1.33
-        description = "Project Card Image"
-
-        prev_h4 = img.find_previous('h4')
-        if prev_h4:
-          h4_text = prev_h4.text.lower()
-          if 'paper' in h4_text or 'publication' in h4_text:
-            target_ratio = 0.77
-            description = "Academic Paper Cover"
-          elif 'blog' in h4_text:
-            target_ratio = 1.11
-            description = "Google Blog Banner"
-          elif 'presentation' in h4_text or 'slide' in h4_text:
-            target_ratio = 1.77
-            description = "Presentation Slides"
-          elif 'patent' in h4_text:
-            target_ratio = 0.77
-            description = "Patent Document Cover"
-          else:
-            target_ratio = 1.33
-            description = f"Project Card ({prev_h4.text})"
-
-        target_file_path = os.path.join(TARGET_DIR, img_filename)
-        if os.path.exists(target_file_path):
-          try:
-            with Image.open(target_file_path) as cropped_img:
-              cw, ch = cropped_img.size
-              cropped_ratio = cw / ch
-              cropped_deviation = abs(cropped_ratio -
-                                      target_ratio) / target_ratio
-              if cropped_deviation <= 0.15:
-                continue
-          except Exception as e:
-            logger.warning('Could not read cropped %s size: %s',
-                           target_file_path, e)
-
-        # Locate original source file
-        src_path = None
-        base_no_ext = os.path.splitext(img_filename)[0]
-        for d in SEARCH_DIRS:
-          for ext in ('.png', '.jpg', '.jpeg', '.webp'):
-            test_path = os.path.join(d, f"{base_no_ext}{ext}")
-            if os.path.exists(test_path):
-              src_path = test_path
-              break
-          if src_path:
-            break
-
-        if not src_path:
-          test_path = os.path.join(TARGET_DIR, img_filename)
-          if os.path.exists(test_path):
-            src_path = test_path
-
-        if src_path:
-          deviation = 0.0
-          try:
-            with Image.open(src_path) as p_img:
-              w, h = p_img.size
-              actual_ratio = w / h
-              deviation = abs(actual_ratio - target_ratio) / target_ratio
-          except Exception as e:
-            logger.warning('Could not read %s size: %s', src_path, e)
-
-          self.items.append({
-              'src_path': src_path,
-              'filename': os.path.basename(src_path),
-              'target_name': img_filename,
-              'target_ratio': target_ratio,
-              'description': description,
-              'deviation': deviation
-          })
-
-    except Exception as e:
-      logger.error('Failed parsing index.html: %s', e)
-
-    self.items.sort(key=lambda x: x['deviation'], reverse=True)
+    self.items = get_active_images_info(check_deviation_only=True)
     logger.info('Found %d active site crop targets, sorted by severity.',
                 len(self.items))
 
@@ -915,11 +1007,12 @@ class ImageCropApp:
 def main():
   import tkinter as tk
   parser = argparse.ArgumentParser(description="Image import and crop utility.")
-  parser.add_argument("action",
-                      choices=["import", "crop"],
-                      nargs="?",
-                      default="import",
-                      help="Action to perform: import/compress or crop GUI.")
+  parser.add_argument(
+      "action",
+      choices=["import", "crop", "diagnose"],
+      nargs="?",
+      default="import",
+      help="Action to perform: import/compress, crop GUI, or diagnose images.")
   args = parser.parse_args()
 
   if args.action == "import":
@@ -928,6 +1021,8 @@ def main():
     root = tk.Tk()
     ImageCropApp(root)
     root.mainloop()
+  elif args.action == "diagnose":
+    diagnose_images()
 
 
 if __name__ == "__main__":

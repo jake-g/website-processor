@@ -1,14 +1,15 @@
 # Website Developer & Processing Toolchain Guide
 
-This directory contains the Python automation scripts, test suites, and Makefile console to build, maintain, and synchronize Jake's personal website.
+Personal Website: [jakegarrison.me](https://jakegarrison.me/)
+
+This directory contains the Python automation scripts, test suites, and Makefile console to build, maintain, and synchronize personal website.
 
 ---
 
 ## Directory Structure
 *   `Makefile`: Development console target runner (minification, importing, checks).
 *   `import_images.py`: Image management library containing metadata mappings, batch importer `process_images()`, and Tkinter desktop crop app `ImageCropApp`.
-*   `builder.py`: PageBuilder compilation library and programmatic index.html rebuild compiler script.
-*   `builder_test.py`: Unit test suite for PageBuilder rendering and layout modifiers.
+
 *   `compressors.py`: Asset minification and compression library containing `WebMinifier`, `ImageCompressor`, and `PdfCompressor`.
 *   `compressors_test.py`: Consolidated unit test suite for asset processing engines.
 *   `fetchers.py`: Structured profile synchronization library containing `ScholarFetcher`, `GithubFetcher`, `PatentsFetcher`, and `LinkedinFetcher`.
@@ -58,11 +59,7 @@ You can run development tasks either by navigating to this directory or using `m
     make -C processing check-links
     ```
 
-### 5. Local Development
-*   **Compile index.html**: Programmatically rebuilds the flat-formatted `index.html` landing page from baseline.
-    ```bash
-    make -C processing rebuild
-    ```
+
 *   **Start Web Server**: Launches local testing server at [http://localhost:8000](http://localhost:8000).
     ```bash
     make -C processing server
@@ -88,19 +85,12 @@ The development workspace employs a bifurcated CI and pre-commit hook architectu
 *   **Pre-commit Hooks (`processing/.pre-commit-config.yaml`)**: Intercepts git commits inside the `processing/` folder. Automatically enforces Google Python Style formatting (`yapf`) and executes the unit tests suite (`make test`) before commits are finalized.
 
 ---
-
 ## Guidelines for AI Coding Agents
 
-To maintain index file formatting consistency and prevent manual HTML tag errors, **all visual layout, section ordering, page structure, and card modifications** to the live website must be made programmatically rather than editing `index.html` manually.
+To maintain index file formatting consistency and prevent manual HTML tag errors, all updates to project cards, page structure, content, and links should be made by directly editing [index.html](file:///Users/jakegarrison/Downloads/projects/website/index.html).
 
-### Core Workflow:
-1. **Never edit `index.html` directly:** Direct edits of the 2000+ line static HTML file easily introduce nesting errors, misaligned grids, or broken cards.
-2. **Implement rules in PageBuilder:** Create your layout rules, project card modifications, or grid reorderings inside [builder.py](builder.py) as a method on the `PageBuilder` class.
-3. **Register in rebuild script:** Chain your new builder method inside the pipeline of [builder.py](builder.py) at the bottom.
-4. **Compile Output:** Run the build console command to compile the changes:
-   ```bash
-   make -C processing rebuild
-   ```
-5. **Run Verification tests:** Run `make -C processing test` to confirm that the compiled outputs successfully parse and satisfy all aspect ratio checks.
-6. **Double-Commit Strategy:** Since the source templates live inside the submodule and the compiled pages live in the root website, always commit your Python builder updates inside the `processing` repository and your compiled outputs inside the main `website` repository concurrently.
+### Core Rules:
+1. **Careful direct edits:** Always review git diffs after editing `index.html` to ensure no closing tags are misaligned and no grid layout elements are broken.
+2. **Aspect ratio compliance:** When adding/updating images, run `make -C processing diagnose` to verify that aspect ratios match target ratios (1.33 for project cards, 1.11 for blog cards, 0.77 for paper/patent covers, and 1.77 for slides).
+3. **Optimizations:** After adding any new image or PDF file, run `make -C processing compress` to run automated in-place compression.
 

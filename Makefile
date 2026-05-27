@@ -1,4 +1,4 @@
-.PHONY: help all minify compress test fetch check-links server clean format rebuild crop
+.PHONY: help all minify compress test fetch check-links server clean format crop
 
 # Default target displays the help menu
 help:
@@ -6,8 +6,8 @@ help:
 	@echo "🌐 Website Processing Console"
 	@echo "========================================================="
 	@echo "Available commands:"
-	@echo "  make rebuild     - Programmatically compile index.html from baseline"
 	@echo "  make crop        - Launch interactive GUI crop & triage tool"
+	@echo "  make diagnose    - Scan active site images and check aspect ratio anomalies"
 	@echo "  make minify      - Minify CSS stylesheet (main.css -> main.min.css)"
 	@echo "  make compress    - Compress new large images (>250KB) and PDFs (>1.5MB)"
 	@echo "  make format      - Auto-format Python scripts and trim web trailing whitespace"
@@ -46,8 +46,8 @@ clean:
 	find . -type f -name "*.pyc" -delete
 	@echo "✅ Clean completed."
 
-rebuild:
-	PYTHONPATH=.. python3 builder.py
-
 crop:
 	PYTHONPATH=.. python3 import_images.py crop
+
+diagnose:
+	PYTHONPATH=.. python3 import_images.py diagnose
