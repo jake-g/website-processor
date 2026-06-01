@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Empirical Research Assistance (ERA)",
+    "date": "05/2026",
+    "exact_date": "2026-05-19",
+    "url": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/"
+  },
+  {
+    "title": "Google Health Coach",
+    "date": "05/2026",
+    "exact_date": "2026-05-07",
+    "url": "https://blog.google/products-and-platforms/products/google-health/google-health-coach/"
+  },
+  {
+    "title": "Fitbit Air",
+    "date": "05/2026",
+    "exact_date": "2026-05-07",
+    "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/"
+  },
+  {
+    "title": "LLM Tree Search",
+    "date": "09/2025",
+    "exact_date": "2025-09-09",
+    "url": "https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/"
+  },
+  {
+    "title": "Insulin resistance prediction from wearables",
+    "date": "08/2025",
+    "exact_date": "2025-08-06",
+    "url": "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/"
+  },
+  {
+    "title": "SensorLM: Wearable sensors language",
+    "date": "07/2025",
+    "exact_date": "2025-07-28",
+    "url": "https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/"
+  },
+  {
+    "title": "LSM-2: Learning incomplete sensor data",
+    "date": "07/2025",
+    "exact_date": "2025-07-22",
+    "url": "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/"
+  },
+  {
+    "title": "Scaling Wearable Foundation Models",
+    "date": "11/2024",
+    "exact_date": "2024-11-20",
+    "url": "https://research.google/blog/scaling-wearable-foundation-models/"
+  },
+  {
+    "title": "HeAR: Acoustic disease detection",
+    "date": "08/2024",
+    "exact_date": "2024-08-19",
+    "url": "https://blog.google/technology/health/ai-model-cough-disease-detection/"
+  },
+  {
+    "title": "HeAR: Hugging Face",
+    "date": "08/2024",
+    "exact_date": "2024-08-19",
+    "url": "https://huggingface.co/google/hear-pytorch"
+  },
+  {
+    "title": "Google AI is helping you sleep better",
+    "date": "03/2023",
+    "exact_date": "2023-03-15",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/health-ai-better-sleep/"
+  },
+  {
+    "title": "Pixel: Cough and Snore Sound Detection",
+    "date": "10/2022",
+    "exact_date": "2022-10-06",
+    "url": "https://techcrunch.com/2022/10/06/the-pixel-7-will-have-a-snoring-and-coughing-detection-feature/"
+  },
+  {
+    "title": "Nest Hub: Sleep, Respiration, Cough Sensing",
+    "date": "11/2021",
+    "exact_date": "2021-11-09",
+    "url": "https://research.google/blog/contactless-sleep-sensing-in-nest-hub/"
+  },
+  {
+    "title": "FRILL: On-device speech TF Lite",
+    "date": "06/2021",
+    "exact_date": "2021-06-10",
+    "url": "https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/"
+  }
+]

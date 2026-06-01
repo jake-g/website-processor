@@ -295,20 +295,10 @@ IMAGE_METADATA = {
         'target_ratio': 1.33,
         'description': 'brew-sensors Fermentation Telemetry Logger Project Card'
     }],
-    'synth-asdr.png': [{
-        'target_name': 'synth-adsr.jpg',
+    'synth-plot.png': [{
+        'target_name': 'synth-plot.jpg',
         'target_ratio': 1.33,
-        'description': 'synth MIDI Synthesizer ADSR Envelope Project Card'
-    }],
-    'synth-osc.png': [{
-        'target_name': 'synth-osc.jpg',
-        'target_ratio': 1.33,
-        'description': 'synth MIDI Synthesizer Oscillator Visualizer'
-    }],
-    'synth-waveform.png': [{
-        'target_name': 'synth-waveform.jpg',
-        'target_ratio': 1.33,
-        'description': 'synth MIDI Synthesizer Waveform Visualizer'
+        'description': 'synth MIDI Synthesizer Output Plot Visualizer'
     }],
     'health-event-detector.png': [{
         'target_name': 'health-event-detector.jpg',

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "An AI System to Help Scientists Write Expert-Level Empirical Software",
+    "arxiv_id": "2509.06503",
+    "original_pub_date": "09/2025",
+    "official_pub_date": "2026",
+    "official_venue": "Nature",
+    "arxiv_url": "https://arxiv.org/abs/2509.06503",
+    "official_url": "https://doi.org/10.1038/s41586-026-10658-6",
+    "pdf_path": null
+  },
+  {
+    "title": "The Anatomy of a Personal Health Agent",
+    "arxiv_id": "2508.20148",
+    "original_pub_date": "08/2025",
+    "official_pub_date": "08/2025",
+    "official_venue": "arXiv preprint",
+    "arxiv_url": "https://arxiv.org/abs/2508.20148",
+    "official_url": null,
+    "pdf_path": null
+  },
+  {
+    "title": "SensorLM: Learning the Language of Wearable Sensors",
+    "arxiv_id": "2506.09108",
+    "original_pub_date": "06/2025",
+    "official_pub_date": "2026",
+    "official_venue": "NeurIPS",
+    "arxiv_url": "https://arxiv.org/abs/2506.09108",
+    "official_url": null,
+    "pdf_path": "doc/SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf"
+  },
+  {
+    "title": "LSM-2: Learning from Incomplete Wearable Sensor Data",
+    "arxiv_id": "2506.05321",
+    "original_pub_date": "06/2025",
+    "official_pub_date": "06/2025",
+    "official_venue": "arXiv preprint",
+    "arxiv_url": "https://arxiv.org/pdf/2506.05321",
+    "official_url": null,
+    "pdf_path": "doc/LSM_2_Learning_from_Incomplete_Wearable_Sensor_Data.pdf"
+  },
+  {
+    "title": "Assessment of Asthma Severity Using Remote Sensors: A Pilot Study",
+    "arxiv_id": null,
+    "original_pub_date": "04/2025",
+    "official_pub_date": "07/2025",
+    "official_venue": "The Journal of Allergy and Clinical Immunology: In Practice",
+    "arxiv_url": null,
+    "official_url": "https://www.sciencedirect.com/science/article/abs/pii/S2213219825003198",
+    "pdf_path": null
+  },
+  {
+    "title": "Towards Accurate Differential Diagnosis with Large Language Models",
+    "arxiv_id": "2312.00164",
+    "original_pub_date": "11/2023",
+    "official_pub_date": "01/2025",
+    "official_venue": "Nature",
+    "arxiv_url": "https://arxiv.org/abs/2312.00164",
+    "official_url": "https://doi.org/10.1038/s41586-025-08869-4",
+    "pdf_path": "doc/Towards Accurate Differential Diagnosis with Large Language Models.pdf"
+  },
+  {
+    "title": "Scaling Wearable Foundation Models",
+    "arxiv_id": "2410.13638",
+    "original_pub_date": "10/2024",
+    "official_pub_date": "2025",
+    "official_venue": "ICLR",
+    "arxiv_url": "https://arxiv.org/pdf/2410.13638",
+    "official_url": null,
+    "pdf_path": "doc/Scaling_Wearable_Foundation_Models.pdf"
+  },
+  {
+    "title": "What Are the Odds? Language Models Are Capable of Probabilistic Reasoning",
+    "arxiv_id": "2406.12830",
+    "original_pub_date": "06/2024",
+    "official_pub_date": "2024",
+    "official_venue": "EMNLP",
+    "arxiv_url": "https://arxiv.org/abs/2406.12830",
+    "official_url": null,
+    "pdf_path": "doc/What_are_the_odds_Language_Models_are_Capable_of_Probabilistic_Reasoning.pdf"
+  },
+  {
+    "title": "HeAR: Health Acoustic Representations",
+    "arxiv_id": "2403.02522",
+    "original_pub_date": "03/2024",
+    "official_pub_date": "03/2024",
+    "official_venue": "arXiv preprint",
+    "arxiv_url": "https://arxiv.org/abs/2403.02522",
+    "official_url": null,
+    "pdf_path": "doc/HeAR - Health Acoustic Representations.pdf"
+  },
+  {
+    "title": "Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals",
+    "arxiv_id": "2309.05843",
+    "original_pub_date": "09/2023",
+    "official_pub_date": "09/2023",
+    "official_venue": "arXiv preprint",
+    "arxiv_url": "https://arxiv.org/abs/2309.05843",
+    "official_url": null,
+    "pdf_path": "doc/Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals.pdf"
+  }
+]

@@ -8,7 +8,6 @@ This list displays all work experience, papers, blogs, and project cards sorted 
 | Project / Portfolio | MuJoCo Physics Survival Simulation Controls | 2026 |
 | Project / Portfolio | Market Pipeline | 2026 |
 | Project / Portfolio | tuner: Chromatic Guitar Tuner | 2026 |
-| Project / Portfolio | Ableton Live XML Project Parser | 2026 |
 | Project / Portfolio | synth: Polyphonic MIDI Synthesizer | 2026 |
 | Project / Portfolio | Google Health Coach | 2025 |
 | Project / Portfolio | Vocal Chord Synthesis | 2025 |
@@ -33,11 +32,11 @@ This list displays all work experience, papers, blogs, and project cards sorted 
 | Project / Portfolio | HeAR: Acoustic disease detection | 08/2024 |
 | Project / Portfolio | HeAR: Developer Foundations Model Card | 08/2024 |
 | Project / Portfolio | Scaling Wearable Foundation Models | 11/2024 |
-| Project / Portfolio | Seattle Housing Scraper | 2023 |
 | Project / Portfolio | jazzfuzz blog | 2023 |
 | Project / Portfolio | Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals | 09/2023 |
 | Project / Portfolio | Contactless cough detection and attribution | 04/2023 |
 | Project / Portfolio | 6 ways Google AI is helping you sleep better | 03/2023 |
+| Project / Portfolio | Seattle Housing Scraper | 2022 |
 | Project / Portfolio | Pixel: Cough and Snore Sound Detection | 2022 |
 | Project / Portfolio | last.fm Sync | 2022 |
 | Project / Portfolio | Morbidity and Mortality from COVID-19 Postvaccination Breakthrough Infections | 07/2022 |
@@ -47,11 +46,11 @@ This list displays all work experience, papers, blogs, and project cards sorted 
 | Project / Portfolio | Contactless sleep sensing in Nest Hub | 2022 |
 | Project / Portfolio | Enhanced respiration sensing in Nest Hub | 2022 |
 | Project / Portfolio | The Pixel 7 will have a snoring and coughing detection feature | 10/2022 |
+| Project / Portfolio | Ableton Project Parser | 2021 |
 | Project / Portfolio | Nest Hub: Sleep, Respiration, Cough Sensing via Radar and Audio | 2021 |
 | Project / Portfolio | Ginger Beer | 2021 |
 | Project / Portfolio | FRILL: On-device speech TF Lite | 2021 |
 | Project / Portfolio | FRILL: On-Device Audio Representations | 2020 |
-| Project / Portfolio | YouTube Music Sync | 2020 |
 | Project / Portfolio | Whosecough: In-the-Wild Cougher Verification Using Multitask Learning | 11/2020 |
 | Project / Portfolio | FRILL: A Non-Semantic Speech Embedding for Mobile Devices | 08/2020 |
 | Project / Portfolio | Consumer Product Engineering Lecture | 2020 |
@@ -59,6 +58,7 @@ This list displays all work experience, papers, blogs, and project cards sorted 
 | Work Experience | Aigen | 2020-2023 |
 | Project / Portfolio | Evolution Simulator | 2019 |
 | Project / Portfolio | FreshAir Spiro Mobile App | 2019 |
+| Project / Portfolio | YouTube Music Sync | 2019 |
 | Project / Portfolio | Reddit Music Sub Scraper | 2019 |
 | Project / Portfolio | Raspberry Pi Synthesizer | 2019 |
 | Project / Portfolio | brew-sensors | 2019 |
