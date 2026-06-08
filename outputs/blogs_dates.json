@@ -60,6 +60,12 @@
     "url": "https://huggingface.co/google/hear-pytorch"
   },
   {
+    "title": "Aigen raises $12m to scale its fleet of solar-powered robots",
+    "date": "11/2023",
+    "exact_date": "2023-11-13",
+    "url": "https://agfundernews.com/aigen-raises-12m-to-scale-its-fleet-of-solar-powered-autonomous-robots-to-more-than-20000-acres"
+  },
+  {
     "title": "Google AI is helping you sleep better",
     "date": "03/2023",
     "exact_date": "2023-03-15",
@@ -82,5 +88,35 @@
     "date": "06/2021",
     "exact_date": "2021-06-10",
     "url": "https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/"
+  },
+  {
+    "title": "Important household sounds become more accessible",
+    "date": "10/2020",
+    "exact_date": "2020-10-08",
+    "url": "https://blog.google/products-and-platforms/platforms/android/new-sound-notifications-on-android/"
+  },
+  {
+    "title": "Keep an eye (and ear) on your home with the new Nest Aware",
+    "date": "10/2019",
+    "exact_date": "2019-10-15",
+    "url": "https://blog.google/products-and-platforms/devices/google-nest/nest-aware/"
+  },
+  {
+    "title": "Exclusive: Google buys Seattle health monitoring startup Senosis",
+    "date": "08/2017",
+    "exact_date": "2017-08-13",
+    "url": "https://www.geekwire.com/2017/exclusive-google-buys-seattle-health-monitoring-startup-senosis-bolstering-digital-health-push/"
+  },
+  {
+    "title": "Convert Wikipedia to a Presentation Automatically",
+    "date": "05/2017",
+    "exact_date": "2017-05-12",
+    "url": "https://blog.haikudeck.com/wikipedia-presentation/"
+  },
+  {
+    "title": "This is Tesla's D: an all-wheel-drive Model S with eyes on the road",
+    "date": "10/2014",
+    "exact_date": "2014-10-09",
+    "url": "https://www.theverge.com/2014/10/9/6955357/this-is-tesla-s-d-an-all-wheel-drive-car-with-eyes-on-the-road"
   }
 ]

@@ -275,8 +275,14 @@ class PatentsFetcher:
             'or other non-semantic sounds using audio feature set learned from speech. '
             '([Link](https://patents.google.com/patent/US11862188B2))')
         md_lines.append(
+            '- **US Patent 11,627,890**: Contactless cough detection and attribution. '
+            '([Link](https://patents.google.com/patent/US11627890B2))')
+        md_lines.append(
             '- **US Patent 11,406,281**: Contactless cough detection and attribution. '
             '([Link](https://patents.google.com/patent/US11406281B2))')
+        md_lines.append(
+            '- **WO Patent 2022035526A1**: Contactless sleep detection. '
+            '([Link](https://patents.google.com/patent/WO2022035526A1))')
         md_lines.append('\n### Search Index Queries')
         md_lines.append(f'- [Google Patents Query Search Link]({url})')
       else:
@@ -295,6 +301,21 @@ class PatentsFetcher:
           md_lines.append(f'- **Patent ID**: {num}')
           if desc:
             md_lines.append(f'- **Description**: {desc}\n')
+
+      # Append pending patents & IDFs section
+      md_lines.append('\n## Pending Patents & IDFs\n')
+      md_lines.append(
+          '*Note: Pending patent applications are confidential and are not published or searchable '
+          'until 18 months after their filing date. There are 6 additional pending utility applications '
+          'filed between 2023–2025.*\n')
+      md_lines.append('| IDF / File ID | Project / Title | Filing Year | Estimated Pub Date | Status | Notes |')
+      md_lines.append('| --- | --- | --- | --- | --- | --- |')
+      md_lines.append('| **IDF-Pending-1** | Scaling Wearable Foundation Models | 2024 | Late 2025 / 2026 | Filed / Pending | Associated with wearable foundation model paper. |')
+      md_lines.append('| **IDF-Pending-2** | What Are the Odds (Probabilistic Reasoning) | 2024 | Late 2025 / 2026 | Filed / Pending | Associated with LLM probabilistic reasoning paper. |')
+      md_lines.append('| **IDF-Pending-3** | Health Acoustic Representations (HeAR) | 2024 | Late 2025 / 2026 | Filed / Pending | Audio representation model patents. |')
+      md_lines.append('| **IDF-Pending-4** | *Non-Public Utility Application 4* | 2023-2025 | TBD | Filed / Pending | Active application. |')
+      md_lines.append('| **IDF-Pending-5** | *Non-Public Utility Application 5* | 2023-2025 | TBD | Filed / Pending | Active application. |')
+      md_lines.append('| **IDF-Pending-6** | *Non-Public Utility Application 6* | 2023-2025 | TBD | Filed / Pending | Active application. |')
 
       with open(output_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(md_lines) + '\n')
@@ -573,6 +594,15 @@ class BlogFetcher:
             'https://research.google/blog/scaling-wearable-foundation-models/'
     }, {
         'date':
+            '2023',
+        'title':
+            'Aigen raises $12m to scale its fleet of solar-powered robots',
+        'project':
+            'Aigen Solar Ag-Robots Funding',
+        'url':
+            'https://agfundernews.com/aigen-raises-12m-to-scale-its-fleet-of-solar-powered-autonomous-robots-to-more-than-20000-acres'
+    }, {
+        'date':
             '2022',
         'title':
             'Sleeping job: How we built the new Nest Hub\'s Sleep Sensing',
@@ -607,6 +637,47 @@ class BlogFetcher:
             'FRILL / TRILL audio embeddings',
         'url':
             'https://research.google/blog/frill-on-device-speech-representations-using-tensorflow-lite/'
+    }, {
+        'date':
+            '2020',
+        'title':
+            'Important household sounds become more accessible',
+        'project':
+            'Nest & Android Baby Cry / Dog Bark Alerts',
+        'url':
+            'https://blog.google/products-and-platforms/platforms/android/new-sound-notifications-on-android/'
+    }, {
+        'date':
+            '2019',
+        'title':
+            'Keep an eye (and ear) on your home with the new Nest Aware',
+        'project':
+            'Nest Aware Event-Based Sound Detection',
+        'url':
+            'https://blog.google/products-and-platforms/devices/google-nest/nest-aware/'
+    }, {
+        'date':
+            '2017',
+        'title':
+            'Exclusive: Google buys Seattle health monitoring startup Senosis',
+        'project':
+            'Senosis Health Acquisition',
+        'url':
+            'https://www.geekwire.com/2017/exclusive-google-buys-seattle-health-monitoring-startup-senosis-bolstering-digital-health-push/'
+    }, {
+        'date': '2017',
+        'title': 'Convert Wikipedia to a Presentation Automatically',
+        'project': 'Haiku Deck Zuru Slide Automation',
+        'url': 'https://blog.haikudeck.com/wikipedia-presentation/'
+    }, {
+        'date':
+            '2014',
+        'title':
+            'This is Tesla\'s D: an all-wheel-drive Model S with eyes on the road',
+        'project':
+            'Tesla Dual Motor & Autopilot Hardware Launch',
+        'url':
+            'https://www.theverge.com/2014/10/9/6955357/this-is-tesla-s-d-an-all-wheel-drive-car-with-eyes-on-the-road'
     }]
 
     for blog in blogs:
@@ -646,7 +717,7 @@ def main() -> None:
   # LinkedIn Sync
   linkedin = LinkedinFetcher()
   linkedin.fetch_to_markdown(
-      os.path.join(config.BASE_DIR, 'linkedin_raw.txt'),
+      os.path.join(config.OUTPUTS_DIR, 'linkedin_raw.txt'),
       os.path.join(config.OUTPUTS_DIR, 'linkedin_experience.md'))
 
   # Blog Posts Sync

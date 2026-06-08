@@ -1,20 +1,91 @@
 # GitHub Projects
 
+## [website](https://github.com/jake-g/website)
+*   **Language**: HTML
+*   **Description**: my personal website
+*   **Recent Commits**:
+    *   `aa6aa77` - "Add new blog posts, restructure site layout, organize images, and update submodules" (2026-06-08)
+    *   `0a9044e` - "Kepp resume at top, adjust padding and margin for tab elements in CSS" (2026-06-08)
+    *   `05dbc4f` - "reorder projects and widen max width" (2026-06-01)
+
+## [website-processor](https://github.com/jake-g/website-processor)
+*   **Language**: Python
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `43135f5` - "Format code and update output artifacts" (2026-06-08)
+    *   `46c46f0` - "use less common port" (2026-06-08)
+    *   `bd466f9` - "add paper and blog date metadata tracking and update synth.py configurations" (2026-06-01)
+
 ## [market-pipeline](https://github.com/jake-g/market-pipeline)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `400fe96` - "migrate CI to makefile, improve environment setup flexibility, and disable notebooklm tests in CI" (2026-05-23)
-    *   `28eb1ba` - "Auto-update market data: Fri May 22 17:40:15 PDT 2026" (2026-05-23)
-    *   `86acc2c` - "Auto-update market data: Thu May 21 19:08:28 PDT 2026" (2026-05-22)
+    *   `ce3a8bc` - "Auto-update market data: Wed Jun  3 19:07:16 PDT 2026" (2026-06-04)
+    *   `5a11e93` - "update" (2026-06-02)
+    *   `fff17a3` - "Auto-update market data: Mon Jun  1 19:17:37 PDT 2026" (2026-06-02)
+
+## [home-scraper](https://github.com/jake-g/home-scraper)
+*   **Language**: HTML
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `c4e6fe0` - "Update URLs and references from housing_feed to home-scraper" (2026-06-01)
+    *   `4a81a32` - "update site" (2026-05-31)
+    *   `fabfc26` - "update site" (2026-05-24)
+
+## [ableton-parser](https://github.com/jake-g/ableton-parser)
+*   **Language**: Python
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `2f467fe` - "fix" (2026-05-31)
+    *   `65df5ee` - "Run parse update on 2026-05-31 01:15:36" (2026-05-31)
+    *   `59b82cf` - "update new repo /  cpu" (2026-05-31)
 
 ## [ytmusic](https://github.com/jake-g/ytmusic)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `51cd5e5` - "Ignore and remove notebooks folder from tracking" (2026-05-10)
-    *   `a77750c` - "update ytmusic playlists" (2026-05-10)
-    *   `bc8391b` - "update ytmusic playlists" (2026-05-09)
+    *   `eb03e09` - "update ytmusic playlists" (2026-05-31)
+    *   `31dcfa5` - "update ytmusic playlists" (2026-05-25)
+    *   `08f0c3a` - "update ytmusic playlists" (2026-05-24)
+
+## [jazzfuzz](https://github.com/jake-g/jazzfuzz)
+*   **Language**: HTML
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `7a5407c` - "update video links, add custom favicon, default oldest-first sort, and fix formatting" (2026-05-31)
+    *   `d3861c5` - "add albums_glossary.tsv" (2026-05-24)
+    *   `5f71a2a` - "add 22 new albums to catalog and resolve index factual errors" (2026-05-24)
+
+## [synth](https://github.com/jake-g/synth)
+*   **Language**: Jupyter Notebook
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `34a446a` - "update gitignore and main synth notebook with experiments" (2026-05-24)
+    *   `33b3eb2` - "add README describing the synth project and development commands" (2026-05-24)
+    *   `967e7a5` - "add Makefile, pre-commit config, CI workflow, and format existing modules" (2026-05-24)
+
+## [brew-sensors](https://github.com/jake-g/brew-sensors)
+*   **Language**: Python
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `1d3a957` - "install test dependencies in CI pipeline" (2026-05-24)
+    *   `5fe8d56` - "apply formatting and cleanup" (2026-05-24)
+    *   `d4e58f4` - "update README with testing suite and Makefile development console" (2026-05-24)
+
+## [term-cam](https://github.com/jake-g/term-cam)
+*   **Language**: Objective-C
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `fa501a7` - "Update project: AVFoundation migration, optimized rendering, custom scaling, mirror splits, recording, live hotkeys, and automated JPEG exports" (2026-05-24)
+    *   `1718a12` - "Fork txtcam (https://github.com/dhotson/txtcam)" (2015-05-24)
+
+## [craigslist-bot](https://github.com/jake-g/craigslist-bot)
+*   **Language**: Python
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `690d853` - "Archive project, update readme to indicate status" (2026-05-24)
+    *   `973d28c` - "nuc update" (2023-12-31)
+    *   `76ba567` - "bugfix" (2022-01-01)
 
 ## [reddit-scraper](https://github.com/jake-g/reddit-scraper)
 *   **Language**: Python
@@ -23,14 +94,6 @@
     *   `5085cad` - "Move notebooks to folder and ignore" (2026-05-10)
     *   `8069014` - "Finalize Reddit Scraper module with tests and CI configs" (2026-05-09)
     *   `c34038a` - "used to merge gemini ratings into match format from reddit_logs_to_ytmusic_playlists_final.ipynb makes the 2025 tsv:  `reddit_2025-new_ytmusic_scored_new_matches__gemini-graded_2025-12-13.tsv`" (2025-12-15)
-
-## [ableton-parser](https://github.com/jake-g/ableton-parser)
-*   **Language**: Python
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `7404ae3` - "Update README with branch structure information" (2026-05-10)
-    *   `2b53792` - "Release v2.0.1: Decouple detailed report, add unified Makefile/PowerShell automation, and integrate CI pipeline" (2026-05-07)
-    *   `f7083fc` - "Release v2.0.0: Refactored XML parser, added tests and pre-commits" (2026-05-07)
 
 ## [plex-sync](https://github.com/jake-g/plex-sync)
 *   **Language**: Python
@@ -48,14 +111,6 @@
     *   `89b3213` - "phase 2 refactor need test" (2025-08-18)
     *   `f810861` - "run backup" (2024-10-20)
 
-## [home-scraper](https://github.com/jake-g/home-scraper)
-*   **Language**: HTML
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `ecee196` - "minor" (2026-03-30)
-    *   `1f9b68a` - "update site" (2026-03-30)
-    *   `85636d6` - "sq" (2026-03-30)
-
 ## [micro-llm](https://github.com/jake-g/micro-llm)
 *   **Language**: Jupyter Notebook
 *   **Description**: No description provided.
@@ -63,58 +118,3 @@
     *   `9bdb4d8` - "update" (2025-10-16)
     *   `7816950` - "Merge branch 'main' of https://github.com/jake-g/micro-llm" (2025-10-16)
     *   `63a64d4` - "latest esp32-llm" (2025-10-16)
-
-## [vocal-chords](https://github.com/jake-g/vocal-chords)
-*   **Language**: JavaScript
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `e2dbabd` - "cleanup readme" (2026-02-28)
-    *   `8d18b52` - "add deployed project" (2025-12-16)
-    *   `fea1b72` - "Initial commit" (2025-12-16)
-
-## [mujoco-puppeteer](https://github.com/jake-g/mujoco-puppeteer)
-*   **Language**: Python
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `0417ec7` - "update doc" (2026-05-06)
-    *   `f2f8df8` - "v1.1 agent refinement" (2026-05-04)
-    *   `c6439b2` - "v1.1 auto evolve run" (2026-05-01)
-
-## [lane-detection](https://github.com/jake-g/lane-detection)
-*   **Language**: C++
-*   **Description**: C++ program that identifies and tracks lanes and their intersection. Can be used for autonomous driving features such as lane changing, blindspot detection, hill crest detection, turn detection and sign recognition.
-*   **Recent Commits**:
-    *   `4d04fe0` - "reorganized repo" (2015-07-22)
-    *   `0858721` - "mess" (2015-07-22)
-    *   `ce2c991` - "Finalized Documentation" (2015-07-05)
-
-## [Vehicle-Infotainment-Center](https://github.com/jake-g/Vehicle-Infotainment-Center)
-*   **Language**: CSS
-*   **Description**: Develop an open source UI infotainment platform for vehicles that communicates with in-vehicle hardware and cloud based services to deliver media, autopilot  statistics, diagnostics in order to enhance safety and user experience.
-*   **Recent Commits**:
-    *   `68f4f18` - "added features fixed wording" (2015-08-31)
-    *   `0502d3b` - "Merge branch 'gh-pages' of https://github.com/jake-g/Vehicle-Infotainment-Center into gh-pages" (2015-08-17)
-    *   `7d24f6f` - "subtle edits" (2015-08-17)
-
-## [esp32-llm](https://github.com/jake-g/esp32-llm)
-*   **Language**: C
-*   **Description**: my fork
-*   **Recent Commits**:
-    *   `b0255ec` - "small example run changes" (2025-10-21)
-    *   `2d6b530` - "add compairson to [`run.c`](https://github.com/karpathy/llama2.c/blob/master/run.c)" (2025-10-16)
-    *   `8847070` - "added technical details" (2025-10-16)
-
-## [pitch_shift](https://github.com/jake-g/pitch_shift)
-*   **Language**: C
-*   **Description**: realtime pitch shift time and freq domain methods optimized for dsp fpga hardware, linux C and Matlab
-*   **Recent Commits**:
-    *   `80c3c08` - "Merge pull request #3 from jake-g/add-license-1" (2017-12-06)
-    *   `3dbd13b` - "Create LICENSE" (2017-12-06)
-    *   `687ac6d` - "Create README.md" (2016-06-16)
-
-## [microcontroller-tutorial](https://github.com/jake-g/microcontroller-tutorial)
-*   **Language**: Mixed
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `335d86d` - "update tutorial for 475 fall 2024" (2024-10-03)
-    *   `b4cb02f` - "update tutorial for 475 fall 2024" (2024-10-03)
