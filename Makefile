@@ -34,8 +34,8 @@ check-links:
 	PYTHONPATH=.. python3 -m processing.check_links
 
 server:
-	@echo "Starting local web server at http://localhost:8000 ..."
-	python3 -m http.server 8000 --directory ..
+	@echo "Starting local web server at http://localhost:8005 ..."
+	python3 -m http.server 8005 --directory ..
 
 format:
 	PYTHONPATH=.. python3 -m processing.format
