@@ -105,6 +105,26 @@ IMAGE_METADATA = {
         'target_ratio': 1.11,
         'description': 'SensorLM Research Blog Card'
     }],
+    'sensofm blog.png': [{
+        'target_name': 'sensorfm_blog.jpg',
+        'target_ratio': 1.11,
+        'description': 'SensorFM Research Blog Card'
+    }],
+    'sensorfm paper.png': [{
+        'target_name': 'sensorfm.jpg',
+        'target_ratio': 0.77,
+        'description': 'SensorFM Paper Cover Preview'
+    }],
+    'bitfury.png': [{
+        'target_name': 'bitfury_miner.jpg',
+        'target_ratio': 1.33,
+        'description': 'Bankroll Bitfury ASIC Bitcoin Miner Project Card'
+    }],
+    'emojii flow.png': [{
+        'target_name': 'emojii_flow.jpg',
+        'target_ratio': 1.33,
+        'description': 'emojii-flow AI Project Card'
+    }],
     'probabilistic_reasoning.png': [{
         'target_name': 'probabilistic_reasoning.jpg',
         'target_ratio': 0.77,
