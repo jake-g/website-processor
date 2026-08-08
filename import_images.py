@@ -115,6 +115,11 @@ IMAGE_METADATA = {
         'target_ratio': 0.77,
         'description': 'SensorFM Paper Cover Preview'
     }],
+    'carpacio.png': [{
+        'target_name': 'carpacio.jpg',
+        'target_ratio': 1.33,
+        'description': 'Carpacio Project Card'
+    }],
     'bitfury.png': [{
         'target_name': 'bitfury_miner.jpg',
         'target_ratio': 1.33,

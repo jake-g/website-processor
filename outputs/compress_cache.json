@@ -41,9 +41,9 @@
       "hash": "932faacf8264e35cde5c43e4d531fc3a"
     },
     "aigen_funding.png": {
-      "size": 761735,
-      "mtime": 1784695659.4496963,
-      "hash": "e17890332995cc855a321862b4271e1a"
+      "size": 1004991,
+      "mtime": 1786154477.7541504,
+      "hash": "311ef9ce159a5c0581b9f71b32c35228"
     },
     "gaze_track.jpg": {
       "size": 30565,
@@ -59,6 +59,11 @@
       "size": 52374,
       "mtime": 1780197239.2261155,
       "hash": "5f3d511957a10bb56fbd0366bbec1e93"
+    },
+    "carpacio.jpg": {
+      "size": 56538,
+      "mtime": 1786153895.36355,
+      "hash": "cd537a7e384a497f004b7823850f7e07"
     },
     "phoneai.jpg": {
       "size": 41328,
@@ -81,9 +86,9 @@
       "hash": "0ff1835c638aa61ef4e37695af88d94c"
     },
     "haiku_deck_wikipedia.png": {
-      "size": 347389,
-      "mtime": 1784695659.5621219,
-      "hash": "3ad969f7965bfc5908c4af7c827a6ed7"
+      "size": 422601,
+      "mtime": 1786154477.7546103,
+      "hash": "3ebec39b8f1c98d2bc1b46f468ced7a4"
     },
     "evolution.jpg": {
       "size": 8259,
@@ -91,9 +96,9 @@
       "hash": "7b27c4cbb0b9e10869fb2a0a1c94646f"
     },
     "sensorfm_blog.jpg": {
-      "size": 119998,
-      "mtime": 1784695546.6825056,
-      "hash": "e5cff5b334193f28f3212c99c3f4506f"
+      "size": 81921,
+      "mtime": 1786153895.3186665,
+      "hash": "de6e37817fc1ab09af82af814c87b7e9"
     },
     "health-event-detector.jpg": {
       "size": 60946,
@@ -206,9 +211,9 @@
       "hash": "8e9f774f799b2eb52e4a76c9c95381a7"
     },
     "tesla_model_d.png": {
-      "size": 1179399,
-      "mtime": 1784695660.1507254,
-      "hash": "fbd2108ba1a7d20e35d62c0c7ff2fdb6"
+      "size": 1549150,
+      "mtime": 1786154477.7556546,
+      "hash": "311183aab5ac58f98cf1067a8fca5a93"
     },
     "verellen.jpg": {
       "size": 44515,
@@ -331,9 +336,9 @@
       "hash": "cb778b9781c18d9ea62684a9fef3d18e"
     },
     "emojii_flow.jpg": {
-      "size": 86620,
-      "mtime": 1784695558.0815642,
-      "hash": "660d2c876e34151ee3e282ef818f0f4d"
+      "size": 56052,
+      "mtime": 1786153895.4614697,
+      "hash": "b3d444c9f313519b3433302bfcd9e49b"
     },
     "3DP_Poster.jpg": {
       "size": 123367,
@@ -431,9 +436,9 @@
       "hash": "4d5f91e8da7681633327d77b542b2178"
     },
     "sensorfm.jpg": {
-      "size": 166156,
-      "mtime": 1784695546.6660492,
-      "hash": "a92e3633c630a573875b34de95edb847"
+      "size": 196038,
+      "mtime": 1786153895.3463027,
+      "hash": "165333baf9d31d858514da24508a71e1"
     },
     "hear_model_card.jpg": {
       "size": 61698,
@@ -461,9 +466,9 @@
       "hash": "908afde871da9f62fff479432a36a059"
     },
     "bitfury_miner.jpg": {
-      "size": 133692,
-      "mtime": 1784695574.180008,
-      "hash": "7c5ff97bb3e1eb1770624325bb8c5675"
+      "size": 84562,
+      "mtime": 1786153895.4189746,
+      "hash": "192b67a63c079ed67f155764ba3bf0ae"
     },
     "music-scrape.jpg": {
       "size": 66662,
@@ -830,6 +835,11 @@
       "mtime": 1784695660.8388171,
       "hash": "c60d06638756fd95413901a0521e684d"
     },
+    "orig_image/carpacio.png": {
+      "size": 318431,
+      "mtime": 1786154397.8437731,
+      "hash": "732618df4aca2714791cffe56d2bdddb"
+    },
     "orig_image/haiku_deck_wikipedia.png": {
       "size": 347389,
       "mtime": 1784695660.9486358,
@@ -845,6 +855,11 @@
       "mtime": 1780197239.2249916,
       "hash": "e6f300d87bae2c107219549668e45e32"
     },
+    "orig_image/sensofm blog.png": {
+      "size": 453465,
+      "mtime": 1786154398.0397897,
+      "hash": "73b72e4028f373103e035121be10e16d"
+    },
     "orig_image/health_agent.png": {
       "size": 401512,
       "mtime": 1784695661.2986789,
@@ -854,6 +869,11 @@
       "size": 922938,
       "mtime": 1784695661.7227988,
       "hash": "431ff2ece77cd13ec3f26a084d4512ba"
+    },
+    "orig_image/emojii flow.png": {
+      "size": 259790,
+      "mtime": 1786154398.1934056,
+      "hash": "5d1fc39cb2a7196a19fa0379446dbe01"
     },
     "orig_image/esp32-llm-output.png": {
       "size": 382834,
@@ -930,6 +950,11 @@
       "mtime": 1784695665.350235,
       "hash": "01c412268a2c9000941ad49397632d3d"
     },
+    "orig_image/bitfury.png": {
+      "size": 2421963,
+      "mtime": 1786154398.9408934,
+      "hash": "fc60842bd66dc741a18cbe642e4c7a26"
+    },
     "orig_image/synth-asdr.png": {
       "size": 277971,
       "mtime": 1784695665.5004835,
@@ -974,6 +999,11 @@
       "size": 408845,
       "mtime": 1784695667.6860476,
       "hash": "27119b7b5461b3c6f1485d4c802c6e8e"
+    },
+    "orig_image/sensorfm paper.png": {
+      "size": 396989,
+      "mtime": 1786154399.152927,
+      "hash": "b649baf470d56c095828b678ccd9f4d8"
     },
     "orig_image/mujoco-puppeteer.png": {
       "size": 238582,
@@ -1108,9 +1138,9 @@
       "status": "skipped_under_size"
     },
     "SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf": {
-      "size": 1525079,
-      "mtime": 1784695677.3872325,
-      "status": "compressed"
+      "size": 1668331,
+      "mtime": 1786154477.7483475,
+      "status": "skipped_under_size"
     },
     "SpiroConfidence.pdf": {
       "size": 854906,
@@ -1138,9 +1168,9 @@
       "status": "skipped_under_size"
     },
     "spiro_thesis_final.pdf": {
-      "size": 1840536,
-      "mtime": 1784695678.0599282,
-      "status": "compressed"
+      "size": 1844009,
+      "mtime": 1786154477.7533112,
+      "status": "skipped_under_size"
     },
     "Pitch_Shift_Pres.pdf": {
       "size": 1076653,
@@ -1163,9 +1193,9 @@
       "status": "skipped_under_size"
     },
     "Smartphone_identification_poster.pdf": {
-      "size": 499022,
-      "mtime": 1784695680.4068658,
-      "status": "compressed"
+      "size": 1747374,
+      "mtime": 1786154477.749492,
+      "status": "skipped_under_size"
     },
     "ADAS_Vision_Tool_Check_UW_EcoCAR.pdf": {
       "size": 1327941,
@@ -1193,9 +1223,9 @@
       "status": "skipped_under_size"
     },
     "Embedded_AI_ML_475_Fall_2025.pdf": {
-      "size": 1647926,
-      "mtime": 1784695681.231937,
-      "status": "compressed"
+      "size": 1647212,
+      "mtime": 1786154477.7472723,
+      "status": "skipped_under_size"
     },
     "3DP_Poster.pdf": {
       "size": 961011,
@@ -1238,9 +1268,9 @@
       "status": "skipped_under_size"
     },
     "Spiro_Thesis_Presentation.pdf": {
-      "size": 775412,
-      "mtime": 1784695684.7424822,
-      "status": "compressed"
+      "size": 2194217,
+      "mtime": 1786154477.7509398,
+      "status": "skipped_under_size"
     },
     "Matched_Correlator_EE416.pdf": {
       "size": 705961,
@@ -1258,9 +1288,9 @@
       "status": "skipped_under_size"
     },
     "Consumer_Appeal_Poster.pdf": {
-      "size": 1042026,
-      "mtime": 1784695687.9319847,
-      "status": "compressed"
+      "size": 2301419,
+      "mtime": 1786154477.7434778,
+      "status": "skipped_under_size"
     },
     "Carpaccio_Paper.pdf": {
       "size": 441200,
@@ -1288,9 +1318,9 @@
       "status": "skipped_under_size"
     },
     "Electrical_Presentation_UW_EcoCAR2.pdf": {
-      "size": 824681,
-      "mtime": 1784695692.2475584,
-      "status": "compressed"
+      "size": 1851440,
+      "mtime": 1786154477.744787,
+      "status": "skipped_under_size"
     },
     "Pitch_Shift_Report_EE443.pdf": {
       "size": 955898,
@@ -1298,19 +1328,19 @@
       "status": "skipped_under_size"
     },
     "Electrical_Presentation_UW_EcoCAR3.pdf": {
-      "size": 1355139,
-      "mtime": 1784695695.3055978,
-      "status": "compressed"
+      "size": 2061296,
+      "mtime": 1786154477.7462234,
+      "status": "skipped_under_size"
     },
     "Battery_Pack_ESS_EcoCAR3.pdf": {
-      "size": 1321273,
-      "mtime": 1784695697.168276,
-      "status": "compressed"
+      "size": 1686060,
+      "mtime": 1786154477.7414064,
+      "status": "skipped_under_size"
     },
     "Urban_Parking_Poster.pdf": {
-      "size": 736179,
-      "mtime": 1784695697.8974872,
-      "status": "compressed"
+      "size": 1830626,
+      "mtime": 1786154477.752103,
+      "status": "skipped_under_size"
     },
     "FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf": {
       "size": 269032,
