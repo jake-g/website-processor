@@ -1,4 +1,4 @@
-.PHONY: help all minify compress test fetch check-links server clean format crop
+.PHONY: help all minify compress test fetch check-links server clean format crop analytics-setup analytics-pull analytics-report tags
 
 # Default target displays the help menu
 help:
@@ -12,10 +12,14 @@ help:
 	@echo "  make compress    - Compress new large images (>250KB) and PDFs (>1.5MB)"
 	@echo "  make format      - Auto-format Python scripts and trim web trailing whitespace"
 	@echo "  make test        - Run all Python unit tests under processing/"
-	@echo "  make fetch       - Run sync scripts (Scholar, GitHub, Patents, LinkedIn)"
+	@echo "  make fetch       - Run sync scripts (Scholar, GitHub, Patents, LinkedIn, blogs)"
+	@echo "  make tags        - Mine topic tags from site + synced outputs (outputs/tags.md)"
 	@echo "  make check-links - Scan website for broken/dead URLs"
 	@echo "  make server      - Launch local testing server at http://localhost:8000"
 	@echo "  make clean       - Remove Python bytecode cache files"
+	@echo "  make analytics-setup  - Install GA4/Search Console client libs"
+	@echo "  make analytics-pull   - Export GA4 + Search Console CSVs (private)"
+	@echo "  make analytics-report - Summarize exported CSVs to summary.md"
 	@echo "========================================================="
 
 minify:
@@ -51,3 +55,15 @@ crop:
 
 diagnose:
 	PYTHONPATH=.. python3 import_images.py diagnose
+
+analytics-setup:
+	python3 -m pip install -r analytics/requirements.txt
+
+analytics-pull:
+	PYTHONPATH=.. python3 -m processing.analytics.pull
+
+analytics-report:
+	PYTHONPATH=.. python3 -m processing.analytics.report
+
+tags:
+	PYTHONPATH=.. python3 -m processing.tags

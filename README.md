@@ -14,6 +14,7 @@ This directory contains the Python automation scripts, test suites, and Makefile
 *   `compressors_test.py`: Consolidated unit test suite for asset processing engines.
 *   `fetchers.py`: Structured profile synchronization library containing `ScholarFetcher`, `GithubFetcher`, `PatentsFetcher`, and `LinkedinFetcher`.
 *   `fetchers_test.py`: Consolidated unit test suite for web profiles sync fetchers.
+*   `topics.py` / `tags.py`: shared topic vocabulary matching and the tag miner (`tags_test.py`).
 *   `check_links.py`: broken hyperlinks scanner.
 *   `check_links_test.py`: hyperlink verification scanner tests.
 *   `format.py`: Code formatter script (yapf style formatter).
@@ -48,6 +49,12 @@ You can run development tasks either by navigating to this directory or using `m
     ```bash
     make -C processing fetch
     ```
+    *   GitHub includes repos authored outside `jake-g` via `config.EXTRA_GITHUB_REPOS` (e.g. `google-research/codegen-classroom`).
+    *   `outputs/blogs_discovered.md`: scans the Google Research blog RSS (latest ~100 posts, cached in `outputs/blog_scan_cache.json`) and lists posts that link one of your papers or name you, plus topic-related posts, with an "On site" column.
+*   **Mine Topic Tags**: Counts the `config.TOPIC_TAGS` vocabulary per site section and synced output, and suggests frequent untagged phrases.
+    ```bash
+    make -C processing tags   # -> outputs/tags.md, outputs/tags.json
+    ```
 
 ### 4. Verification & Testing
 *   **Run Unit Tests**: Runs all unittest suites (`*_test.py`) to verify script compilation and helper logic.
@@ -67,6 +74,27 @@ You can run development tasks either by navigating to this directory or using `m
 *   **Clean Caches**: Removes Python bytecode caches.
     ```bash
     make -C processing clean
+    ```
+
+### 5. Analytics (GA4 + Search Console)
+> **Privacy:** `processing/` is served publicly by GitHub Pages
+> (`jakegarrison.me/processing/...`). Exports go to `outputs/analytics/`
+> and credentials to `analytics/secrets/`; both are gitignored. Never commit
+> them.
+
+*   **Setup**: `make -C processing analytics-setup`, then authenticate with
+    either a service account JSON at `analytics/secrets/sa.json` (grant it
+    Viewer on the GA4 property + user on Search Console) or
+    `gcloud auth application-default login` with the scopes listed in
+    `analytics/pull.py`.
+*   **Pull** (needs the numeric GA4 property ID, not the `G-` tag):
+    ```bash
+    GA4_PROPERTY_ID=123456789 make -C processing analytics-pull
+    ```
+*   **Report**: Writes `outputs/analytics/summary.md` (name-search ranking of
+    homepage vs. resume PDF, yearly traffic, sources, downloads, queries).
+    ```bash
+    make -C processing analytics-report
     ```
 
 ---
