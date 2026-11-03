@@ -2,6 +2,9 @@
 
 | Date | Blog Post Title | Related Project / Paper | Link |
 | --- | --- | --- | --- |
+| 2026 | **Bringing foundational models to the front lines of TB screening** | HeAR / Foundational Models for TB Screening | [Read Blog](https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/) |
+| 2026 | **The anatomy of a personal health agent** | Nature Personal Health Agent (PHA) paper | [Read Blog](https://research.google/blog/the-anatomy-of-a-personal-health-agent/) |
+| 2026 | **SensorFM: Towards a general intelligence and interface for wearable health data** | SensorFM foundation model | [Read Blog](https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/) |
 | 2026 | **Insulin resistance prediction from wearables and routine blood biomarkers** | Nature biomarkers discovery paper | [Read Blog](https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/) |
 | 2026 | **Empirical Research Assistance (ERA): From Nature publication to catalyzing computational discovery** | Nature software paper (Empirical Research Assistant) | [Read Blog](https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/) |
 | 2026 | **Four ways Google Research scientists have been using Empirical Research Assistance** | Empirical Research Assistant applications | [Read Blog](https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/) |

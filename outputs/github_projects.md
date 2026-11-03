@@ -1,120 +1,129 @@
 # GitHub Projects
 
-## [emojii-flow](https://github.com/jake-g/emojii-flow)
-*   **Language**: JavaScript
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `f264f05` - "Update emojii-flow, update icons, and refine documentation" (2026-07-19)
-    *   `d9c9ae8` - "Initial commit: full emoji-flow translation cascade" (2026-07-16)
-
-## [market-pipeline](https://github.com/jake-g/market-pipeline)
+## [google-research/codegen-classroom](https://github.com/google-research/codegen-classroom)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `43b6f92` - "allow make format to fail" (2026-07-14)
-    *   `7c4abb6` - "Auto-update market data: 14299(date)" (2026-07-14)
-    *   `01bcdc7` - "Auto-update market data: Tue Jul 14 15:48:49 PDT 2026" (2026-07-14)
-
-## [brew-sensors](https://github.com/jake-g/brew-sensors)
-*   **Language**: Python
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `dbba159` - "update" (2026-07-12)
-    *   `1d3a957` - "install test dependencies in CI pipeline" (2026-05-24)
-    *   `5fe8d56` - "apply formatting and cleanup" (2026-05-24)
-
-## [microcontroller-tutorial](https://github.com/jake-g/microcontroller-tutorial)
-*   **Language**: Mixed
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `529e255` - "docs: add section covering alternatives to microcontrollers including FPGAs, SBCs, and AI accelerators" (2026-07-12)
-    *   `335d86d` - "update tutorial for 475 fall 2024" (2024-10-03)
-    *   `b4cb02f` - "update tutorial for 475 fall 2024" (2024-10-03)
+    *   `a83b2bf` - "Sync core from google3" (2026-10-30)
+    *   `d0a9a5c` - "Sync core from google3" (2026-10-23)
+    *   `c76d537` - "Sync core from google3" (2026-10-16)
 
 ## [ytmusic](https://github.com/jake-g/ytmusic)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `ed0ccd5` - "update ytmusic playlists" (2026-07-12)
-    *   `12bda78` - "use local TSV cache to prevent API duplicate errors in clean_up_radio_playlist" (2026-07-12)
-    *   `020c61d` - "update ytmusic playlists" (2026-07-12)
-
-## [reddit-scraper](https://github.com/jake-g/reddit-scraper)
-*   **Language**: Python
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `7a8ec3a` - "Move notebooks to folder and ignore" (2026-05-10)
-    *   `8069014` - "Finalize Reddit Scraper module with tests and CI configs" (2026-05-09)
-    *   `c34038a` - "used to merge gemini ratings into match format from reddit_logs_to_ytmusic_playlists_final.ipynb makes the 2025 tsv:  `reddit_2025-new_ytmusic_scored_new_matches__gemini-graded_2025-12-13.tsv`" (2025-12-15)
-
-## [home-scraper](https://github.com/jake-g/home-scraper)
-*   **Language**: HTML
-*   **Description**: No description provided.
-*   **Recent Commits**:
-    *   `858ea57` - "update site" (2026-07-06)
-    *   `059abab` - "update site" (2026-06-28)
-    *   `448e104` - "update site" (2026-06-21)
+    *   `fd5ed28` - "Add 403 retry wrapper and automatic browser cookie extraction" (2026-11-03)
+    *   `86f9260` - "Add cached album lookup and track metadata methods to YTMusicPlaylists" (2026-11-02)
+    *   `5084ac3` - "Skip dislike removal on YT-owned mixes; fix stdout and pandas dtype handling" (2026-11-01)
 
 ## [lastfm-sync](https://github.com/jake-g/lastfm-sync)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `528f2d5` - "update lastfm scrobble history pipeline" (2026-07-05)
-    *   `d563b76` - "Finalize Last.fm module with tests and CI configs" (2026-05-09)
-    *   `89b3213` - "phase 2 refactor need test" (2025-08-18)
+    *   `5df061f` - "Mark undated Last.fm scrobbles as NaT instead of 1970-01-01" (2026-11-02)
+    *   `ef9466d` - "Vectorize YTMusic-Last.fm playcount matching (112.1x speedup) and history aggregation" (2026-09-27)
+    *   `d803f8a` - "Optimize Last.fm scraper with 20x ThreadPoolExecutor speedup and expanded logging" (2026-07-05)
 
 ## [plex-sync](https://github.com/jake-g/plex-sync)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `0147c0c` - "update plex ratings sync pipeline" (2026-07-05)
-    *   `710890e` - "Optimize playlist sync speed and resolve variant rating mismatches" (2026-07-03)
-    *   `1b31fa0` - "add hardcoded PLEX_FIX_PATHS to override MusicBee/Plex rating sync logic" (2026-07-03)
+    *   `6082319` - "Harden the Plex rating sync against bad MusicBee exports" (2026-11-01)
+    *   `ebb0e3a` - "Prevent lower Plex ratings from downgrading MusicBee ratings" (2026-09-27)
+    *   `aaaac79` - "Optimize MusicBee path lookup (133.5x speedup) with 0-diff parity" (2026-09-27)
 
-## [ultrasound-motion-webapp](https://github.com/jake-g/ultrasound-motion-webapp)
-*   **Language**: JavaScript
-*   **Description**: Plot motion in realtime webapp using ultrasonic doppler sensing via microphone and speakers
+## [altcoins](https://github.com/jake-g/altcoins)
+*   **Language**: HTML
+*   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `3fc9c3d` - "add readme" (2020-01-14)
-    *   `9552e1c` - "2020 update" (2020-01-14)
-    *   `286775d` - "merge" (2018-04-04)
+    *   `e048d42` - "update" (2017-10-12)
+    *   `84a0366` - "Merge branch 'master' of https://github.com/altcoins-code/altcoins" (2017-10-12)
+    *   `b03f63c` - "updated for open source" (2017-10-12)
 
-## [mujoco-puppeteer](https://github.com/jake-g/mujoco-puppeteer)
+## [market-pipeline](https://github.com/jake-g/market-pipeline)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `d8cf758` - "cleanup results" (2026-07-02)
-    *   `0417ec7` - "update doc" (2026-05-06)
-    *   `f2f8df8` - "v1.1 agent refinement" (2026-05-04)
+    *   `549cd71` - "Fix CI mypy (pin pandas-stubs 3.1.0, harden notna/float call sites); NotebookLM text upload: chunked fallback + surface failures" (2026-11-01)
+    *   `dac2505` - "Auto-update market data: Sun Nov  1 13:05:34 PST 2026" (2026-11-01)
+    *   `a86b1e6` - "Auto-update market data: Thu Oct 22 18:22:34 PDT 2026" (2026-10-23)
 
-## [evolution-sim](https://github.com/jake-g/evolution-sim)
-*   **Language**: JavaScript
+## [college-football-money](https://github.com/jake-g/college-football-money)
+*   **Language**: Python
+*   **Description**: does money buy wins in 2026
+*   **Recent Commits**:
+    *   `13a018b` - "Week 9: contender analysis, data-driven verdicts, second-tier plot labels" (2026-11-01)
+    *   `5b0fc7e` - "Update changelog and bump version to 0.7.0" (2026-10-20)
+    *   `9e51036` - "Regenerate 2026 report with week 7 data" (2026-10-19)
+
+## [home-scraper](https://github.com/jake-g/home-scraper)
+*   **Language**: HTML
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `2942b74` - "Ignore TODO.md and deprecated directories" (2026-07-02)
-    *   `0bcd2b2` - "update eliteism" (2020-03-22)
-    *   `7092713` - "update" (2020-02-16)
+    *   `af63f8d` - "update site" (2026-11-01)
+    *   `0b28405` - "update site" (2026-10-25)
+    *   `53bd498` - "update site" (2026-10-18)
 
-## [craigslist-bot](https://github.com/jake-g/craigslist-bot)
+## [ableton-parser](https://github.com/jake-g/ableton-parser)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `3a7020b` - "fix attempt" (2026-07-02)
-    *   `f28afe1` - "pc commit" (2026-05-31)
-    *   `690d853` - "Archive project, update readme to indicate status" (2026-05-24)
+    *   `87f1813` - "Run parse update on 2026-11-01 11:33:52" (2026-11-01)
+    *   `be4b5b6` - "Run parse update on 2026-10-25 01:16:37" (2026-10-25)
+    *   `312f142` - "Run parse update on 2026-10-24 23:11:47" (2026-10-25)
+
+## [ml-on-device-playground](https://github.com/jake-g/ml-on-device-playground)
+*   **Language**: C
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `47092aa` - "Add codegen figs" (2026-10-27)
+    *   `7505a88` - "Add Live Inference tab widget, UI screenshots, and documentation" (2026-10-26)
+    *   `9875556` - "Configure cold-start classroom defaults, update docs, and promote 0.8754 gesture model" (2026-10-26)
+
+## [micro-llm](https://github.com/jake-g/micro-llm)
+*   **Language**: Jupyter Notebook
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `535b6fc` - "Add TinyStories Makefile and serial tail workflow" (2026-10-26)
+    *   `7c3ce0d` - "Update esp32-llm to v3.1.0 and tinyllm-training to v0.5.3" (2026-10-20)
+    *   `f1803af` - "Add MCU tiny LLM survey and SAM research to README" (2026-10-18)
+
+## [esp32-llm](https://github.com/jake-g/esp32-llm)
+*   **Language**: C
+*   **Description**: my fork
+*   **Recent Commits**:
+    *   `b407ec9` - "Add generate_stream token callback and configurable helper task affinity" (2026-10-18)
+    *   `a4145d4` - "Validate checkpoint size, add boot self-test and host board verifier" (2026-10-18)
+    *   `fdf906a` - "Replace dual-core event group handoff with work and done semaphores" (2026-10-18)
+
+## [website](https://github.com/jake-g/website)
+*   **Language**: HTML
+*   **Description**: my personal website
+*   **Recent Commits**:
+    *   `be5f3cc` - "update sub" (2026-08-08)
+    *   `a99c4ea` - "feat: portfolio updates, carpacio addition, and resume print UI" (2026-08-08)
+    *   `9b53f66` - "restructure education section, fix inline link styling, and update changelog" (2026-07-22)
+
+## [brew-sensors](https://github.com/jake-g/brew-sensors)
+*   **Language**: Python
+*   **Description**: No description provided.
+*   **Recent Commits**:
+    *   `7b346dd` - "Update brew logger configuration for Japanese rice lager" (2026-10-13)
+    *   `dd78cf1` - "update" (2026-07-12)
+    *   `1d3a957` - "install test dependencies in CI pipeline" (2026-05-24)
 
 ## [subnautica-2](https://github.com/jake-g/subnautica-2)
 *   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `6268e3c` - "docs: restructure Detailed resource locations, geographic traversal loops, and phase 4 preview" (2026-06-29)
-    *   `7d9552a` - "feat(scraper): improve telemetry presentation, clean up timelines, and streamline docs" (2026-06-29)
-    *   `e1aa51d` - "use relative paths" (2026-06-29)
+    *   `6651eff` - "chore: sync official subnautica 2 game changelog" (2026-08-16)
+    *   `1074a0c` - "docs: integrate pro survival strategies and update progression tracker" (2026-08-16)
+    *   `e34e3ed` - "feat: mask local username in telemetry reports to prevent exposure" (2026-08-16)
 
-## [jazzfuzz](https://github.com/jake-g/jazzfuzz)
-*   **Language**: HTML
+## [mujoco-puppeteer](https://github.com/jake-g/mujoco-puppeteer)
+*   **Language**: Python
 *   **Description**: No description provided.
 *   **Recent Commits**:
-    *   `e3865eb` - "Add export-playlist command, local browser auth refresh, and open links in new tab" (2026-06-27)
-    *   `b6e4d45` - "Support venv, pre-commit checks, theme toggling, and multi-breakpoint layout" (2026-06-27)
-    *   `32e63f3` - "Implement header playback controls, monochrome ASCII buttons, responsive layouts, and share links" -m "" (2026-06-27)
+    *   `50cf582` - "cleanup results" (2026-07-02)
+    *   `0417ec7` - "update doc" (2026-05-06)
+    *   `f2f8df8` - "v1.1 agent refinement" (2026-05-04)

@@ -1,0 +1,1965 @@
+{
+  "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/": {
+    "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+    "date": "2026-10-27",
+    "categories": [
+      "Education Innovation",
+      "General Science",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2406.10149",
+      "arxiv:2506.06266",
+      "arxiv:2506.10943",
+      "arxiv:2512.24695",
+      "arxiv:2606.03979"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "self-improving ai": 5,
+      "llms": 9,
+      "health acoustics": 26,
+      "robotics / sim": 3
+    }
+  },
+  "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/": {
+    "title": "Bringing foundational models to the front lines of TB screening",
+    "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+    "date": "2026-10-23",
+    "categories": [
+      "Generative AI",
+      "Health & Bioscience"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2403.02522",
+      "doi:10.1016/s2589-7500(21)00116-3"
+    ],
+    "tags": {
+      "foundation models": 2,
+      "edge ai": 1,
+      "health acoustics": 3,
+      "audio": 1,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/": {
+    "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+    "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+    "date": "2026-10-21",
+    "categories": [
+      "Health & Bioscience",
+      "Machine Perception"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/": {
+    "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+    "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+    "date": "2026-10-16",
+    "categories": [
+      "General Science",
+      "Health & Bioscience",
+      "Robotics"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 44,
+      "llms": 1,
+      "frontier ai": 3,
+      "computer vision": 3,
+      "robotics / sim": 14
+    }
+  },
+  "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/": {
+    "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+    "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+    "date": "2026-10-14",
+    "categories": [
+      "Earth AI",
+      "General Science",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2504.12110",
+      "arxiv:2610.15750"
+    ],
+    "tags": {
+      "ai agents": 47,
+      "autoresearch": 1,
+      "foundation models": 5,
+      "llms": 15,
+      "robotics / sim": 2
+    }
+  },
+  "https://research.google/blog/analyzing-technical-documents-with-deep-review/": {
+    "title": "Analyzing technical documents with Deep Review",
+    "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+    "date": "2026-10-14",
+    "categories": [
+      "General Science",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2606.28277"
+    ],
+    "tags": {
+      "ai agents": 10,
+      "multi-agent / swarms": 4,
+      "llms": 5
+    }
+  },
+  "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/": {
+    "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+    "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+    "date": "2026-10-14",
+    "categories": [
+      "General Science",
+      "Generative AI",
+      "Health & Bioscience"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2610.15750",
+      "doi:10.5281/zenodo.18647053"
+    ],
+    "tags": {
+      "ai agents": 7,
+      "multi-agent / swarms": 3,
+      "autoresearch": 1,
+      "foundation models": 4,
+      "llms": 2,
+      "frontier ai": 2,
+      "edge ai": 4,
+      "wearables": 2,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/does-better-work-always-mean-better-workers/": {
+    "title": "Does better work always mean better workers?",
+    "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+    "date": "2026-10-07",
+    "categories": [],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2502.02880",
+      "arxiv:2601.20245",
+      "arxiv:2608.04198"
+    ],
+    "tags": {
+      "llms": 1,
+      "edge ai": 2
+    }
+  },
+  "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/": {
+    "title": "Unlocking Earth AI\u2019s planetary geospatial foundation models for global public health",
+    "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+    "date": "2026-10-06",
+    "categories": [
+      "Earth AI",
+      "Global",
+      "Health & Bioscience"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2411.07207",
+      "arxiv:2610.05699"
+    ],
+    "tags": {
+      "foundation models": 10
+    }
+  },
+  "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/": {
+    "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+    "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+    "date": "2026-10-05",
+    "categories": [
+      "Generative AI",
+      "Natural Language Processing",
+      "Security, Privacy and Abuse Prevention"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 43,
+      "multi-agent / swarms": 3,
+      "llms": 3,
+      "robotics / sim": 4
+    }
+  },
+  "https://research.google/blog/toward-provably-private-learning-from-federated-data/": {
+    "title": "Toward provably private learning from federated data",
+    "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+    "date": "2026-10-02",
+    "categories": [
+      "Mobile Systems",
+      "Security, Privacy and Abuse Prevention",
+      "Software Systems & Engineering"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1611.04482",
+      "arxiv:1811.03604",
+      "arxiv:1912.04977",
+      "arxiv:2202.08312",
+      "arxiv:2506.15924",
+      "arxiv:2609.31494"
+    ],
+    "tags": {
+      "llms": 1,
+      "edge ai": 2
+    }
+  },
+  "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/": {
+    "title": "How Diffusion Controller unifies and simplifies AI image generation",
+    "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+    "date": "2026-09-29",
+    "categories": [
+      "Algorithms & Theory",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2107.09088",
+      "arxiv:2207.12598",
+      "arxiv:2603.06981"
+    ],
+    "tags": {
+      "audio": 1,
+      "computer vision": 19
+    }
+  },
+  "https://research.google/blog/coherent-long-form-video-generation/": {
+    "title": "Automating coherent long-form video generation",
+    "url": "https://research.google/blog/coherent-long-form-video-generation/",
+    "date": "2026-09-24",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1904.07272",
+      "arxiv:2406.01388",
+      "arxiv:2504.05298",
+      "arxiv:2510.15831",
+      "arxiv:2511.17986",
+      "arxiv:2603.12310",
+      "arxiv:2604.13452",
+      "arxiv:2604.24842",
+      "arxiv:2605.06924",
+      "arxiv:2606.24976"
+    ],
+    "tags": {
+      "ai agents": 23,
+      "multi-agent / swarms": 7,
+      "llms": 8,
+      "audio": 3,
+      "computer vision": 4
+    }
+  },
+  "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/": {
+    "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+    "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+    "date": "2026-09-18",
+    "categories": [
+      "Algorithms & Theory"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/": {
+    "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+    "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+    "date": "2026-09-17",
+    "categories": [
+      "Education Innovation",
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2604.09577",
+      "arxiv:2609.20738"
+    ],
+    "tags": {
+      "ai agents": 1
+    }
+  },
+  "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/": {
+    "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+    "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+    "date": "2026-09-15",
+    "categories": [
+      "Algorithms & Theory",
+      "Data Mining & Modeling",
+      "Generative AI"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2210.02410",
+      "arxiv:2505.22257",
+      "arxiv:2511.06411",
+      "arxiv:2603.06397",
+      "arxiv:2605.04665"
+    ],
+    "tags": {
+      "llms": 8,
+      "audio": 2,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/": {
+    "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+    "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+    "date": "2026-09-10",
+    "categories": [
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2307.16789",
+      "arxiv:2406.07496",
+      "arxiv:2409.00920",
+      "arxiv:2410.04587",
+      "arxiv:2503.19786",
+      "arxiv:2508.04086"
+    ],
+    "tags": {
+      "ai agents": 8,
+      "llms": 21,
+      "edge ai": 1
+    }
+  },
+  "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/": {
+    "title": "Transfer learning for genomic prediction in underrepresented populations",
+    "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+    "date": "2026-09-03",
+    "categories": [
+      "General Science",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/": {
+    "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+    "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+    "date": "2026-09-03",
+    "categories": [
+      "General Science",
+      "Health & Bioscience",
+      "Machine Intelligence",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "doi:10.1016/j.cell.2026.08.014",
+      "doi:10.1016/j.cell.2026.08.015",
+      "doi:10.1016/j.cell.2026.08.016",
+      "doi:10.1016/j.cub.2026.08.013",
+      "doi:10.1101/2025.06.10.658982"
+    ],
+    "tags": {
+      "computer vision": 2,
+      "signal processing": 1
+    }
+  },
+  "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/": {
+    "title": "Mapping global methane emissions from space with deep learning",
+    "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+    "date": "2026-09-01",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2103.14030"
+    ],
+    "tags": {
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/": {
+    "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+    "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+    "date": "2026-08-31",
+    "categories": [
+      "Data Management",
+      "Machine Intelligence",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2505.23719"
+    ],
+    "tags": {
+      "foundation models": 9
+    }
+  },
+  "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/": {
+    "title": "Planetary prediction engine: Automating global models via Earth AI",
+    "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+    "date": "2026-08-27",
+    "categories": [
+      "Earth AI",
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2608.26088"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "foundation models": 6,
+      "llms": 4,
+      "robotics / sim": 3
+    }
+  },
+  "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/": {
+    "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+    "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+    "date": "2026-08-26",
+    "categories": [
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2605.00933",
+      "arxiv:2605.30865",
+      "doi:10.1093/nsr/nwaf039",
+      "doi:10.1371/journal.pbio.2005143"
+    ],
+    "tags": {
+      "foundation models": 6,
+      "wearables": 10,
+      "health acoustics": 1
+    }
+  },
+  "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/": {
+    "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+    "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+    "date": "2026-08-25",
+    "categories": [
+      "Human-Computer Interaction and Visualization",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 19,
+      "llms": 7,
+      "edge ai": 1,
+      "audio": 8
+    }
+  },
+  "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/": {
+    "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+    "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+    "date": "2026-08-21",
+    "categories": [
+      "Generative AI",
+      "Health & Bioscience"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2211.02733",
+      "arxiv:2307.05795",
+      "arxiv:2502.18864",
+      "arxiv:2604.14615"
+    ],
+    "tags": {
+      "ai agents": 17,
+      "multi-agent / swarms": 2,
+      "wearables": 11,
+      "health acoustics": 7
+    }
+  },
+  "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/": {
+    "title": "How mobility gives language models a deeper understanding of place",
+    "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+    "date": "2026-08-21",
+    "categories": [
+      "Algorithms & Theory",
+      "Earth AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2411.04381",
+      "arxiv:2601.21149"
+    ],
+    "tags": {
+      "llms": 3,
+      "edge ai": 1
+    }
+  },
+  "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/": {
+    "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+    "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+    "date": "2026-08-17",
+    "categories": [
+      "General Science",
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2603.27017",
+      "doi:10.1109/cvpr.2009.5206848"
+    ],
+    "tags": {
+      "wearables": 10,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/": {
+    "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+    "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+    "date": "2026-08-12",
+    "categories": [
+      "Generative AI",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2211.08411",
+      "arxiv:2309.12288",
+      "arxiv:2602.14080"
+    ],
+    "tags": {
+      "llms": 29,
+      "frontier ai": 7
+    }
+  },
+  "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/": {
+    "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+    "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+    "date": "2026-08-11",
+    "categories": [
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2510.22414"
+    ],
+    "tags": {
+      "ai agents": 13,
+      "multi-agent / swarms": 2,
+      "llms": 1,
+      "health acoustics": 1,
+      "audio": 15
+    }
+  },
+  "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/": {
+    "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+    "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+    "date": "2026-07-30",
+    "categories": [
+      "General Science",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2403.05821",
+      "arxiv:2410.07095",
+      "arxiv:2504.08066",
+      "arxiv:2505.04021",
+      "arxiv:2505.18705",
+      "arxiv:2506.01372",
+      "arxiv:2509.08713",
+      "arxiv:2509.26603",
+      "arxiv:2510.06189",
+      "arxiv:2601.18724",
+      "arxiv:2605.20025",
+      "arxiv:2605.26340"
+    ],
+    "tags": {
+      "ai agents": 6,
+      "llms": 5,
+      "frontier ai": 1,
+      "robotics / sim": 6
+    }
+  },
+  "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/": {
+    "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+    "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+    "date": "2026-07-22",
+    "categories": [
+      "General Science",
+      "Health & Bioscience",
+      "Natural Language Processing",
+      "Responsible AI"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2605.04012"
+    ],
+    "tags": {
+      "ai agents": 11,
+      "llms": 1,
+      "wearables": 8,
+      "health acoustics": 7
+    }
+  },
+  "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/": {
+    "title": "Towards a quantum computer that learns from its errors",
+    "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+    "date": "2026-07-22",
+    "categories": [
+      "Machine Intelligence",
+      "Quantum"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2503.10988",
+      "arxiv:2506.13498"
+    ],
+    "tags": {
+      "ai agents": 6,
+      "audio": 1,
+      "computer vision": 1,
+      "robotics / sim": 3
+    }
+  },
+  "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/": {
+    "title": "Towards demystifying the creativity of diffusion models",
+    "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+    "date": "2026-07-15",
+    "categories": [
+      "Algorithms & Theory",
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1503.03585",
+      "arxiv:1711.05101",
+      "arxiv:2206.01018",
+      "arxiv:2208.05314",
+      "arxiv:2301.13188",
+      "arxiv:2310.12395",
+      "arxiv:2412.20292",
+      "arxiv:2502.19499",
+      "arxiv:2503.03206",
+      "arxiv:2504.12532",
+      "arxiv:2505.17638",
+      "arxiv:2510.02305",
+      "arxiv:2512.18736"
+    ],
+    "tags": {
+      "computer vision": 5
+    }
+  },
+  "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/": {
+    "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+    "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+    "date": "2026-07-09",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2605.22759"
+    ],
+    "tags": {
+      "health agents": 5,
+      "ai agents": 14,
+      "foundation models": 31,
+      "llms": 4,
+      "wearables": 25,
+      "health acoustics": 5
+    }
+  },
+  "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/": {
+    "title": "The power of collaboration: How we can reduce traffic congestion",
+    "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
+    "date": "2026-07-07",
+    "categories": [
+      "Algorithms & Theory",
+      "Climate & Sustainability",
+      "Data Mining & Modeling"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "robotics / sim": 1
+    }
+  },
+  "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/": {
+    "title": "Expanding our Heat Resilience data to 50+ global cities",
+    "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+    "date": "2026-06-30",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/": {
+    "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
+    "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+    "date": "2026-06-30",
+    "categories": [
+      "Data Management",
+      "Machine Intelligence",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2005.14165",
+      "arxiv:2110.01889",
+      "arxiv:2207.01848",
+      "arxiv:2502.05564",
+      "arxiv:2506.16791"
+    ],
+    "tags": {
+      "foundation models": 7,
+      "llms": 3
+    }
+  },
+  "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/": {
+    "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
+    "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+    "date": "2026-06-26",
+    "categories": [
+      "Machine Intelligence",
+      "Mobile Systems",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2401.15077",
+      "arxiv:2404.19737"
+    ],
+    "tags": {
+      "foundation models": 1,
+      "llms": 13,
+      "edge ai": 7
+    }
+  },
+  "https://research.google/blog/optimizing-cloud-economics-with-linear-elastic-caching/": {
+    "title": "Optimizing cloud economics with linear elastic caching",
+    "url": "https://research.google/blog/optimizing-cloud-economics-with-linear-elastic-caching/",
+    "date": "2026-06-25",
+    "categories": [
+      "Algorithms & Theory",
+      "Data Management"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/": {
+    "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+    "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+    "date": "2026-06-24",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2107.03374",
+      "arxiv:2310.02226",
+      "arxiv:2504.13837",
+      "arxiv:2505.09388",
+      "arxiv:2509.07968",
+      "arxiv:2603.09906"
+    ],
+    "tags": {
+      "llms": 13
+    }
+  },
+  "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/": {
+    "title": "From pixels to planning: Earth AI for nature restoration",
+    "url": "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/",
+    "date": "2026-06-16",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Machine Intelligence",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2510.18318"
+    ],
+    "tags": {
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/": {
+    "title": "Research into how AI can help users understand skin conditions",
+    "url": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
+    "date": "2026-06-12",
+    "categories": [
+      "Health & Bioscience",
+      "Human-Computer Interaction and Visualization"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/": {
+    "title": "A low-carbon computing platform from your retired phones",
+    "url": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
+    "date": "2026-06-12",
+    "categories": [
+      "Climate & Sustainability",
+      "Distributed Systems & Parallel Computing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/new-framework-for-auditing-machine-unlearning/": {
+    "title": "New framework for auditing machine unlearning",
+    "url": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/",
+    "date": "2026-06-10",
+    "categories": [
+      "Algorithms & Theory",
+      "Responsible AI",
+      "Security, Privacy and Abuse Prevention"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1603.01699",
+      "arxiv:1806.02350",
+      "arxiv:2110.15073",
+      "arxiv:2307.05608",
+      "arxiv:2409.14980",
+      "arxiv:2411.19640",
+      "arxiv:2501.12359",
+      "arxiv:2510.16629",
+      "arxiv:2601.19755"
+    ],
+    "tags": {
+      "wearables": 1,
+      "audio": 1
+    }
+  },
+  "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/": {
+    "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform\u2019s Agentic RAG",
+    "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
+    "date": "2026-06-05",
+    "categories": [
+      "Data Management",
+      "Machine Intelligence",
+      "Natural Language Processing",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2409.12941"
+    ],
+    "tags": {
+      "ai agents": 54,
+      "multi-agent / swarms": 7,
+      "llms": 9
+    }
+  },
+  "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera/": {
+    "title": "Towards passive heart health monitoring via smartphone camera",
+    "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera/",
+    "date": "2026-06-04",
+    "categories": [
+      "Health & Bioscience",
+      "Human-Computer Interaction and Visualization",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "edge ai": 2,
+      "wearables": 11,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/": {
+    "title": "The next chapter in flood resilience: Open sourcing Google\u2019s hydrology framework",
+    "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+    "date": "2026-06-03",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Generative AI",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2504.12559"
+    ],
+    "tags": {
+      "edge ai": 1
+    }
+  },
+  "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/": {
+    "title": "A New Era of Discovery: Google Research at I/O 2026",
+    "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+    "date": "2026-05-28",
+    "categories": [
+      "General Science",
+      "Generative AI",
+      "Global",
+      "Quantum"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2204.04991",
+      "arxiv:2403.10444",
+      "arxiv:2406.13632",
+      "arxiv:2502.18864",
+      "arxiv:2503.06800",
+      "arxiv:2504.17502",
+      "arxiv:2505.24858",
+      "arxiv:2602.03837",
+      "arxiv:2604.19292",
+      "arxiv:2605.04012",
+      "arxiv:2605.16178",
+      "arxiv:2605.16238",
+      "arxiv:2605.18937"
+    ],
+    "tags": {
+      "ai agents": 24,
+      "multi-agent / swarms": 4,
+      "autoresearch": 4,
+      "foundation models": 1,
+      "llms": 28,
+      "edge ai": 4,
+      "wearables": 4,
+      "health acoustics": 2,
+      "audio": 3,
+      "computer vision": 2,
+      "robotics / sim": 2
+    }
+  },
+  "https://research.google/blog/private-analytics-via-zero-trust-aggregation/": {
+    "title": "Private analytics via zero-trust aggregation",
+    "url": "https://research.google/blog/private-analytics-via-zero-trust-aggregation/",
+    "date": "2026-05-27",
+    "categories": [
+      "Security, Privacy and Abuse Prevention"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "edge ai": 6,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/": {
+    "title": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery",
+    "url": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/",
+    "date": "2026-05-19",
+    "categories": [
+      "General Science",
+      "Machine Intelligence",
+      "Natural Language Processing",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2605.16178",
+      "arxiv:2605.16191",
+      "arxiv:2605.16238"
+    ],
+    "tags": {
+      "autoresearch": 5,
+      "llms": 3,
+      "health acoustics": 2
+    }
+  },
+  "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/": {
+    "title": "Catalyzing scientific impact through global partnerships and open resources",
+    "url": "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/",
+    "date": "2026-05-01",
+    "categories": [
+      "Data Mining & Modeling",
+      "General Science",
+      "Health & Bioscience",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 1,
+      "foundation models": 1,
+      "llms": 1,
+      "computer vision": 4
+    }
+  },
+  "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/": {
+    "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
+    "url": "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/",
+    "date": "2026-04-29",
+    "categories": [
+      "Data Mining & Modeling",
+      "General Science",
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2509.06503",
+      "arxiv:2602.04492",
+      "arxiv:2603.04735"
+    ],
+    "tags": {
+      "autoresearch": 5,
+      "llms": 3,
+      "frontier ai": 1,
+      "wearables": 1,
+      "health acoustics": 1
+    }
+  },
+  "https://research.google/blog/its-all-about-the-angle-your-photos-re-composed/": {
+    "title": "It's all about the angle: Your photos, re-composed",
+    "url": "https://research.google/blog/its-all-about-the-angle-your-photos-re-composed/",
+    "date": "2026-04-22",
+    "categories": [
+      "Generative AI",
+      "Photography"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "computer vision": 15
+    }
+  },
+  "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/": {
+    "title": "ReasoningBank: Enabling agents to learn from experience",
+    "url": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+    "date": "2026-04-21",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2210.03629",
+      "arxiv:2306.05685",
+      "arxiv:2306.07863",
+      "arxiv:2307.13854",
+      "arxiv:2408.03314",
+      "arxiv:2409.07429",
+      "arxiv:2501.19393",
+      "arxiv:2502.14382",
+      "arxiv:2509.25140"
+    ],
+    "tags": {
+      "ai agents": 30,
+      "llms": 3,
+      "frontier ai": 1
+    }
+  },
+  "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/": {
+    "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
+    "url": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/",
+    "date": "2026-04-16",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1909.00512",
+      "arxiv:2110.14168",
+      "arxiv:2406.07599",
+      "arxiv:2412.03304",
+      "arxiv:2505.12864",
+      "arxiv:2512.08802"
+    ],
+    "tags": {
+      "ai agents": 2,
+      "foundation models": 1,
+      "llms": 5,
+      "frontier ai": 1,
+      "edge ai": 1
+    }
+  },
+  "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/": {
+    "title": "AI-generated synthetic neurons speed up brain mapping",
+    "url": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/",
+    "date": "2026-04-16",
+    "categories": [
+      "General Science",
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "audio": 1,
+      "computer vision": 1,
+      "robotics / sim": 1
+    }
+  },
+  "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/": {
+    "title": "Towards developing future-ready skills with generative AI",
+    "url": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/",
+    "date": "2026-04-13",
+    "categories": [
+      "Education Innovation",
+      "Generative AI"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "llms": 13,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/": {
+    "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
+    "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/",
+    "date": "2026-04-09",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2502.18968"
+    ],
+    "tags": {
+      "ai agents": 29,
+      "llms": 10
+    }
+  },
+  "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/": {
+    "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
+    "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
+    "date": "2026-04-08",
+    "categories": [
+      "Generative AI",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2102.01330",
+      "arxiv:2406.12708",
+      "arxiv:2502.18864",
+      "arxiv:2503.08569",
+      "arxiv:2504.08066",
+      "arxiv:2601.22638",
+      "arxiv:2601.23265"
+    ],
+    "tags": {
+      "ai agents": 20,
+      "multi-agent / swarms": 4,
+      "llms": 1,
+      "computer vision": 3,
+      "robotics / sim": 1
+    }
+  },
+  "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/": {
+    "title": "Evaluating alignment of behavioral dispositions in LLMs",
+    "url": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
+    "date": "2026-04-03",
+    "categories": [
+      "Generative AI",
+      "Human-Computer Interaction and Visualization",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2306.00198",
+      "arxiv:2306.05685",
+      "arxiv:2310.11324",
+      "arxiv:2402.05070",
+      "arxiv:2602.11328"
+    ],
+    "tags": {
+      "llms": 25,
+      "frontier ai": 3
+    }
+  },
+  "https://research.google/blog/building-better-ai-benchmarks-how-many-raters-are-enough/": {
+    "title": "Building better AI benchmarks: How many raters are enough?",
+    "url": "https://research.google/blog/building-better-ai-benchmarks-how-many-raters-are-enough/",
+    "date": "2026-03-31",
+    "categories": [
+      "Algorithms & Theory",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "audio": 1
+    }
+  },
+  "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/": {
+    "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly",
+    "url": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/",
+    "date": "2026-03-31",
+    "categories": [
+      "Algorithms & Theory",
+      "Quantum",
+      "Security, Privacy and Abuse Prevention"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2603.28846"
+    ],
+    "tags": {}
+  },
+  "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/": {
+    "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
+    "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/",
+    "date": "2026-03-25",
+    "categories": [
+      "Human-Computer Interaction and Visualization",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 1,
+      "llms": 24,
+      "edge ai": 1,
+      "wearables": 1,
+      "audio": 1
+    }
+  },
+  "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/": {
+    "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+    "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+    "date": "2026-03-24",
+    "categories": [
+      "Algorithms & Theory",
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2103.00564",
+      "arxiv:2406.03482",
+      "arxiv:2502.02617",
+      "arxiv:2504.19874"
+    ],
+    "tags": {
+      "autoresearch": 1,
+      "llms": 7,
+      "audio": 1,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/mapping-the-modern-world-how-s2vec-learns-the-language-of-our-cities/": {
+    "title": "Mapping the modern world: How S2Vec learns the language of our cities",
+    "url": "https://research.google/blog/mapping-the-modern-world-how-s2vec-learns-the-language-of-our-cities/",
+    "date": "2026-03-24",
+    "categories": [
+      "Algorithms & Theory",
+      "Earth AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2503.08722"
+    ],
+    "tags": {
+      "foundation models": 3,
+      "computer vision": 8
+    }
+  },
+  "https://research.google/blog/google-research-at-the-check-up-from-healthcare-innovation-to-real-world-care-settings/": {
+    "title": "Google Research at The Check Up: from healthcare innovation to real-world care settings",
+    "url": "https://research.google/blog/google-research-at-the-check-up-from-healthcare-innovation-to-real-world-care-settings/",
+    "date": "2026-03-17",
+    "categories": [
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "health agents": 1,
+      "ai agents": 5,
+      "multi-agent / swarms": 2,
+      "autoresearch": 1,
+      "llms": 1,
+      "wearables": 2,
+      "health acoustics": 1,
+      "audio": 1,
+      "computer vision": 2
+    }
+  },
+  "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/": {
+    "title": "Improving breast cancer screening workflows with machine learning",
+    "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
+    "date": "2026-03-17",
+    "categories": [
+      "Health & Bioscience",
+      "Human-Computer Interaction and Visualization"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/testing-llms-on-superconductivity-research-questions/": {
+    "title": "Testing LLMs on superconductivity research questions",
+    "url": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
+    "date": "2026-03-16",
+    "categories": [
+      "Education Innovation",
+      "General Science",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2503.13517"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "llms": 28,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/": {
+    "title": "Protecting cities with AI-driven flash flood forecasting",
+    "url": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
+    "date": "2026-03-12",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Generative AI",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "doi:10.31223/x5177s",
+      "doi:10.31223/x5rr2k",
+      "doi:10.5281/zenodo.18647054"
+    ],
+    "tags": {
+      "llms": 1,
+      "wearables": 1
+    }
+  },
+  "https://research.google/blog/introducing-groundsource-turning-news-reports-into-data-with-gemini/": {
+    "title": "Introducing Groundsource: Turning news reports into data with Gemini",
+    "url": "https://research.google/blog/introducing-groundsource-turning-news-reports-into-data-with-gemini/",
+    "date": "2026-03-12",
+    "categories": [
+      "Climate & Sustainability",
+      "Generative AI",
+      "Natural Language Processing",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "doi:10.31223/x5177s",
+      "doi:10.31223/x5rr2k",
+      "doi:10.5281/zenodo.18647053"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "llms": 10,
+      "wearables": 1
+    }
+  },
+  "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/": {
+    "title": "Exploring the feasibility of conversational diagnostic AI in a real-world clinical study",
+    "url": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
+    "date": "2026-03-11",
+    "categories": [
+      "Generative AI",
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2603.08448"
+    ],
+    "tags": {}
+  },
+  "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/": {
+    "title": "WAXAL: A large-scale open resource for African language speech technology",
+    "url": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
+    "date": "2026-03-06",
+    "categories": [
+      "Natural Language Processing",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2507.02428",
+      "arxiv:2512.10968",
+      "arxiv:2602.02734",
+      "doi:10.57760/sciencedb.22298"
+    ],
+    "tags": {
+      "frontier ai": 1,
+      "audio": 23,
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/": {
+    "title": "Where wild things roam: Identifying wildlife with SpeciesNet",
+    "url": "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/",
+    "date": "2026-03-06",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "Generative AI",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "audio": 1,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/teaching-llms-to-reason-like-bayesians/": {
+    "title": "Teaching LLMs to reason like Bayesians",
+    "url": "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
+    "date": "2026-03-04",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 4,
+      "llms": 54
+    }
+  },
+  "https://research.google/blog/teaching-ai-to-read-a-map/": {
+    "title": "Teaching AI to read a map",
+    "url": "https://research.google/blog/teaching-ai-to-read-a-map/",
+    "date": "2026-02-17",
+    "categories": [
+      "Machine Perception",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2503.14607",
+      "arxiv:2512.19609"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "llms": 11,
+      "computer vision": 8,
+      "robotics / sim": 3
+    }
+  },
+  "https://research.google/blog/scheduling-in-a-changing-world-maximizing-throughput-with-time-varying-capacity/": {
+    "title": "Scheduling in a changing world: Maximizing throughput with time-varying capacity",
+    "url": "https://research.google/blog/scheduling-in-a-changing-world-maximizing-throughput-with-time-varying-capacity/",
+    "date": "2026-02-11",
+    "categories": [
+      "Algorithms & Theory"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/beyond-one-on-one-authoring-simulating-and-testing-dynamic-human-ai-group-conversations/": {
+    "title": "Beyond one-on-one: Authoring, simulating, and testing dynamic human-AI group conversations",
+    "url": "https://research.google/blog/beyond-one-on-one-authoring-simulating-and-testing-dynamic-human-ai-group-conversations/",
+    "date": "2026-02-10",
+    "categories": [
+      "Human-Computer Interaction and Visualization",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 7,
+      "llms": 2,
+      "robotics / sim": 3
+    }
+  },
+  "https://research.google/blog/how-ai-trained-on-birds-is-surfacing-underwater-mysteries/": {
+    "title": "How AI trained on birds is surfacing underwater mysteries",
+    "url": "https://research.google/blog/how-ai-trained-on-birds-is-surfacing-underwater-mysteries/",
+    "date": "2026-02-09",
+    "categories": [
+      "Climate & Sustainability",
+      "Open Source Models & Datasets",
+      "Sound & Accoustics"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2001.08361",
+      "arxiv:2404.16436",
+      "arxiv:2505.03071",
+      "arxiv:2508.04665",
+      "arxiv:2512.03219"
+    ],
+    "tags": {
+      "foundation models": 3,
+      "audio": 14
+    }
+  },
+  "https://research.google/blog/how-ai-agents-can-redefine-universal-design-to-increase-accessibility/": {
+    "title": "How AI tools can redefine universal design to increase accessibility",
+    "url": "https://research.google/blog/how-ai-agents-can-redefine-universal-design-to-increase-accessibility/",
+    "date": "2026-02-05",
+    "categories": [
+      "Education Innovation",
+      "Machine Intelligence",
+      "Natural Language Processing",
+      "Responsible AI"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2602.04104"
+    ],
+    "tags": {
+      "ai agents": 9,
+      "llms": 2,
+      "audio": 3,
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/sequential-attention-making-ai-models-leaner-and-faster-without-sacrificing-accuracy/": {
+    "title": "\u200bSequential Attention: Making AI models leaner and faster without sacrificing accuracy",
+    "url": "https://research.google/blog/sequential-attention-making-ai-models-leaner-and-faster-without-sacrificing-accuracy/",
+    "date": "2026-02-04",
+    "categories": [
+      "Algorithms & Theory"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2209.14881",
+      "arxiv:2402.17902"
+    ],
+    "tags": {
+      "llms": 3,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/collaborating-on-a-nationwide-randomized-study-of-ai-in-real-world-virtual-care/": {
+    "title": "Collaborating on a nationwide randomized study of AI in real-world virtual care",
+    "url": "https://research.google/blog/collaborating-on-a-nationwide-randomized-study-of-ai-in-real-world-virtual-care/",
+    "date": "2026-02-03",
+    "categories": [
+      "Generative AI",
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "health agents": 1,
+      "ai agents": 3,
+      "multi-agent / swarms": 1,
+      "frontier ai": 1,
+      "wearables": 2,
+      "health acoustics": 1
+    }
+  },
+  "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/": {
+    "title": "Towards a science of scaling agent systems: When and why agent systems work",
+    "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+    "date": "2026-01-28",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2402.05120",
+      "arxiv:2405.00823",
+      "arxiv:2406.07155",
+      "arxiv:2412.21033",
+      "arxiv:2508.06600",
+      "arxiv:2512.08296"
+    ],
+    "tags": {
+      "ai agents": 60,
+      "multi-agent / swarms": 12,
+      "llms": 4
+    }
+  },
+  "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/": {
+    "title": "ATLAS: Practical scaling laws for multilingual models",
+    "url": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
+    "date": "2026-01-27",
+    "categories": [
+      "Generative AI",
+      "Global",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2304.09151",
+      "arxiv:2309.04662",
+      "arxiv:2407.13623",
+      "arxiv:2510.22037"
+    ],
+    "tags": {}
+  },
+  "https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/": {
+    "title": "Introducing GIST: The next stage in smart sampling",
+    "url": "https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/",
+    "date": "2026-01-23",
+    "categories": [
+      "Algorithms & Theory",
+      "Data Mining & Modeling",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2309.14558",
+      "arxiv:2405.18754"
+    ],
+    "tags": {
+      "llms": 2,
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/": {
+    "title": "Small models, big results: Achieving superior intent extraction through decomposition",
+    "url": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
+    "date": "2026-01-22",
+    "categories": [
+      "Generative AI",
+      "Machine Perception",
+      "Mobile Systems"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2403.05530",
+      "arxiv:2502.13149"
+    ],
+    "tags": {
+      "ai agents": 2,
+      "llms": 11,
+      "edge ai": 2,
+      "audio": 1
+    }
+  },
+  "https://research.google/blog/unlocking-health-insights-estimating-advanced-walking-metrics-with-smartwatches/": {
+    "title": "Unlocking health insights: Estimating advanced walking metrics with smartwatches",
+    "url": "https://research.google/blog/unlocking-health-insights-estimating-advanced-walking-metrics-with-smartwatches/",
+    "date": "2026-01-15",
+    "categories": [
+      "Health & Bioscience",
+      "Human-Computer Interaction and Visualization"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1611.05267"
+    ],
+    "tags": {
+      "edge ai": 1,
+      "wearables": 1
+    }
+  },
+  "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/": {
+    "title": "Hard-braking events as indicators of road segment crash risk",
+    "url": "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/",
+    "date": "2026-01-13",
+    "categories": [
+      "Algorithms & Theory",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2601.06327"
+    ],
+    "tags": {
+      "wearables": 2
+    }
+  },
+  "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/": {
+    "title": "Next generation medical image interpretation with MedGemma 1.5 and medical speech to text with MedASR",
+    "url": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
+    "date": "2026-01-13",
+    "categories": [
+      "Generative AI",
+      "Health & Bioscience",
+      "Machine Intelligence"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2009.13081",
+      "arxiv:2106.09685",
+      "arxiv:2507.03152",
+      "arxiv:2507.05201",
+      "arxiv:2508.09225"
+    ],
+    "tags": {
+      "llms": 3,
+      "audio": 10,
+      "computer vision": 10
+    }
+  },
+  "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/": {
+    "title": "Dynamic surface codes open new avenues for quantum error correction",
+    "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/",
+    "date": "2026-01-13",
+    "categories": [
+      "Quantum"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2302.02192"
+    ],
+    "tags": {}
+  },
+  "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/": {
+    "title": "NeuralGCM harnesses AI to better simulate long-range global precipitation",
+    "url": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
+    "date": "2026-01-12",
+    "categories": [
+      "Climate & Sustainability",
+      "Earth AI",
+      "General Science",
+      "Machine Intelligence",
+      "Open Source Models & Datasets"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/google-research-2025-bolder-breakthroughs-bigger-impact/": {
+    "title": "Google Research 2025: Bolder breakthroughs, bigger impact",
+    "url": "https://research.google/blog/google-research-2025-bolder-breakthroughs-bigger-impact/",
+    "date": "2025-12-18",
+    "categories": [
+      "Year in Review"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2403.10444",
+      "arxiv:2411.06037",
+      "arxiv:2412.07962",
+      "arxiv:2502.13497",
+      "arxiv:2502.18864",
+      "arxiv:2502.20229",
+      "arxiv:2502.20346",
+      "arxiv:2503.02618",
+      "arxiv:2503.10910",
+      "arxiv:2503.15299",
+      "arxiv:2504.17502",
+      "arxiv:2505.22657",
+      "arxiv:2505.24858",
+      "arxiv:2506.07631",
+      "arxiv:2509.13348",
+      "arxiv:2510.06124",
+      "arxiv:2510.13050",
+      "arxiv:2510.19550"
+    ],
+    "tags": {
+      "ai agents": 8,
+      "multi-agent / swarms": 1,
+      "self-improving ai": 1,
+      "autoresearch": 2,
+      "foundation models": 1,
+      "llms": 23,
+      "frontier ai": 2,
+      "wearables": 2,
+      "audio": 5,
+      "computer vision": 7
+    }
+  },
+  "https://research.google/blog/gemini-provides-automated-feedback-for-theoretical-computer-scientists-at-stoc-2026/": {
+    "title": "Gemini-backed Paper Assistant Tool provides automated feedback for theoretical computer scientists at STOC 2026",
+    "url": "https://research.google/blog/gemini-provides-automated-feedback-for-theoretical-computer-scientists-at-stoc-2026/",
+    "date": "2025-12-15",
+    "categories": [
+      "Algorithms & Theory",
+      "Generative AI",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "llms": 6
+    }
+  },
+  "https://research.google/blog/spotlight-on-innovation-google-sponsored-data-science-for-health-ideathon-across-africa/": {
+    "title": "Spotlight on innovation: Google-sponsored Data Science for Health Ideathon across Africa",
+    "url": "https://research.google/blog/spotlight-on-innovation-google-sponsored-data-science-for-health-ideathon-across-africa/",
+    "date": "2025-12-12",
+    "categories": [
+      "Conferences & Events",
+      "Generative AI",
+      "Global",
+      "Health & Bioscience"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2106.09685"
+    ],
+    "tags": {
+      "llms": 4,
+      "edge ai": 1,
+      "computer vision": 3
+    }
+  },
+  "https://research.google/blog/a-differentially-private-framework-for-gaining-insights-into-ai-chatbot-use/": {
+    "title": "A differentially private framework for gaining insights into AI chatbot use",
+    "url": "https://research.google/blog/a-differentially-private-framework-for-gaining-insights-into-ai-chatbot-use/",
+    "date": "2025-12-10",
+    "categories": [
+      "Generative AI",
+      "Responsible AI",
+      "Security, Privacy and Abuse Prevention"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1610.05820",
+      "arxiv:2006.03684",
+      "arxiv:2301.01998",
+      "arxiv:2506.04681"
+    ],
+    "tags": {
+      "llms": 18,
+      "audio": 1,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/": {
+    "title": "Titans + MIRAS: Helping AI have long-term memory",
+    "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+    "date": "2025-12-04",
+    "categories": [
+      "Generative AI",
+      "Machine Intelligence",
+      "Natural Language Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1905.07830",
+      "arxiv:2003.04974",
+      "arxiv:2306.07174",
+      "arxiv:2405.21060",
+      "arxiv:2412.06464",
+      "arxiv:2501.00663",
+      "arxiv:2504.13173"
+    ],
+    "tags": {
+      "llms": 1
+    }
+  },
+  "https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/": {
+    "title": "From Waveforms to Wisdom: The New Benchmark for Auditory Intelligence",
+    "url": "https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/",
+    "date": "2025-12-03",
+    "categories": [
+      "Machine Intelligence",
+      "Sound & Accoustics",
+      "Speech Processing"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:1812.08466"
+    ],
+    "tags": {
+      "ai agents": 1,
+      "audio": 43,
+      "robotics / sim": 1
+    }
+  },
+  "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/": {
+    "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
+    "url": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
+    "date": "2025-11-21",
+    "categories": [
+      "Algorithms & Theory",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {}
+  },
+  "https://research.google/blog/real-time-speech-to-speech-translation/": {
+    "title": "Real-time speech-to-speech translation",
+    "url": "https://research.google/blog/real-time-speech-to-speech-translation/",
+    "date": "2025-11-19",
+    "categories": [
+      "Algorithms & Theory"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2107.03312",
+      "arxiv:2201.03713",
+      "arxiv:2207.12598",
+      "arxiv:2508.05207"
+    ],
+    "tags": {
+      "edge ai": 2,
+      "audio": 63
+    }
+  },
+  "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/": {
+    "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+    "url": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
+    "date": "2025-11-18",
+    "categories": [
+      "Generative AI",
+      "Human-Computer Interaction and Visualization",
+      "Product"
+    ],
+    "mentions_author": false,
+    "paper_ids": [],
+    "tags": {
+      "ai agents": 2,
+      "llms": 13,
+      "computer vision": 1
+    }
+  },
+  "https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/": {
+    "title": "Separating natural forests from other tree cover with AI for deforestation-free supply chains",
+    "url": "https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/",
+    "date": "2025-11-13",
+    "categories": [
+      "Climate & Sustainability",
+      "Global",
+      "Open Source Models & Datasets",
+      "Responsible AI"
+    ],
+    "mentions_author": false,
+    "paper_ids": [
+      "arxiv:2406.18554",
+      "arxiv:2505.01805",
+      "doi:10.1038/s41597-025-06097-z"
+    ],
+    "tags": {
+      "llms": 1,
+      "wearables": 1,
+      "computer vision": 5
+    }
+  }
+}

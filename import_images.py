@@ -110,10 +110,50 @@ IMAGE_METADATA = {
         'target_ratio': 1.11,
         'description': 'SensorFM Research Blog Card'
     }],
+    'sensorfm.png': [{
+        'target_name': 'sensorfm_blog.jpg',
+        'target_ratio': 1.23,
+        'description': 'SensorFM Research Blog Card'
+    }],
     'sensorfm paper.png': [{
         'target_name': 'sensorfm.jpg',
         'target_ratio': 0.77,
         'description': 'SensorFM Paper Cover Preview'
+    }],
+    'sensorfm_paper.png': [{
+        'target_name': 'sensorfm.jpg',
+        'target_ratio': 0.94,
+        'description': 'SensorFM Paper Cover Preview'
+    }],
+    'health_agent_blog.png': [{
+        'target_name': 'health_agent_blog.jpg',
+        'target_ratio': 1.18,
+        'description': 'Personal Health Agent Blog Card'
+    }],
+    'anatomy_pha.png': [{
+        'target_name': 'health_agent_blog.jpg',
+        'target_ratio': 1.18,
+        'description': 'Personal Health Agent Blog Card'
+    }],
+    'health_agent_paper.png': [{
+        'target_name': 'health_agent.jpg',
+        'target_ratio': 0.94,
+        'description': 'Personal Health Agent Paper Preview'
+    }],
+    'anatomy_pha_paper.png': [{
+        'target_name': 'health_agent.jpg',
+        'target_ratio': 0.94,
+        'description': 'Personal Health Agent Paper Preview'
+    }],
+    'tb_screening.png': [{
+        'target_name': 'tb_screening.jpg',
+        'target_ratio': 1.14,
+        'description': 'TB Screening Blog Card'
+    }],
+    'codegen-classroom.png': [{
+        'target_name': 'codegen-classroom.jpg',
+        'target_ratio': 1.16,
+        'description': 'Codegen Classroom Project Card'
     }],
     'carpacio.png': [{
         'target_name': 'carpacio.jpg',
@@ -1020,7 +1060,6 @@ class ImageCropApp:
 
 
 def main():
-  import tkinter as tk
   parser = argparse.ArgumentParser(description="Image import and crop utility.")
   parser.add_argument(
       "action",
@@ -1033,6 +1072,8 @@ def main():
   if args.action == "import":
     process_images()
   elif args.action == "crop":
+    if tk is None:
+      raise RuntimeError("tkinter is required for the crop GUI.")
     root = tk.Tk()
     ImageCropApp(root)
     root.mainloop()

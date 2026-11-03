@@ -41,9 +41,14 @@
       "hash": "932faacf8264e35cde5c43e4d531fc3a"
     },
     "aigen_funding.png": {
-      "size": 1004991,
-      "mtime": 1786154477.7541504,
-      "hash": "311ef9ce159a5c0581b9f71b32c35228"
+      "size": 252555,
+      "mtime": 1793678213.032086,
+      "hash": "8fec2595195c8c3d3ccea576045bd371"
+    },
+    "audiofm.jpg": {
+      "size": 158187,
+      "mtime": 1793681258.303502,
+      "hash": "4e9d460a49f4e19041b15eabe095b2bd"
     },
     "gaze_track.jpg": {
       "size": 30565,
@@ -96,9 +101,9 @@
       "hash": "7b27c4cbb0b9e10869fb2a0a1c94646f"
     },
     "sensorfm_blog.jpg": {
-      "size": 81921,
-      "mtime": 1786153895.3186665,
-      "hash": "de6e37817fc1ab09af82af814c87b7e9"
+      "size": 86095,
+      "mtime": 1793682121.0747907,
+      "hash": "efce568cbe8529baaad33058b368b203"
     },
     "health-event-detector.jpg": {
       "size": 60946,
@@ -131,9 +136,9 @@
       "hash": "a4a741f48929b2594982192dc231003a"
     },
     "health_agent.jpg": {
-      "size": 222870,
-      "mtime": 1780197239.2075698,
-      "hash": "e47a080c9d6e734e9ea3bfec7e617908"
+      "size": 204309,
+      "mtime": 1793682121.1110978,
+      "hash": "f809143022b6ee6660ea78dc162e9ffe"
     },
     "logo_tesla.jpg": {
       "size": 1016,
@@ -180,10 +185,20 @@
       "mtime": 1779601441.1969972,
       "hash": "54831a64d424be417bf584cb173e73c7"
     },
+    "tb_screening.jpg": {
+      "size": 64891,
+      "mtime": 1793683446.913635,
+      "hash": "e20d76f28538e8ce4ba29117528aedf7"
+    },
     "Tesla_modelX.jpg": {
       "size": 31688,
       "mtime": 1779598382.923581,
       "hash": "edc45fc80071324eaf9055dd2fece172"
+    },
+    "US20260179738A1.jpg": {
+      "size": 50934,
+      "mtime": 1793678527.8601418,
+      "hash": "df432cc8312011d504c1e1453029f692"
     },
     "home-scraper.jpg": {
       "size": 38511,
@@ -211,9 +226,9 @@
       "hash": "8e9f774f799b2eb52e4a76c9c95381a7"
     },
     "tesla_model_d.png": {
-      "size": 1549150,
-      "mtime": 1786154477.7556546,
-      "hash": "311183aab5ac58f98cf1067a8fca5a93"
+      "size": 166037,
+      "mtime": 1793678213.0246284,
+      "hash": "6846bcaffdf856dc5afcfcabcc40d47f"
     },
     "verellen.jpg": {
       "size": 44515,
@@ -436,9 +451,9 @@
       "hash": "4d5f91e8da7681633327d77b542b2178"
     },
     "sensorfm.jpg": {
-      "size": 196038,
-      "mtime": 1786153895.3463027,
-      "hash": "165333baf9d31d858514da24508a71e1"
+      "size": 204136,
+      "mtime": 1793682120.887721,
+      "hash": "8e4c8781c8b34dba1b771dba692b742b"
     },
     "hear_model_card.jpg": {
       "size": 61698,
@@ -685,6 +700,11 @@
       "mtime": 1780197239.2295392,
       "hash": "4f12c65aa6294dd579b84b2c00a1b0ae"
     },
+    "health_agent_blog.jpg": {
+      "size": 73827,
+      "mtime": 1793682121.1556563,
+      "hash": "89ff8c8cb49179206b92df18261a8d78"
+    },
     "Img_Search.jpg": {
       "size": 43402,
       "mtime": 1779598382.9911716,
@@ -759,6 +779,11 @@
       "size": 24046,
       "mtime": 1780197239.2090385,
       "hash": "20b576e05c6056f17ea31d8f5a587475"
+    },
+    "codegen-classroom.jpg": {
+      "size": 87639,
+      "mtime": 1793681224.5065632,
+      "hash": "0bfad1ecddddf14b728f6ed4dfd0714d"
     },
     "Electrical_Presentation_UW_EcoCAR3.jpg": {
       "size": 53992,
@@ -835,10 +860,25 @@
       "mtime": 1784695660.8388171,
       "hash": "c60d06638756fd95413901a0521e684d"
     },
+    "orig_image/anatomy_pha.png": {
+      "size": 627831,
+      "mtime": 1793683769.4169145,
+      "hash": "b5b7bb05a87f488f4f43b28dea4e7fe6"
+    },
     "orig_image/carpacio.png": {
       "size": 318431,
       "mtime": 1786154397.8437731,
       "hash": "732618df4aca2714791cffe56d2bdddb"
+    },
+    "orig_image/anatomy_pha_paper.png": {
+      "size": 402527,
+      "mtime": 1793683769.6334224,
+      "hash": "82479cea75456376c4b72ac0ec34da75"
+    },
+    "orig_image/health_agent_paper.png": {
+      "size": 402527,
+      "mtime": 1793683769.8509762,
+      "hash": "82479cea75456376c4b72ac0ec34da75"
     },
     "orig_image/haiku_deck_wikipedia.png": {
       "size": 347389,
@@ -880,6 +920,11 @@
       "mtime": 1784695661.957887,
       "hash": "d651383b4d765fd172eb624688e3c141"
     },
+    "orig_image/codegen-classroom-plot.png": {
+      "size": 183248,
+      "mtime": 1793682121.1605554,
+      "hash": "5286cbf72f7fe7a62a6bcf6f75587996"
+    },
     "orig_image/nest_hub_sleep_blog.png": {
       "size": 282362,
       "mtime": 1784695662.1705158,
@@ -889,6 +934,11 @@
       "size": 201318,
       "mtime": 1780197239.202518,
       "hash": "178507427edb715bc79d665fcc0900fd"
+    },
+    "orig_image/tb_screening.png": {
+      "size": 465417,
+      "mtime": 1793683769.9544804,
+      "hash": "83daeaf11bf31a26506253d8045b14b7"
     },
     "orig_image/home-scraper.png": {
       "size": 703241,
@@ -1000,6 +1050,11 @@
       "mtime": 1784695667.6860476,
       "hash": "27119b7b5461b3c6f1485d4c802c6e8e"
     },
+    "orig_image/sensorfm.png": {
+      "size": 3315018,
+      "mtime": 1793683771.058993,
+      "hash": "7fbf0592d79c7d4793bb6bb3875f99a0"
+    },
     "orig_image/sensorfm paper.png": {
       "size": 396989,
       "mtime": 1786154399.152927,
@@ -1040,6 +1095,11 @@
       "mtime": 1784695671.373689,
       "hash": "5fc31ed3168d0018d9c195e959165b1b"
     },
+    "orig_image/sensorfm_paper.png": {
+      "size": 397047,
+      "mtime": 1793683771.2682853,
+      "hash": "49daf1c1aad7144715420b897064ef53"
+    },
     "orig_image/term-cam.jpg": {
       "size": 141253,
       "mtime": 1780197239.2147021,
@@ -1075,6 +1135,11 @@
       "mtime": 1784695672.2252498,
       "hash": "16deec639c55c007f335efe4384c4477"
     },
+    "orig_image/health_agent_blog.png": {
+      "size": 627831,
+      "mtime": 1793683771.5101066,
+      "hash": "b5b7bb05a87f488f4f43b28dea4e7fe6"
+    },
     "orig_image/ginger_beer.png": {
       "size": 5881125,
       "mtime": 1784695673.6617038,
@@ -1094,6 +1159,11 @@
       "size": 490640,
       "mtime": 1784695674.6445847,
       "hash": "45f7cf36294aa862bcf2d7a40bc7a41b"
+    },
+    "orig_image/codegen-classroom.png": {
+      "size": 162808,
+      "mtime": 1793682121.159984,
+      "hash": "8469d9c42b56c77e281d0bed04844c88"
     },
     "orig_image/hear_disease_blog.png": {
       "size": 197151,
@@ -1353,8 +1423,8 @@
       "status": "skipped_under_size"
     },
     "Garrison_Jake_Resume.pdf": {
-      "size": 135816,
-      "mtime": 1779598382.8832796,
+      "size": 142738,
+      "mtime": 1793676686.6236908,
       "status": "skipped_under_size"
     },
     "ADAS_Hardware_Tool_Check_UW_EcoCAR.pdf": {
