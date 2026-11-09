@@ -1,4 +1,4 @@
-.PHONY: help all minify compress test fetch check-links server clean format crop analytics-setup analytics-pull analytics-report tags
+.PHONY: help all minify compress test fetch check-links check-local server clean format crop analytics-setup analytics-pull analytics-report tags
 
 # Default target displays the help menu
 help:
@@ -14,6 +14,7 @@ help:
 	@echo "  make test        - Run all Python unit tests under processing/"
 	@echo "  make fetch       - Run sync scripts (Scholar, GitHub, Patents, LinkedIn, blogs)"
 	@echo "  make tags        - Mine topic tags from site + synced outputs (outputs/tags.md)"
+	@echo "  make check-local - Validate local HTML links and asset filenames (offline)"
 	@echo "  make check-links - Scan website for broken/dead URLs"
 	@echo "  make server      - Launch local testing server at http://localhost:8000"
 	@echo "  make clean       - Remove Python bytecode cache files"
@@ -33,6 +34,9 @@ test:
 
 fetch:
 	PYTHONPATH=.. python3 -m processing.fetchers
+
+check-local:
+	PYTHONPATH=.. python3 -m processing.check_links --local-only
 
 check-links:
 	PYTHONPATH=.. python3 -m processing.check_links

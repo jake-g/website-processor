@@ -57,7 +57,7 @@
     "official_venue": "Nature",
     "arxiv_url": "https://arxiv.org/abs/2312.00164",
     "official_url": "https://doi.org/10.1038/s41586-025-08869-4",
-    "pdf_path": "doc/Towards Accurate Differential Diagnosis with Large Language Models.pdf"
+    "pdf_path": "doc/Towards_Accurate_Differential_Diagnosis_with_Large_Language_Models.pdf"
   },
   {
     "title": "Scaling Wearable Foundation Models",
@@ -87,7 +87,7 @@
     "official_venue": "arXiv preprint",
     "arxiv_url": "https://arxiv.org/abs/2403.02522",
     "official_url": null,
-    "pdf_path": "doc/HeAR - Health Acoustic Representations.pdf"
+    "pdf_path": "doc/HeAR_Health_Acoustic_Representations.pdf"
   },
   {
     "title": "Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals",
@@ -97,6 +97,6 @@
     "official_venue": "arXiv preprint",
     "arxiv_url": "https://arxiv.org/abs/2309.05843",
     "official_url": null,
-    "pdf_path": "doc/Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals.pdf"
+    "pdf_path": "doc/Optimizing_Audio_Augmentations_for_Contrastive_Learning_of_Health-Related_Acoustic_Signals.pdf"
   }
 ]

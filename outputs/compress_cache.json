@@ -1197,14 +1197,14 @@
     }
   },
   "pdfs": {
+    "HeAR_Health_Acoustic_Representations.pdf": {
+      "size": 506933,
+      "mtime": 1779598382.8375676,
+      "status": "skipped_under_size"
+    },
     "Fakebook_EE418.pdf": {
       "size": 283871,
       "mtime": 1779598382.795797,
-      "status": "skipped_under_size"
-    },
-    "Whosecough In-the-Wild Cougher Verification Using Multitask Learning.pdf": {
-      "size": 552040,
-      "mtime": 1779598382.7974637,
       "status": "skipped_under_size"
     },
     "SensorLM_Learning_the_Language_of_Wearable_Sensors.pdf": {
@@ -1247,6 +1247,11 @@
       "mtime": 1779598382.813604,
       "status": "skipped_under_size"
     },
+    "Sound_Classification_EE562.pdf": {
+      "size": 1401147,
+      "mtime": 1779598382.863912,
+      "status": "skipped_under_size"
+    },
     "Regulated_Supply_EE331.pdf": {
       "size": 642401,
       "mtime": 1779598382.8155015,
@@ -1260,6 +1265,11 @@
     "What_are_the_odds_Language_Models_are_Capable_of_Probabilistic_Reasoning.pdf": {
       "size": 236716,
       "mtime": 1780197239.1967442,
+      "status": "skipped_under_size"
+    },
+    "Whosecough_In-the-Wild_Cougher_Verification_Using_Multitask_Learning.pdf": {
+      "size": 552040,
+      "mtime": 1779598382.7974637,
       "status": "skipped_under_size"
     },
     "Smartphone_identification_poster.pdf": {
@@ -1287,9 +1297,9 @@
       "mtime": 1779598382.8284714,
       "status": "skipped_under_size"
     },
-    "LuckyChirp Opportunistic Respiration Sensing Using Cascaded Sonar on Commodity Devices.pdf": {
-      "size": 320570,
-      "mtime": 1779598382.8298492,
+    "Optimizing_Audio_Augmentations_for_Contrastive_Learning_of_Health-Related_Acoustic_Signals.pdf": {
+      "size": 977831,
+      "mtime": 1779598382.8432653,
       "status": "skipped_under_size"
     },
     "Embedded_AI_ML_475_Fall_2025.pdf": {
@@ -1302,11 +1312,6 @@
       "mtime": 1779598382.8359013,
       "status": "skipped_under_size"
     },
-    "HeAR - Health Acoustic Representations.pdf": {
-      "size": 506933,
-      "mtime": 1779598382.8375676,
-      "status": "skipped_under_size"
-    },
     "Embedded_Platforms_475_Fall_2024.pdf": {
       "size": 582899,
       "mtime": 1780197239.1784198,
@@ -1317,9 +1322,9 @@
       "mtime": 1779598382.8414166,
       "status": "skipped_under_size"
     },
-    "Optimizing Audio Augmentations for Contrastive Learning of Health-Related Acoustic Signals.pdf": {
-      "size": 977831,
-      "mtime": 1779598382.8432653,
+    "FRILL_A_Non-Semantic_Speech_Embedding_for_Mobile_Devices.pdf": {
+      "size": 269032,
+      "mtime": 1779598382.880604,
       "status": "skipped_under_size"
     },
     "LSM_2_Learning_from_Incomplete_Wearable_Sensor_Data.pdf": {
@@ -1330,6 +1335,11 @@
     "Urban_Parking_Report_EE498.pdf": {
       "size": 735022,
       "mtime": 1779598382.8464665,
+      "status": "skipped_under_size"
+    },
+    "Morbidity_and_mortality_from_COVID-19_postvaccination_breakthrough_infections.pdf": {
+      "size": 1062424,
+      "mtime": 1779598382.8695102,
       "status": "skipped_under_size"
     },
     "Smartphone_identification.pdf": {
@@ -1352,11 +1362,6 @@
       "mtime": 1779598382.8547318,
       "status": "skipped_under_size"
     },
-    "Towards Accurate Differential Diagnosis with Large Language Models.pdf": {
-      "size": 1076038,
-      "mtime": 1779598382.8565824,
-      "status": "skipped_under_size"
-    },
     "Consumer_Appeal_Poster.pdf": {
       "size": 2301419,
       "mtime": 1786154477.7434778,
@@ -1372,9 +1377,9 @@
       "mtime": 1779598382.8616052,
       "status": "skipped_under_size"
     },
-    "Sound Classification_EE562.pdf": {
-      "size": 1401147,
-      "mtime": 1779598382.863912,
+    "Towards_Accurate_Differential_Diagnosis_with_Large_Language_Models.pdf": {
+      "size": 1076038,
+      "mtime": 1779598382.8565824,
       "status": "skipped_under_size"
     },
     "Scaling_Wearable_Foundation_Models.pdf": {
@@ -1382,9 +1387,9 @@
       "mtime": 1780197239.18427,
       "status": "skipped_under_size"
     },
-    "Morbidity and mortality from COVID-19 postvaccination breakthrough infections.pdf": {
-      "size": 1062424,
-      "mtime": 1779598382.8695102,
+    "LuckyChirp_Opportunistic_Respiration_Sensing_Using_Cascaded_Sonar_on_Commodity_Devices.pdf": {
+      "size": 320570,
+      "mtime": 1779598382.8298492,
       "status": "skipped_under_size"
     },
     "Electrical_Presentation_UW_EcoCAR2.pdf": {
@@ -1410,11 +1415,6 @@
     "Urban_Parking_Poster.pdf": {
       "size": 1830626,
       "mtime": 1786154477.752103,
-      "status": "skipped_under_size"
-    },
-    "FRILL A Non-Semantic Speech Embedding for Mobile Devices.pdf": {
-      "size": 269032,
-      "mtime": 1779598382.880604,
       "status": "skipped_under_size"
     },
     "Carpacio_Poster.pdf": {
