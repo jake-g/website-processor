@@ -1,4 +1,4 @@
-.PHONY: help all minify compress test fetch check-links check-local server clean format crop analytics-setup analytics-pull analytics-report tags
+.PHONY: help all minify compress test fetch check-links check-local server clean format crop analytics-setup analytics-pull analytics-report tags llms
 
 # Default target displays the help menu
 help:
@@ -14,6 +14,7 @@ help:
 	@echo "  make test        - Run all Python unit tests under processing/"
 	@echo "  make fetch       - Run sync scripts (Scholar, GitHub, Patents, LinkedIn, blogs)"
 	@echo "  make tags        - Mine topic tags from site + synced outputs (outputs/tags.md)"
+	@echo "  make llms        - Generate /llms.txt from index.html + synced outputs"
 	@echo "  make check-local - Validate local HTML links and asset filenames (offline)"
 	@echo "  make check-links - Scan website for broken/dead URLs"
 	@echo "  make server      - Launch local testing server at http://localhost:8000"
@@ -71,3 +72,6 @@ analytics-report:
 
 tags:
 	PYTHONPATH=.. python3 -m processing.tags
+
+llms:
+	PYTHONPATH=.. python3 -m processing.llms_txt

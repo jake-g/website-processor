@@ -8,6 +8,8 @@ DOC_DIR = os.path.join(BASE_DIR, 'doc')
 HTML_PATH = os.path.join(BASE_DIR, 'index.html')
 CSS_PATH = os.path.join(BASE_DIR, 'main.css')
 MIN_CSS_PATH = os.path.join(BASE_DIR, 'main.min.css')
+LLMS_TXT_PATH = os.path.join(BASE_DIR, 'llms.txt')
+SITE_URL = 'https://jakegarrison.me'
 
 # Profiles & Credentials Sync
 SCHOLAR_ID = 'kXNcQegAAAAJ'

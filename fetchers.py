@@ -931,10 +931,12 @@ def main() -> None:
   patents.fetch_to_markdown(os.path.join(config.OUTPUTS_DIR, 'patents.md'))
 
   # LinkedIn Sync
+  linkedin_dir = os.path.join(config.OUTPUTS_DIR, 'linkedin')
+  os.makedirs(linkedin_dir, exist_ok=True)
   linkedin = LinkedinFetcher()
   linkedin.fetch_to_markdown(
-      os.path.join(config.OUTPUTS_DIR, 'linkedin_raw.txt'),
-      os.path.join(config.OUTPUTS_DIR, 'linkedin_experience.md'))
+      os.path.join(linkedin_dir, 'linkedin_raw.txt'),
+      os.path.join(linkedin_dir, 'linkedin_experience.md'))
 
   # Blog Posts Sync
   blogs = BlogFetcher()

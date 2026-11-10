@@ -1,13 +1,13 @@
 """Structured asset processing library: CSS minifier and image/PDF compressors."""
 
+import hashlib
 import json
 import logging
 import os
 import re
 import shutil
 import subprocess
-import hashlib
-from PIL import Image
+
 from processing import config
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
@@ -76,6 +76,7 @@ class ImageCompressor:
 
   def _compress_file(self, file_path: str, quality: int = 80) -> bool:
     try:
+      from PIL import Image  # pylint: disable=import-outside-toplevel
       ext = os.path.splitext(file_path)[1].lower()
       with Image.open(file_path) as img:
         if ext in ('.jpg', '.jpeg') and img.mode == 'RGBA':

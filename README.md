@@ -15,6 +15,7 @@ This directory contains the Python automation scripts, test suites, and Makefile
 *   `fetchers.py`: Structured profile synchronization library containing `ScholarFetcher`, `GithubFetcher`, `PatentsFetcher`, and `LinkedinFetcher`.
 *   `fetchers_test.py`: Consolidated unit test suite for web profiles sync fetchers.
 *   `topics.py` / `tags.py`: shared topic vocabulary matching and the tag miner (`tags_test.py`).
+*   `llms_txt.py` / `llms_txt_test.py`: generates `/llms.txt` (`llmstxt.org` v2) from `index.html` enriched with synced Scholar, patent, GitHub, and blog metadata.
 *   `check_links.py`: broken hyperlinks scanner.
 *   `check_links_test.py`: hyperlink verification scanner tests.
 *   `format.py`: Code formatter script (yapf style formatter).
@@ -54,6 +55,10 @@ You can run development tasks either by navigating to this directory or using `m
 *   **Mine Topic Tags**: Counts the `config.TOPIC_TAGS` vocabulary per site section and synced output, and suggests frequent untagged phrases.
     ```bash
     make -C processing tags   # -> outputs/tags.md, outputs/tags.json
+    ```
+*   **Generate `/llms.txt`**: Synchronizes the root `/llms.txt` file for AI agents and search engines directly from `index.html` and `outputs/*.md` (also runs automatically via pre-commit when `index.html` changes).
+    ```bash
+    make -C processing llms   # -> ../llms.txt
     ```
 
 ### 4. Verification & Testing
@@ -121,4 +126,3 @@ To maintain index file formatting consistency and prevent manual HTML tag errors
 1. **Careful direct edits:** Always review git diffs after editing `index.html` to ensure no closing tags are misaligned and no grid layout elements are broken.
 2. **Aspect ratio compliance:** When adding/updating images, run `make -C processing diagnose` to verify that aspect ratios match target ratios (1.33 for project cards, 1.11 for blog cards, 0.77 for paper/patent covers, and 1.77 for slides).
 3. **Optimizations:** After adding any new image or PDF file, run `make -C processing compress` to run automated in-place compression.
-

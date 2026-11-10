@@ -1,8 +1,8 @@
 *.pyc
 __pycache__/
 scratch/
-notes/
 outputs/analytics/
-analytics/secrets/
+outputs/audits/
+outputs/linkedin/
 *.json.key
 .DS_Store
